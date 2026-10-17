@@ -338,8 +338,8 @@
         <span class="eyebrow">Koleksiyon</span>
         <h2>Çocukların dünyasına uygun ayakkabılar</h2>
         <p class="section-intro">
-          Modelleri fotoğraflarıyla inceleyin. Her modelin adı, yüklediğiniz
-          fotoğraf dosyasının adından alınır.
+          Modelleri fotoğraflarıyla inceleyin. Yerel fotoğraflarda model adı
+          dosya adından, OneDrive fotoğraflarında katalogda belirttiğiniz addan alınır.
         </p>
       </div>
       <div class="shoe-carousel" id="shoe-carousel" aria-label="Ayakkabı modelleri">
@@ -472,23 +472,22 @@
     const carouselDots = document.getElementById("carousel-dots");
     const carouselCount = document.getElementById("carousel-count");
     const allowedImageName = /^[^/\\]+\.(?:avif|jpe?g|png|webp)$/i;
-    let modelFiles = [];
+    let models = [];
     let activeModel = 0;
     let imageRequest = 0;
 
     function showModel(index) {
-      activeModel = (index + modelFiles.length) % modelFiles.length;
-      const fileName = modelFiles[activeModel];
-      const modelName = fileName.replace(/\.[^.]+$/, "");
+      activeModel = (index + models.length) % models.length;
+      const model = models[activeModel];
       const request = ++imageRequest;
 
-      shoeName.textContent = modelName;
-      shoeImage.alt = `${modelName} model ayakkabı fotoğrafı`;
+      shoeName.textContent = model.name;
+      shoeImage.alt = `${model.name} model ayakkabı fotoğrafı`;
       shoeImage.hidden = true;
       catalogStatus.hidden = false;
       catalogStatus.textContent = "Fotoğraf yükleniyor...";
       catalogError.hidden = true;
-      carouselCount.textContent = `Model ${activeModel + 1} / ${modelFiles.length}`;
+      carouselCount.textContent = `Model ${activeModel + 1} / ${models.length}`;
 
       shoeImage.onload = () => {
         if (request !== imageRequest) return;
@@ -497,26 +496,73 @@
       };
       shoeImage.onerror = () => {
         if (request !== imageRequest) return;
-        catalogStatus.textContent = `“${fileName}” fotoğrafı bulunamadı. Dosya adını ve katalog listesini kontrol edin.`;
-        catalogError.textContent = "Fotoğraf yüklenemedi.";
+        catalogStatus.textContent =
+          `“${model.name}” fotoğrafı yüklenemedi. Bağlantının doğrudan bir görsel açtığını ve OneDrive paylaşımının bağlantısı olan herkes tarafından görüntülenebildiğini kontrol edin.`;
+        catalogError.textContent = "Fotoğraf bağlantısı kullanılamıyor.";
         catalogError.hidden = false;
       };
-      shoeImage.src = `katalog/fotograflar/${encodeURIComponent(fileName)}`;
+      shoeImage.src = model.src;
 
       carouselDots.querySelectorAll("button").forEach((dot, dotIndex) => {
         dot.setAttribute("aria-pressed", String(dotIndex === activeModel));
       });
     }
 
-    function addModelDot(fileName, index) {
+    function addModelDot(model, index) {
       const dot = document.createElement("button");
       dot.className = "carousel-dot";
       dot.type = "button";
       dot.textContent = String(index + 1);
-      dot.setAttribute("aria-label", `${fileName.replace(/\.[^.]+$/, "")} modelini göster`);
+      dot.setAttribute("aria-label", `${model.name} modelini göster`);
       dot.setAttribute("aria-pressed", "false");
       dot.addEventListener("click", () => showModel(index));
       carouselDots.append(dot);
+    }
+
+    function parseModel(entry) {
+      const isLocalFile = imageName => allowedImageName.test(imageName);
+
+      if (typeof entry === "string" && isLocalFile(entry)) {
+        return {
+          name: entry.replace(/\.[^.]+$/, ""),
+          src: `katalog/fotograflar/${encodeURIComponent(entry)}`,
+        };
+      }
+
+      if (!entry || typeof entry !== "object" || Array.isArray(entry) ||
+          typeof entry.image !== "string") {
+        return null;
+      }
+
+      const image = entry.image.trim();
+      let src;
+      let inferredName;
+      if (isLocalFile(image)) {
+        src = `katalog/fotograflar/${encodeURIComponent(image)}`;
+        inferredName = image.replace(/\.[^.]+$/, "");
+      } else {
+        let imageUrl;
+        try {
+          imageUrl = new URL(image);
+        } catch {
+          return null;
+        }
+        if (imageUrl.protocol !== "https:") return null;
+        src = imageUrl.href;
+        const pathName = imageUrl.pathname.split("/").filter(Boolean).pop();
+        inferredName = "";
+        if (pathName && pathName.includes(".")) {
+          try {
+            inferredName = decodeURIComponent(pathName).replace(/\.[^.]+$/, "");
+          } catch {
+            inferredName = pathName.replace(/\.[^.]+$/, "");
+          }
+        }
+      }
+
+      const name = typeof entry.name === "string" ? entry.name.trim() : inferredName;
+      if (!name) return null;
+      return { name, src };
     }
 
     async function loadCatalog() {
@@ -524,26 +570,25 @@
         const response = await fetch("katalog/catalog.json");
         if (!response.ok) throw new Error(`Katalog dosyası HTTP ${response.status} yanıtı verdi.`);
 
-        const files = await response.json();
-        if (!Array.isArray(files)) throw new Error("Katalog dosyası bir fotoğraf listesi olmalıdır.");
+        const entries = await response.json();
+        if (!Array.isArray(entries)) throw new Error("Katalog dosyası bir fotoğraf listesi olmalıdır.");
 
-        modelFiles = files.filter(fileName =>
-          typeof fileName === "string" && allowedImageName.test(fileName)
-        );
-        if (modelFiles.length !== files.length) {
-          catalogError.textContent = "Bazı katalog kayıtları geçersiz dosya adı veya desteklenmeyen fotoğraf biçimi içeriyor; kayıtları kontrol edin.";
+        models = entries.map(parseModel).filter(Boolean);
+        if (models.length !== entries.length) {
+          catalogError.textContent =
+            "Bazı katalog kayıtları geçersiz. Yerel fotoğraf dosya adlarını veya HTTPS görsel bağlantılarını ve her OneDrive bağlantısı için model adını kontrol edin.";
           catalogError.hidden = false;
         }
-        if (modelFiles.length === 0) {
+        if (models.length === 0) {
           catalogStatus.textContent =
-            "Henüz fotoğraf eklenmedi. Fotoğrafları public/katalog/fotograflar/ klasörüne koyun; dosya adlarını public/katalog/catalog.json listesine ekleyin. Örnek: Bella-01.jpg → model adı “Bella-01”.";
+            "Henüz fotoğraf eklenmedi. Fotoğrafları public/katalog/fotograflar/ klasörüne koyup adlarını public/katalog/catalog.json listesine ekleyin veya JSON dosyasına OneDrive görsel bağlantısı ve model adını girin.";
           return;
         }
 
         shoeFigure.hidden = false;
-        carouselControls.hidden = modelFiles.length < 2;
-        carouselDots.hidden = modelFiles.length < 2;
-        modelFiles.forEach(addModelDot);
+        carouselControls.hidden = models.length < 2;
+        carouselDots.hidden = models.length < 2;
+        models.forEach(addModelDot);
         showModel(0);
       } catch (error) {
         console.error("Ayakkabı kataloğu yüklenemedi:", error);
@@ -561,10 +606,10 @@
       showModel(activeModel + 1);
     });
     document.getElementById("shoe-carousel").addEventListener("keydown", event => {
-      if (event.key === "ArrowLeft" && modelFiles.length > 1) {
+      if (event.key === "ArrowLeft" && models.length > 1) {
         event.preventDefault();
         showModel(activeModel - 1);
-      } else if (event.key === "ArrowRight" && modelFiles.length > 1) {
+      } else if (event.key === "ArrowRight" && models.length > 1) {
         event.preventDefault();
         showModel(activeModel + 1);
       }

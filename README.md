@@ -11,7 +11,19 @@ To add models to the homepage slideshow:
    ["Bella-01.jpg", "Bella-02.webp"]
    ```
 
-The slideshow displays each filename without its extension as the model name. Deploy the site after adding photos and updating the list.
+The slideshow displays each filename without its extension as the model name. You can also use externally hosted images by adding an object with a model name and an HTTPS image URL:
+
+```json
+[
+  "Bella-01.jpg",
+  {
+    "name": "Bella-02",
+    "image": "https://onedrive.live.com/embed?resid=YOUR_FILE_ID&authkey=YOUR_SHARE_KEY"
+  }
+]
+```
+
+For OneDrive, allow anyone with the link to view the image and use a direct/embed image URL that displays the image itself. A normal sharing link may open a OneDrive page instead of the image. Include `name` because OneDrive image links do not always contain the original filename. Deploy the site after updating the catalog; externally hosted images remain on their host.
 
 ## Information pages
 
