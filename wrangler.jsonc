@@ -1,0 +1,9 @@
+
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "shoe-catalog",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": "./public"
+  }
+}
