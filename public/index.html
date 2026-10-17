@@ -1,20 +1,22 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f6f1">
-  <title>Your Shoe Brand | Footwear Collection</title>
+  <meta name="theme-color" content="#fbf8f4">
   <meta name="description"
-    content="Discover our footwear collection, explore our styles and contact us for wholesale inquiries.">
+    content="BellaLily Kid Shoes: çocuklar için konforlu, dayanıklı ve şık ayakkabılar. Ürün kataloğu, toplu satış ve iletişim bilgileri.">
+  <title>BellaLily Kid Shoes | Çocuk Ayakkabıları</title>
   <style>
     :root {
-      --ink: #20251f;
-      --muted: #6c7068;
-      --paper: #f8f6f1;
-      --accent: #b9c5a6;
-      --line: #e5e2d9;
+      --ink: #322b2b;
+      --muted: #756a68;
+      --paper: #fbf8f4;
+      --white: #fffdfb;
+      --rose: #ead9d5;
+      --rose-dark: #a85d62;
+      --line: #e9e1dc;
+      --sage: #e8ede4;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -25,192 +27,550 @@
       font-family: Arial, Helvetica, sans-serif;
     }
     a { color: inherit; text-decoration: none; }
+    a:focus-visible { outline: 3px solid var(--rose-dark); outline-offset: 4px; }
+    .wrap { width: min(1120px, 86%); margin: 0 auto; }
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 24px;
       padding: 22px 7%;
       border-bottom: 1px solid var(--line);
+      background: var(--paper);
     }
-    .logo { font-size: 20px; font-weight: 800; letter-spacing: 2px; }
-    nav { display: flex; gap: 24px; font-size: 14px; }
+    .logo { font-size: 18px; font-weight: 800; letter-spacing: 1.5px; }
+    .logo span { color: var(--rose-dark); }
+    nav { display: flex; align-items: center; gap: 26px; font-size: 14px; }
+    nav a:hover, .text-link:hover, .legal-links a:hover { color: var(--rose-dark); }
     .hero {
       display: grid;
-      grid-template-columns: 1.1fr .9fr;
+      grid-template-columns: 1.05fr .95fr;
       align-items: center;
-      gap: 40px;
-      padding: 75px 7%;
+      gap: 56px;
+      padding: 78px 7% 84px;
     }
     .eyebrow {
-      font-size: 12px; letter-spacing: 3px;
-      text-transform: uppercase; color: var(--muted);
+      color: var(--rose-dark);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
     }
     h1 {
-      font-size: clamp(42px, 6vw, 76px);
-      line-height: 1.02; letter-spacing: -3px;
-      margin: 20px 0;
+      max-width: 650px;
+      margin: 18px 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(44px, 6.5vw, 76px);
+      font-weight: 400;
+      letter-spacing: -2.5px;
+      line-height: 1.04;
     }
-    .hero p {
-      color: var(--muted); line-height: 1.8;
-      max-width: 460px;
+    .hero p, .section-intro {
+      max-width: 520px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
     }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
     .button {
-      display: inline-block; background: var(--ink);
-      color: white; padding: 15px 23px;
-      margin-top: 18px; border-radius: 3px;
-      font-size: 13px; font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 20px;
+      border: 1px solid var(--ink);
+      border-radius: 3px;
+      background: var(--ink);
+      color: white;
+      font-size: 13px;
+      font-weight: 700;
+      transition: background .2s, color .2s;
     }
-    .hero img {
-      width: 100%; height: 410px; object-fit: cover;
-      border-radius: 5px;
+    .button:hover { background: var(--rose-dark); border-color: var(--rose-dark); }
+    .button.secondary { background: transparent; color: var(--ink); }
+    .button.secondary:hover { color: white; }
+    .hero-art {
+      position: relative;
+      display: grid;
+      min-height: 390px;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 48% 48% 5px 5px;
+      background:
+        radial-gradient(ellipse at 52% 42%, rgba(255,255,255,.9) 0 23%, transparent 24%),
+        linear-gradient(145deg, #e8d4ce, #f2e8df 58%, #e2e7dc);
     }
-    .section { padding: 55px 7%; }
-    .section-heading {
-      display: flex; justify-content: space-between;
-      align-items: end; gap: 20px; margin-bottom: 25px;
+    .hero-art::before, .hero-art::after {
+      position: absolute;
+      width: 210px;
+      height: 210px;
+      border: 1px solid rgba(168, 93, 98, .24);
+      border-radius: 50%;
+      content: "";
     }
-    h2 { font-size: clamp(28px, 4vw, 40px); margin: 8px 0; }
-    .filters { display: flex; gap: 9px; flex-wrap: wrap; margin-bottom: 28px; }
-    .filters button {
-      padding: 10px 15px; border: 1px solid var(--line);
-      background: transparent; border-radius: 30px; cursor: pointer;
+    .hero-art::after { width: 270px; height: 270px; }
+    .art-copy { z-index: 1; text-align: center; }
+    .art-copy strong {
+      display: block;
+      color: var(--rose-dark);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(42px, 5vw, 62px);
+      font-weight: 400;
+      letter-spacing: -2px;
     }
-    .filters button.active { background: var(--ink); color: white; }
-    .products {
-      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 22px;
+    .art-copy span {
+      display: block;
+      margin-top: 8px;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
     }
-    .product { min-width: 0; }
-    .product img {
-      width: 100%; height: 270px; object-fit: cover;
-      background: #ece9e1; border-radius: 4px;
+    .section { padding: 72px 7%; }
+    .section-heading { max-width: 670px; margin-bottom: 34px; }
+    h2 {
+      margin: 10px 0 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(32px, 4vw, 46px);
+      font-weight: 400;
+      letter-spacing: -1px;
     }
-    .product h3 { font-size: 17px; margin: 15px 0 7px; }
-    .product p { color: var(--muted); font-size: 13px; line-height: 1.6; }
-    .price { font-weight: bold; }
-    .contact {
-      background: #e9ecdf; padding: 55px 7%;
-      text-align: center; margin-top: 40px;
+    .section-intro { margin: 0; font-size: 15px; }
+    .catalog { background: var(--white); }
+    .catalog-panel {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 32px;
+      padding: 32px;
+      border: 1px solid var(--line);
+      background: var(--paper);
     }
-    .contact p { color: var(--muted); line-height: 1.7; }
-    footer {
-      display: flex; justify-content: space-between;
-      gap: 20px; padding: 25px 7%; color: var(--muted);
+    .catalog-panel h3 { margin: 0 0 10px; font-size: 19px; }
+    .catalog-panel p { max-width: 620px; margin: 0; color: var(--muted); line-height: 1.75; }
+    .catalog-groups {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 19px;
+    }
+    .catalog-groups span {
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      color: var(--muted);
       font-size: 12px;
     }
-    @media (max-width: 700px) {
-      header { padding: 18px 5%; }
-      nav { gap: 12px; font-size: 12px; }
-      .hero { grid-template-columns: 1fr; padding: 45px 5%; gap: 25px; }
-      .hero img { height: 300px; }
-      .section { padding: 40px 5%; }
-      .products { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-      .product img { height: 190px; }
-      .section-heading { align-items: start; flex-direction: column; }
-      footer { padding: 22px 5%; flex-direction: column; }
+    .shoe-carousel {
+      max-width: 900px;
+      margin: 0 auto 42px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+    }
+    .shoe-figure {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(180px, .8fr);
+      align-items: center;
+      gap: 30px;
+      margin: 0;
+    }
+    .shoe-figure[hidden], .carousel-controls[hidden], .carousel-dots[hidden],
+    .carousel-error[hidden], .shoe-image[hidden] { display: none; }
+    .shoe-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      border-radius: 4px;
+      background: #f0ece8;
+    }
+    .shoe-caption { padding: 20px; }
+    .shoe-caption h3 {
+      margin: 9px 0;
+      overflow-wrap: anywhere;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(25px, 4vw, 38px);
+      font-weight: 400;
+    }
+    .carousel-status, .carousel-error {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .carousel-error { color: #9a3636; }
+    .carousel-status code { overflow-wrap: anywhere; }
+    .carousel-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 22px;
+      margin-top: 18px;
+    }
+    .carousel-controls button, .carousel-dot {
+      min-width: 42px;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--white);
+      color: var(--ink);
+      cursor: pointer;
+      font: inherit;
+    }
+    .carousel-controls button:hover, .carousel-dot[aria-pressed="true"] {
+      border-color: var(--rose-dark);
+      background: var(--rose-dark);
+      color: white;
+    }
+    .carousel-count { color: var(--muted); font-size: 13px; }
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .carousel-dot {
+      min-width: 34px;
+      min-height: 34px;
+      font-size: 12px;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 34px;
+    }
+    .about-card {
+      padding: 24px;
+      border-top: 2px solid var(--rose);
+      background: var(--white);
+    }
+    .about-card h3 { margin: 0 0 10px; font-size: 16px; }
+    .about-card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+    .wholesale { background: var(--sage); }
+    .wholesale-content {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 30px;
+    }
+    .wholesale-content p { max-width: 650px; color: var(--muted); line-height: 1.8; }
+    .wholesale-note { display: block; margin-top: 14px; font-size: 13px; }
+    .contact { padding: 72px 7%; text-align: center; }
+    .contact h2 { margin-bottom: 12px; }
+    .contact p { max-width: 580px; margin: 0 auto; color: var(--muted); line-height: 1.8; }
+    .contact .button { margin-top: 24px; }
+    .contact-address { display: block; margin-top: 16px; font-size: 14px; }
+    footer {
+      padding: 28px 7%;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .footer-top { display: flex; justify-content: space-between; gap: 20px; }
+    .legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 760px) {
+      header { padding: 17px 5%; align-items: flex-start; flex-direction: column; gap: 15px; }
+      nav { width: 100%; flex-wrap: wrap; gap: 10px 18px; font-size: 13px; }
+      .hero { grid-template-columns: 1fr; gap: 35px; padding: 52px 5% 58px; }
+      .hero-art { min-height: 300px; }
+      .section, .contact { padding: 54px 5%; }
+      .catalog-panel, .wholesale-content { grid-template-columns: 1fr; }
+      .catalog-panel { padding: 24px; }
+      .shoe-carousel { padding: 14px; }
+      .shoe-figure { grid-template-columns: 1fr; gap: 0; }
+      .shoe-caption { padding: 16px 8px 8px; }
+      .about-grid { grid-template-columns: 1fr; gap: 12px; }
+      footer { padding: 24px 5%; }
+      .footer-top { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
     }
   </style>
 </head>
 <body>
   <header>
-    <a class="logo" href="#">YOUR BRAND</a>
-    <nav>
-      <a href="#collection">Collection</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+    <a class="logo" href="#top" aria-label="BellaLily Kid Shoes ana sayfa">Bella<span>Lily</span> KID SHOES</a>
+    <nav aria-label="Ana menü">
+      <a href="#koleksiyon">Koleksiyon</a>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#toplu-satis">Toplu satış</a>
+      <a href="#iletisim">İletişim</a>
     </nav>
   </header>
 
-  <main>
-    <section class="hero" id="about">
+  <main id="top">
+    <section class="hero">
       <div>
-        <span class="eyebrow">Designed for everyday life</span>
-        <h1>Find your<br>own stride.</h1>
+        <span class="eyebrow">Küçük adımlara büyük özen</span>
+        <h1>Her adımda<br>konfor ve stil.</h1>
         <p>
-          Discover footwear designed around comfort, thoughtful
-          details and timeless style. Explore our collection and
-          get in touch to find the right fit for your business.
+          BellaLily Kid Shoes olarak çocuklar için konforu, dayanıklılığı
+          ve şık tasarımı bir araya getiren ayakkabılar sunmayı hedefliyoruz.
+          Ailelerin güvenle tercih edeceği, çocukların keyifle giyeceği
+          modelleri keşfedin.
         </p>
-        <a class="button" href="#collection">EXPLORE COLLECTION ↗</a>
-      </div>
-      <img
-        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
-        alt="Featured sneaker">
-    </section>
-
-    <section class="section" id="collection">
-      <div class="section-heading">
-        <div>
-          <span class="eyebrow">Our selection</span>
-          <h2>The shoe collection</h2>
+        <div class="actions">
+          <a class="button" href="#koleksiyon">Kataloğu keşfedin</a>
+          <a class="button secondary" href="#hakkimizda">Markamızı tanıyın</a>
         </div>
-        <p>Everyday essentials. Made to move.</p>
       </div>
-
-      <div class="filters" aria-label="Filter products">
-        <button class="active" data-category="all">All shoes</button>
-        <button data-category="barefoot">Barefoot</button>
-        <button data-category="casual">Casual</button>
-        <button data-category="outdoor">Outdoor</button>
+      <div class="hero-art" role="img" aria-label="BellaLily Kid Shoes marka görseli">
+        <div class="art-copy">
+          <strong>BellaLily</strong>
+          <span>ÇOCUK AYAKKABILARI</span>
+        </div>
       </div>
+    </section>
 
-      <div class="products">
-        <article class="product" data-category="barefoot">
-          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Barefoot model">
-          <h3>Barefoot Essential</h3>
-          <p>Lightweight style for everyday movement.</p>
-          <span class="price">Price on request</span>
+    <section class="section catalog" id="koleksiyon">
+      <div class="section-heading">
+        <span class="eyebrow">Koleksiyon</span>
+        <h2>Çocukların dünyasına uygun ayakkabılar</h2>
+        <p class="section-intro">
+          Modelleri fotoğraflarıyla inceleyin. Her modelin adı, yüklediğiniz
+          fotoğraf dosyasının adından alınır.
+        </p>
+      </div>
+      <div class="shoe-carousel" id="shoe-carousel" aria-label="Ayakkabı modelleri">
+        <p class="carousel-status" id="carousel-status" role="status" aria-live="polite">
+          Katalog yükleniyor...
+        </p>
+        <figure class="shoe-figure" id="shoe-figure" hidden>
+          <img class="shoe-image" id="shoe-image" alt="">
+          <figcaption class="shoe-caption">
+            <span class="eyebrow">Model</span>
+            <h3 id="shoe-name"></h3>
+          </figcaption>
+        </figure>
+        <div class="carousel-controls" id="carousel-controls" hidden>
+          <button type="button" id="previous-model" aria-label="Önceki model">‹</button>
+          <span class="carousel-count" id="carousel-count" aria-live="polite"></span>
+          <button type="button" id="next-model" aria-label="Sonraki model">›</button>
+        </div>
+        <div class="carousel-dots" id="carousel-dots" role="group" aria-label="Model seçin" hidden></div>
+        <p class="carousel-error" id="carousel-error" role="alert" hidden></p>
+      </div>
+      <div class="catalog-panel">
+        <div>
+          <h3>Güncel ürün kataloğu</h3>
+          <p>
+            Numara, fiyat ve stok bilgileri sezonlara göre değişebilir.
+            Güncel bilgi almak veya toplu katalog talebinizi iletmek için bize yazın.
+          </p>
+          <div class="catalog-groups" aria-label="Ürün grupları">
+            <span>Spor ayakkabılar</span>
+            <span>Botlar</span>
+            <span>Çizmeler</span>
+          </div>
+        </div>
+        <a class="button" href="mailto:info@bellalilykidshoes.com?subject=BellaLily%20Kid%20Shoes%20-%20%C3%9Cr%C3%BCn%20katalo%C4%9Fu%20talebi">
+          Kataloğu e-posta ile isteyin
+        </a>
+      </div>
+      <p class="section-intro" style="margin-top: 18px;">
+        Doğru numara seçimi için
+        <a class="text-link" href="sayfalar/cocuk-ayakkabi-numara-rehberi.html"><strong>çocuk ayakkabı numara rehberimize</strong></a>
+        göz atın.
+      </p>
+    </section>
+
+    <section class="section" id="hakkimizda">
+      <div class="section-heading">
+        <span class="eyebrow">BellaLily Kid Shoes</span>
+        <h2>Çocukların adımlarını önemseyen bir marka</h2>
+        <p class="section-intro">
+          Tasarımdan üretime kadar konfor, dayanıklılık ve estetiği bir arada
+          sunmak için çalışıyoruz. Misyonumuz ve marka yaklaşımımız hakkında
+          daha fazlasını <a class="text-link" href="sayfalar/hakkimizda.html"><strong>Hakkımızda</strong></a>
+          sayfamızda okuyabilirsiniz.
+        </p>
+      </div>
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Konfor odağı</h3>
+          <p>Çocukların günlük hareketlerine eşlik eden rahat ve işlevsel tasarımlar.</p>
         </article>
-
-        <article class="product" data-category="casual">
-          <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Casual footwear">
-          <h3>Urban Classic</h3>
-          <p>A versatile look for everyday wear.</p>
-          <span class="price">Price on request</span>
+        <article class="about-card">
+          <h3>Özenli tasarım</h3>
+          <p>Ailelerin tercih edebileceği, çocukların severek giyeceği modern modeller.</p>
         </article>
-
-        <article class="product" data-category="outdoor">
-          <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Sport-inspired footwear">
-          <h3>Outdoor Explorer</h3>
-          <p>Built for your next adventure.</p>
-          <span class="price">Price on request</span>
+        <article class="about-card">
+          <h3>Güvenilir iletişim</h3>
+          <p>Ürün, numara ve sipariş sorularınız için ekibimizle doğrudan iletişim kurun.</p>
         </article>
       </div>
     </section>
 
-    <section class="contact" id="contact">
-      <span class="eyebrow">Business inquiries</span>
-      <h2>Let's work together.</h2>
-      <p>Interested in our products or wholesale opportunities?<br>
-         Contact us for our catalog, prices and availability.</p>
-      <!-- Replace the number with your WhatsApp number, including country code. -->
-      <a class="button" href="https://wa.me/390000000000"
-         target="_blank" rel="noopener">CONTACT US ON WHATSAPP ↗</a>
+    <section class="section wholesale" id="toplu-satis">
+      <div class="wholesale-content">
+        <div>
+          <span class="eyebrow">İş ortaklığı</span>
+          <h2>Mağazalar ve bayiler için toplu satış</h2>
+          <p>
+            BellaLily Kid Shoes; mağazalar, bayiler ve distribütörler için
+            toplu alım seçenekleri sunar. Minimum sipariş miktarı 96 çifttir.
+            Sezon, ürün grubu ve sipariş adedine göre katalog ve fiyat bilgisi almak için bize ulaşın.
+          </p>
+          <span class="wholesale-note">
+            Toplu siparişler ödeme onayından sonra genellikle 15–20 iş gününde hazırlanır;
+            süre sipariş içeriğine ve üretim planına göre değişebilir.
+          </span>
+        </div>
+        <a class="button" href="sayfalar/toplu-satis.html">Toplu satış detayları</a>
+      </div>
+    </section>
+
+    <section class="contact" id="iletisim">
+      <span class="eyebrow">Sorularınız mı var?</span>
+      <h2>Size yardımcı olmaktan mutluluk duyarız.</h2>
+      <p>
+        Ürün kataloğu, numara seçimi, toplu satış veya diğer talepleriniz için
+        e-posta gönderin. Ekibimiz sizinle iletişime geçsin.
+      </p>
+      <a class="button" href="mailto:info@bellalilykidshoes.com">E-posta gönderin</a>
+      <a class="contact-address" href="mailto:info@bellalilykidshoes.com">info@bellalilykidshoes.com</a>
     </section>
   </main>
 
   <footer>
-    <span>© <span id="year"></span> YOUR BRAND</span>
-    <span>Footwear with purpose.</span>
+    <div class="footer-top">
+      <span>© <span id="year"></span> BellaLily Kid Shoes</span>
+      <span>Çocuklar için özenle tasarlandı.</span>
+    </div>
+    <nav class="legal-links" aria-label="Yasal ve bilgilendirme sayfaları">
+      <a href="sayfalar/cocuk-ayakkabi-numara-rehberi.html">Numara rehberi</a>
+      <a href="sayfalar/toplu-satis.html">Toplu satış</a>
+      <a href="sayfalar/iade-degisim-politikasi.html">İade ve değişim</a>
+      <a href="sayfalar/sartlar-ve-kosullar.html">Şartlar ve koşullar</a>
+      <a href="sayfalar/on-bilgilendirme-formu.html">Ön bilgilendirme</a>
+      <a href="sayfalar/gizlilik-politikasi.html">Gizlilik politikası</a>
+      <a href="sayfalar/kvkk-aydinlatma-metni.html">KVKK aydınlatma metni</a>
+      <a href="sayfalar/cerez-politikasi.html">Çerez politikası</a>
+    </nav>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    document.querySelectorAll(".filters button").forEach(button => {
-      button.addEventListener("click", () => {
-        document.querySelectorAll(".filters button").forEach(item =>
-          item.classList.remove("active")
-        );
-        button.classList.add("active");
+    const catalogStatus = document.getElementById("carousel-status");
+    const catalogError = document.getElementById("carousel-error");
+    const shoeFigure = document.getElementById("shoe-figure");
+    const shoeImage = document.getElementById("shoe-image");
+    const shoeName = document.getElementById("shoe-name");
+    const carouselControls = document.getElementById("carousel-controls");
+    const carouselDots = document.getElementById("carousel-dots");
+    const carouselCount = document.getElementById("carousel-count");
+    const allowedImageName = /^[^/\\]+\.(?:avif|jpe?g|png|webp)$/i;
+    let modelFiles = [];
+    let activeModel = 0;
+    let imageRequest = 0;
 
-        const category = button.dataset.category;
-        document.querySelectorAll(".product").forEach(product => {
-          product.hidden =
-            category !== "all" && product.dataset.category !== category;
-        });
+    function showModel(index) {
+      activeModel = (index + modelFiles.length) % modelFiles.length;
+      const fileName = modelFiles[activeModel];
+      const modelName = fileName.replace(/\.[^.]+$/, "");
+      const request = ++imageRequest;
+
+      shoeName.textContent = modelName;
+      shoeImage.alt = `${modelName} model ayakkabı fotoğrafı`;
+      shoeImage.hidden = true;
+      catalogStatus.hidden = false;
+      catalogStatus.textContent = "Fotoğraf yükleniyor...";
+      catalogError.hidden = true;
+      carouselCount.textContent = `Model ${activeModel + 1} / ${modelFiles.length}`;
+
+      shoeImage.onload = () => {
+        if (request !== imageRequest) return;
+        shoeImage.hidden = false;
+        catalogStatus.hidden = true;
+      };
+      shoeImage.onerror = () => {
+        if (request !== imageRequest) return;
+        catalogStatus.textContent = `“${fileName}” fotoğrafı bulunamadı. Dosya adını ve katalog listesini kontrol edin.`;
+        catalogError.textContent = "Fotoğraf yüklenemedi.";
+        catalogError.hidden = false;
+      };
+      shoeImage.src = `katalog/fotograflar/${encodeURIComponent(fileName)}`;
+
+      carouselDots.querySelectorAll("button").forEach((dot, dotIndex) => {
+        dot.setAttribute("aria-pressed", String(dotIndex === activeModel));
       });
+    }
+
+    function addModelDot(fileName, index) {
+      const dot = document.createElement("button");
+      dot.className = "carousel-dot";
+      dot.type = "button";
+      dot.textContent = String(index + 1);
+      dot.setAttribute("aria-label", `${fileName.replace(/\.[^.]+$/, "")} modelini göster`);
+      dot.setAttribute("aria-pressed", "false");
+      dot.addEventListener("click", () => showModel(index));
+      carouselDots.append(dot);
+    }
+
+    async function loadCatalog() {
+      try {
+        const response = await fetch("katalog/catalog.json");
+        if (!response.ok) throw new Error(`Katalog dosyası HTTP ${response.status} yanıtı verdi.`);
+
+        const files = await response.json();
+        if (!Array.isArray(files)) throw new Error("Katalog dosyası bir fotoğraf listesi olmalıdır.");
+
+        modelFiles = files.filter(fileName =>
+          typeof fileName === "string" && allowedImageName.test(fileName)
+        );
+        if (modelFiles.length !== files.length) {
+          catalogError.textContent = "Bazı katalog kayıtları geçersiz dosya adı veya desteklenmeyen fotoğraf biçimi içeriyor; kayıtları kontrol edin.";
+          catalogError.hidden = false;
+        }
+        if (modelFiles.length === 0) {
+          catalogStatus.textContent =
+            "Henüz fotoğraf eklenmedi. Fotoğrafları public/katalog/fotograflar/ klasörüne koyun; dosya adlarını public/katalog/catalog.json listesine ekleyin. Örnek: Bella-01.jpg → model adı “Bella-01”.";
+          return;
+        }
+
+        shoeFigure.hidden = false;
+        carouselControls.hidden = modelFiles.length < 2;
+        carouselDots.hidden = modelFiles.length < 2;
+        modelFiles.forEach(addModelDot);
+        showModel(0);
+      } catch (error) {
+        console.error("Ayakkabı kataloğu yüklenemedi:", error);
+        catalogStatus.textContent =
+          "Katalog yüklenemedi. Lütfen public/katalog/catalog.json dosyasının mevcut ve geçerli JSON biçiminde olduğunu kontrol edin.";
+        catalogError.textContent = error.message;
+        catalogError.hidden = false;
+      }
+    }
+
+    document.getElementById("previous-model").addEventListener("click", () => {
+      showModel(activeModel - 1);
     });
+    document.getElementById("next-model").addEventListener("click", () => {
+      showModel(activeModel + 1);
+    });
+    document.getElementById("shoe-carousel").addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft" && modelFiles.length > 1) {
+        event.preventDefault();
+        showModel(activeModel - 1);
+      } else if (event.key === "ArrowRight" && modelFiles.length > 1) {
+        event.preventDefault();
+        showModel(activeModel + 1);
+      }
+    });
+
+    loadCatalog();
   </script>
 </body>
 </html>
