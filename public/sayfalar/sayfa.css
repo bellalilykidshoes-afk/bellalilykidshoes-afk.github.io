@@ -2,7 +2,7 @@
   color-scheme: light;
   --ink: #322b2b;
   --muted: #756a68;
-  --paper: #fbf8f4;
+  --paper: #fff5f9;
   --white: #fffdfb;
   --rose: #ead9d5;
   --rose-dark: #8b1e35;
@@ -11,7 +11,7 @@
   --boy-blue: #17699f;
   --boy-blue-light: #e5f2fb;
   --line: #e9e1dc;
-  --sage: #e8ede4;
+  --sage: #e5f2fb;
 }
 * { box-sizing: border-box; }
 body {

@@ -1,16 +1,19 @@
 const pages = [
-  { title: "Hakkımızda", file: "Hakkımızda.md", sourceTitle: "Hakkımızda", url: "hakkimizda.html" },
-  { title: "Toplu Satış", file: "Toplu Satış.md", sourceTitle: "Toplu Satış", url: "toplu-satis.html" },
-  { title: "İade & Değişim Politikası", file: "İade & Değişim Politikası", sourceTitle: "İade & Değişim Politikası", url: "iade-degisim-politikasi.html" },
-  { title: "Ön Bilgilendirme Formu", file: "Ön Bilgilendirme Formu", sourceTitle: "Ön Bilgilendirme Formu", url: "on-bilgilendirme-formu.html" },
-  { title: "Şartlar ve Koşullar", file: "Şartlar ve koşullar", sourceTitle: "Şartlar ve koşullar", url: "sartlar-ve-kosullar.html" },
-  { title: "Gizlilik Politikası", file: "Gizlilik Politikası", sourceTitle: "Gizlilik Politikası", url: "gizlilik-politikasi.html" },
-  { title: "KVKK Aydınlatma Metni", file: "KVKK Aydinlatma Metni", sourceTitle: "KVKK Aydinlatma Metni", url: "kvkk-aydinlatma-metni.html" },
-  { title: "Çerez Politikası", file: "Çerez Politikası (Cookie Policy).md", sourceTitle: "Çerez Politikası (Cookie Policy)", url: "cerez-politikasi.html" },
+  { title: "Hakkımızda", file: "hakkimizda.md", sourceTitle: "Hakkımızda", url: "hakkimizda.html" },
+  { title: "Toptan Satış", file: "toplu-satis.md", sourceTitle: "Toptan Satış", url: "toplu-satis.html" },
+  { title: "Toptan Sipariş Koşulları", file: "toptan-siparis-kosullari.md", sourceTitle: "Toptan Sipariş Koşulları", url: "toptan-siparis-kosullari.html" },
+  { title: "Toptan Sipariş Süreci", file: "toptan-siparis-sureci.md", sourceTitle: "Toptan Sipariş Süreci", url: "on-bilgilendirme-formu.html" },
+  { title: "B2B Satış Koşulları", file: "b2b-satis-kosullari.md", sourceTitle: "B2B Satış Koşulları", url: "sartlar-ve-kosullar.html" },
+  { title: "Gizlilik Politikası", file: "gizlilik-politikasi.md", sourceTitle: "Gizlilik Politikası", url: "gizlilik-politikasi.html" },
+  { title: "KVKK Aydınlatma Metni", file: "kvkk-aydinlatma-metni.md", sourceTitle: "KVKK Aydınlatma Metni", url: "kvkk-aydinlatma-metni.html" },
+  { title: "Çerez Politikası", file: "cerez-politikasi.md", sourceTitle: "Çerez Politikası", url: "cerez-politikasi.html" },
 ];
 
 const content = document.getElementById("page-content");
-const currentPage = pages.find(page => page.file === content.dataset.source);
+const currentPath = window.location.pathname.split("/").pop();
+const currentPage =
+  pages.find(page => page.file === content.dataset.source) ||
+  pages.find(page => page.url === currentPath);
 
 function appendTextWithEmailLinks(parent, text) {
   const emailPattern = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi;

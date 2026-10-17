@@ -28,4 +28,6 @@ Add an optional `color` value to show the shoe color alongside its model name; s
 
 ## Information pages
 
-The formatted information pages are published as HTML files in `public/sayfalar/`. They display the text documents in that folder with shared page styling and navigation; the original `.md` and extensionless text files remain the content sources.
+The information pages are published as HTML files in `public/sayfalar/`; their Markdown content is stored alongside them and rendered with shared styling and navigation. The site is intended for wholesale inquiries from stores, resellers, and distributors, not individual retail purchases. Current terms state a 96-pair minimum order and a typical 15–20-business-day preparation period after payment confirmation; final order, payment, and shipping details belong in the written quote/order confirmation.
+
+Review the wholesale terms and no-general-returns policy against the business's actual practices and applicable law before publishing. Privacy, KVKK, and cookie notices should likewise match the data and technologies actually used.
