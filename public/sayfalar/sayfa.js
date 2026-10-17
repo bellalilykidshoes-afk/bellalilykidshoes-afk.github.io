@@ -1,7 +1,6 @@
 const pages = [
   { title: "Hakkımızda", file: "Hakkımızda.md", sourceTitle: "Hakkımızda", url: "hakkimizda.html" },
   { title: "Toplu Satış", file: "Toplu Satış.md", sourceTitle: "Toplu Satış", url: "toplu-satis.html" },
-  { title: "Çocuk Ayakkabı Numara Rehberi", file: "Çocuk Ayakkabı Numara Rehberi", sourceTitle: "Çocuk Ayakkabı Numara Rehberi", url: "cocuk-ayakkabi-numara-rehberi.html" },
   { title: "İade & Değişim Politikası", file: "İade & Değişim Politikası", sourceTitle: "İade & Değişim Politikası", url: "iade-degisim-politikasi.html" },
   { title: "Ön Bilgilendirme Formu", file: "Ön Bilgilendirme Formu", sourceTitle: "Ön Bilgilendirme Formu", url: "on-bilgilendirme-formu.html" },
   { title: "Şartlar ve Koşullar", file: "Şartlar ve koşullar", sourceTitle: "Şartlar ve koşullar", url: "sartlar-ve-kosullar.html" },

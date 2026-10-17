@@ -5,7 +5,11 @@
   --paper: #fbf8f4;
   --white: #fffdfb;
   --rose: #ead9d5;
-  --rose-dark: #a85d62;
+  --rose-dark: #8b1e35;
+  --girl-pink: #d63c83;
+  --girl-pink-light: #fdeaf2;
+  --boy-blue: #17699f;
+  --boy-blue-light: #e5f2fb;
   --line: #e9e1dc;
   --sage: #e8ede4;
 }
@@ -13,7 +17,10 @@
 body {
   min-height: 100vh;
   margin: 0;
-  background: var(--paper);
+  background:
+    radial-gradient(ellipse at 0 0, rgba(23, 105, 159, .07), transparent 28rem),
+    radial-gradient(ellipse at 100% 0, rgba(214, 60, 131, .07), transparent 28rem),
+    var(--paper);
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7;
@@ -29,14 +36,26 @@ a:focus-visible { outline: 3px solid var(--rose-dark); outline-offset: 4px; }
   border-bottom: 1px solid var(--line);
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink);
   font-size: 16px;
   font-weight: 800;
-  letter-spacing: 1.3px;
+  letter-spacing: -.25px;
   text-decoration: none;
+  white-space: nowrap;
 }
-.brand span { color: var(--rose-dark); }
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: #4b0308;
+  object-fit: contain;
+  box-shadow: 0 3px 12px rgba(73, 5, 10, .14);
+}
 .header-contact, .back-link {
-  color: var(--rose-dark);
+  color: var(--boy-blue);
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
@@ -84,6 +103,8 @@ h1 {
   margin: 34px 0 12px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
+  border-left: 3px solid var(--boy-blue);
+  padding-left: 15px;
   color: var(--ink);
   font-size: clamp(23px, 3vw, 29px);
 }
@@ -108,17 +129,18 @@ h1 {
 .faq-item {
   margin: 16px 0;
   padding: 18px 20px;
-  border-left: 3px solid var(--rose);
-  background: var(--paper);
+  border-left: 3px solid var(--girl-pink);
+  background: var(--girl-pink-light);
 }
 .faq-item h3 { margin: 0 0 7px; }
 .faq-item p:last-child { margin-bottom: 0; }
-.email-link { color: var(--rose-dark); font-weight: 700; }
+.email-link { color: var(--boy-blue); font-weight: 700; }
 .page-menu {
   position: sticky;
   top: 20px;
   padding: 22px;
   border: 1px solid var(--line);
+  border-top: 3px solid var(--boy-blue);
   background: var(--white);
 }
 .page-menu h2 {
@@ -161,6 +183,7 @@ h1 {
 }
 @media (max-width: 520px) {
   .site-header { padding: 16px 5%; }
+  .brand-logo { width: 38px; height: 38px; border-radius: 10px; }
   .page-layout { width: 92%; }
   .content-card { padding: 24px 20px; }
   .page-menu ul { grid-template-columns: 1fr; }

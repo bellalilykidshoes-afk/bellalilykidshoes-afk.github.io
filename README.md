@@ -18,12 +18,13 @@ The slideshow displays each filename without its extension as the model name. Yo
   "Bella-01.jpg",
   {
     "name": "Bella-02",
+    "color": "Pink",
     "image": "https://onedrive.live.com/embed?resid=YOUR_FILE_ID&authkey=YOUR_SHARE_KEY"
   }
 ]
 ```
 
-For OneDrive, allow anyone with the link to view the image and use a direct/embed image URL that displays the image itself. A normal sharing link may open a OneDrive page instead of the image. Include `name` because OneDrive image links do not always contain the original filename. Deploy the site after updating the catalog; externally hosted images remain on their host.
+Add an optional `color` value to show the shoe color alongside its model name; string filename entries can still be used when no color is needed. For Google Drive, allow anyone with the link to view the image. Standard file links such as `https://drive.google.com/file/d/FILE_ID/view` are converted to a 1200-pixel thumbnail URL by the catalog so the photo loads as an image rather than as a Drive preview page. For OneDrive, use a direct/embed image URL that displays the image itself; a normal sharing link may open a OneDrive page instead. Include `name` because hosted image URLs do not always contain the original filename. Deploy the site after updating the catalog; externally hosted images remain on their host.
 
 ## Information pages
 

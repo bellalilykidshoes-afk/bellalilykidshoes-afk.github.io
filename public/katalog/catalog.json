@@ -1,7 +1,16 @@
 [
-    "APC_1041.jpg",
     {
-    "name": "Bella-02",
-    "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view?usp=sharing"
-  }
+        "name": "APC_1041.jpg",
+        "color": "02-30"
+    },
+    {
+        "name": "Bella-02",
+        "color": "02-30",
+        "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view"
+    },
+    {
+        "name": "Bella-03",
+        "color": "02-30",
+        "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view"
+    }
 ]
