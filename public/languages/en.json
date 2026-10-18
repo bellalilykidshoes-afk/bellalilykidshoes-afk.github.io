@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "languageLabel": "Language",
+    "homeAria": "BellaLily Kid Shoes home page",
+    "backHome": "← Back to home",
+    "mainNav": "Main navigation",
+    "navCollection": "Collection",
+    "navAbout": "About us",
+    "navWholesale": "Wholesale",
+    "navContact": "Contact",
+    "heroEyebrow": "Care for every little step",
+    "heroTitle": "Happy steps,<br>beautiful beginnings.",
+    "heroDescription": "Explore the BellaLily Kid Shoes children's footwear collection. We offer wholesale partnerships for shops, resellers, and distributors; individual sales are not available on this website.",
+    "heroCatalog": "Explore the wholesale catalog",
+    "heroPartner": "Partnership inquiry",
+    "featuredAlt": "New season children's shoe model",
+    "collectionEyebrow": "Collection",
+    "collectionTitle": "Children's shoes for our business partners",
+    "collectionIntro": "Browse our models and request a business quote for wholesale prices, availability, and season details.",
+    "seasonTabs": "Season catalog",
+    "seasonSummer": "Summer",
+    "seasonWinter": "Winter",
+    "seasonSchool": "School",
+    "shoeModels": "Shoe models",
+    "loadingCatalog": "Loading catalog...",
+    "modelLabel": "Model",
+    "colorsLabel": "Color",
+    "chooseColor": "Choose a color",
+    "previousModel": "Previous model",
+    "nextModel": "Next model",
+    "catalogPanelTitle": "Wholesale catalog and price quote",
+    "catalogPanelDescription": "Models, seasons, availability, and wholesale prices may change. Email us for the latest catalog and a quote tailored to your business.",
+    "requestCatalog": "Request the wholesale catalog and a quote",
+    "aboutEyebrow": "About us",
+    "aboutTitle": "Thoughtfully made for our partners",
+    "aboutDescription": "BellaLily Kid Shoes offers its children's footwear collection wholesale, building long-term partnerships with shops, resellers, and distributors.",
+    "aboutLink": "Learn more about BellaLily Kid Shoes →",
+    "partnershipEyebrow": "Partnership",
+    "wholesaleTitle": "Wholesale partnerships for shops and resellers",
+    "wholesaleDescription": "We sell wholesale to businesses only. The minimum order is 96 pairs. Contact us for a catalog and quote based on the season, product group, and order quantity.",
+    "wholesaleNote": "Orders are generally prepared within 15–20 business days after payment confirmation. This is preparation time and may vary depending on the order and production plan.",
+    "wholesaleLink": "Wholesale details",
+    "contactEyebrow": "Have a question?",
+    "contactTitle": "We are happy to help.",
+    "contactDescription": "For a wholesale catalog, price quote, or partnership inquiry, email your business details and request.",
+    "sendEmail": "Send an email",
+    "footerTagline": "BellaLily Kid Shoes · Made with love for little ones.",
+    "legalNav": "Legal and information pages",
+    "pageWholesale": "Wholesale",
+    "pageOrderTerms": "Wholesale order terms",
+    "pageB2bTerms": "B2B sales terms",
+    "pageOrderProcess": "Wholesale order process",
+    "pagePrivacy": "Privacy policy",
+    "pageKvkk": "KVKK privacy notice",
+    "pageCookies": "Cookie policy",
+    "carouselLoading": "Loading image...",
+    "shoeImageAlt": "{model}{color} shoe model",
+    "languageError": "Language could not be loaded.",
+    "savedLanguageError": "Saved language could not be loaded.",
+    "preferenceSaveError": "Language preference could not be saved.",
+    "emptySeason": "No products have been added to the {season} catalog yet.",
+    "modelCount": "Model {current} / {total}",
+    "colorOption": "Color option {number}{color}",
+    "imageLoadError": "The photo for “{model}” could not be loaded. Check the image URL and confirm that it can be viewed by anyone with the link.",
+    "imageError": "The image link is unavailable.",
+    "catalogInvalidSummer": "Some Summer catalog entries are invalid; check the filenames and HTTPS image links.",
+    "catalogInvalidCount": "{count} catalog entries are invalid; check local image filenames or HTTPS image links.",
+    "catalogLoadError": "The catalog could not be loaded. Check that public/katalog/catalog.json exists and contains valid JSON.",
+    "catalogEmpty": "No catalog photos have been added yet. Add photos to public/katalog/fotograflar/ and list them in public/katalog/catalog.json.",
+    "catalogNotFound": "This information page could not be found.",
+    "pageLoadError": "The page content could not be loaded. Please try again later.",
+    "updatedLabel": "Last updated:",
+    "pageLoading": "Loading page...",
+    "requestSubject": "BellaLily Kid Shoes - Product catalog request"
+  },
+  "pages": {
+    "hakkimizda.md": {
+      "title": "About Us",
+      "kicker": "Partnership",
+      "content": "BellaLily Kid Shoes is a wholesale children's footwear brand connecting its collections with shops, resellers, and distributors. We work to offer options suited to our partners' seasonal and product-group needs.\n\n1. Our partnerships\nSend your wholesale inquiry, business details, and the models you are interested in by email. Our team will contact you with catalog and quotation information.\n\n2. How we sell\nOur sales are for businesses. This website does not offer individual sales, a shopping cart, or online payment.\n\n3. Product information\nCollection images and product information are for presentation purposes. Current model, color, availability, and price details are confirmed when preparing a quote."
+    },
+    "toplu-satis.md": {
+      "title": "Wholesale",
+      "kicker": "Partnership",
+      "content": "BellaLily Kid Shoes offers a wholesale children's footwear collection for shops, resellers, and distributors. We do not sell to individuals on this website; pricing and order information are provided in response to business inquiries.\n\nWholesale frequently asked questions\n\nWhat is the minimum order quantity?\n➡️ The minimum wholesale order is 96 pairs.\n\nHow is a price quote prepared?\n➡️ Prices depend on product group, season, and order quantity. Current prices and any volume discounts are shared when you request a quote.\n\nHow can I request a catalog and quote?\n➡️ Email info@bellalilykidshoes.com with your business name, contact details, models of interest, and approximate order quantity.\n\nWhen are orders prepared?\n➡️ Orders are generally prepared within 15–20 business days after payment confirmation. This is preparation time and may vary depending on the order and production plan. Shipping and delivery time are stated separately in the quote or order confirmation.\n\nHow are payment, shipping, and order changes determined?\n➡️ These terms are specified separately in each quote and written order confirmation. An order proceeds after its terms have been confirmed in writing.\n\nCan I place an off-season or pre-order?\n➡️ Availability of off-season products and pre-orders is confirmed based on the requested model, season, and production plan."
+    },
+    "toptan-siparis-kosullari.md": {
+      "title": "Wholesale Order Terms",
+      "kicker": "Partnership",
+      "content": "The BellaLily Kid Shoes website and catalog images are for product presentation. Sales are intended for businesses such as shops, resellers, and distributors; individual purchases and online payments are not available on the site.\n\n1. Order inquiries and quotes\nBusinesses may request a quote by emailing the model, color, quantity, and delivery location. Product availability, stock, price, tax, payment method, shipping, and estimated schedule are provided during the quotation process.\n\n2. Minimum order and preparation time\nThe minimum wholesale order is 96 pairs. Orders are generally prepared within 15–20 business days after payment confirmation. This is the time needed to prepare the products; it is not shipping or delivery time. Final terms are stated in the written quote and order confirmation.\n\n3. Order changes and cancellation\nModel, color, quantity, payment, shipping, and change/cancellation terms are confirmed in the quote and written order confirmation. Changes to a confirmed order are considered only with the parties' written agreement.\n\n4. Returns and exchanges\nWholesale orders are not generally eligible for return or exchange due to a change of mind, size/model preference, or a change in the buyer's own sales plans. This commercial policy does not remove rights that cannot be waived under applicable law.\n\nIf an incorrect, incomplete, or damaged delivery is discovered, notify info@bellalilykidshoes.com promptly with the order details and, where possible, photos. Reports are assessed under the written order terms and applicable law.\n\n5. Binding terms\nWebsite information is general and promotional and does not by itself constitute an order or sales contract. The binding product, price, payment, and shipping terms for each order are set out in the quote/order documents approved in writing by the parties.\n\nThis translation is provided for convenience. The Turkish version and the written order documents remain authoritative; have this translation reviewed before publication."
+    },
+    "toptan-siparis-sureci.md": {
+      "title": "Wholesale Order Process",
+      "kicker": "Partnership",
+      "content": "This page explains the general ordering process for shops, resellers, and distributors. Individual orders, shopping carts, and online payments are not accepted. The exact commercial terms for each order are set out in its written quote and order confirmation.\n\n1. Send your business inquiry\nEmail info@bellalilykidshoes.com with your business name, authorized contact details, models and quantities of interest, and delivery city/country.\n\n2. Receive the catalog and quote\nProduct availability, current prices, minimum order, payment, and shipping terms are reviewed based on your inquiry. The minimum order is 96 pairs.\n\n3. Review and approve the quote in writing\nBefore approving, review the product, quantity, price, payment, shipping, and order schedule in the written documents. Order details and applicable terms are finalized with written confirmation from both parties.\n\n4. Preparation and shipping\nOrders are generally prepared within 15–20 business days after payment confirmation. This is preparation time, not shipping or delivery time. Shipping details are provided in the order documents.\n\n5. Delivery notification\nIf you find an incorrect, incomplete, or damaged product on delivery, promptly notify info@bellalilykidshoes.com with the order number and photos. See the Wholesale Order Terms page for return and exchange conditions."
+    },
+    "b2b-satis-kosullari.md": {
+      "title": "B2B Sales Terms",
+      "kicker": "Partnership",
+      "content": "1. Scope of the website\nThe BellaLily Kid Shoes website provides general information about the brand and product catalog. It does not offer individual sales, a shopping cart, user accounts, or online payment. Sales inquiries are accepted from businesses.\n\n2. Quotes and order confirmation\nBusinesses may request a wholesale catalog and price quote by email. Product, model, color, quantity, price, payment, shipping, and schedule details are stated in the quote. Binding order terms are set out in quote and order documents approved in writing by the parties.\n\n3. Product and price information\nWebsite photos and descriptions are for presentation purposes. Colors may look different depending on the screen; stock and current prices are confirmed when preparing a quote. Written quote terms take precedence over general website content.\n\n4. Minimum order and preparation\nThe minimum wholesale order is 96 pairs. Preparation generally takes 15–20 business days after payment confirmation and may vary with the order contents and production plan. Shipping/delivery time is specified separately in the order documents.\n\n5. Changes, cancellations, and product notices\nChange and cancellation terms are set out in the written quote or order confirmation. Wholesale orders are not generally eligible for return or exchange due to a change of mind or a change in the buyer's sales plans. Incorrect, incomplete, or damaged deliveries are handled under the written order terms and applicable law.\n\n6. Contact\nFor wholesale sales, quotes, or order questions, email info@bellalilykidshoes.com.\n\nThis page is for general information and does not replace signed or writtenly approved order terms.\n\nThis translation is provided for convenience. The Turkish version and the written order documents remain authoritative; have this translation reviewed before publication."
+    },
+    "gizlilik-politikasi.md": {
+      "title": "Privacy Policy",
+      "kicker": "Legal information",
+      "content": "BellaLily Kid Shoes values the privacy of people who contact us through the website about wholesale catalogs or business partnerships. This policy provides general information about personal data that may be processed in connection with website inquiries and potential business-to-business relationships.\n\n1. Data that may be processed\nWe may process the name, business name, role/title, email address, telephone number, and message you provide in an inquiry. If a wholesale order relationship is established, business records required for contracts, invoices, and shipping may also be processed. Your selected interface language is stored in your browser's local storage on your device so it can be remembered on future visits; this preference is not sent to our server. Service providers may retain technical records for website hosting and security.\n\n2. Purposes of use\nData may be used to respond to catalog and quotation inquiries, manage business communications, follow up on confirmed orders, meet legal obligations, and protect the website. Promotional messages are sent only where permitted by applicable rules.\n\n3. Sharing and retention\nData may be shared with service providers or authorized authorities to the extent needed to provide communications and hosting, fulfill an order, or meet legal obligations. Data is retained for as long as needed for the relevant purposes and legal requirements, then deleted or anonymized as required by law.\n\n4. Security and rights\nTo make a request about your personal data or exercise your rights under KVKK, contact us at info@bellalilykidshoes.com. Further details are available on the KVKK Privacy Notice page.\n\nThis text should be kept consistent with actual data-processing and retention practices. The policy should be updated if website practices change.\n\nThis translation is provided for convenience. The Turkish version is authoritative; have this translation reviewed before publication."
+    },
+    "kvkk-aydinlatma-metni.md": {
+      "title": "KVKK Privacy Notice",
+      "kicker": "Legal information",
+      "content": "BellaLily Kid Shoes provides this general notice about personal data processing in its capacity as data controller. For wholesale catalog and business partnership inquiries, data may be processed to assess and respond to the inquiry.\n\n1. Categories of data that may be processed\nIdentity and contact details, and business and professional contact details\nQuotation requests and correspondence\nContract, invoice, and shipping records if a wholesale order relationship is established\nTechnical records that may be needed to secure and operate the website\n\nAs the site does not accept online payments, it does not request payment card details through the website.\n\n2. Purposes of processing\nAssessing and responding to wholesale catalog and quotation requests\nManaging business-to-business quotation and order communications\nMaintaining commercial records and meeting legal obligations\nSecuring and operating the website\n\n3. Collection methods and legal grounds\nData may be obtained through email correspondence, website use, and any quote/order documents. Processing may be based on responding to your request or carrying out contract processes, legal obligations, and other legal grounds under applicable law. Where explicit consent is required, it will be obtained separately.\n\n4. Transfers\nAs required to provide the service, data may be shared with hosting and communications providers, parties involved in shipping an order, and competent public authorities. Transfers are made in accordance with applicable law.\n\n5. Retention period and rights\nData is retained for as long as required for the relevant purposes and legal requirements, then deleted, destroyed, or anonymized in accordance with the law. You may send requests under Article 11 of KVKK to info@bellalilykidshoes.com. Requests are assessed under applicable law.\n\nThis translation is provided for convenience. The Turkish version is authoritative; have this translation reviewed before publication."
+    },
+    "cerez-politikasi.md": {
+      "title": "Cookie Policy",
+      "kicker": "Legal information",
+      "content": "The BellaLily Kid Shoes website provides product catalog and wholesale information; it does not include user accounts, a shopping cart, or online payment.\n\n1. About cookies\nCookies are small files that websites may store on a device through a browser. The hosting infrastructure may use necessary technical records or cookies to operate and secure the website.\n\nYour selected interface language is stored in your browser's local storage on your device so it can be remembered on future visits. This preference is not a cookie and is not sent to our server.\n\n2. Analytics and advertising cookies\nThe site currently has no shopping cart, payment provider, or user account. If analytics, marketing, or advertising cookies are added, their use and how to manage preferences will be explained separately in this policy.\n\n3. Managing preferences\nYou can view, delete, or block stored cookies in your browser settings. Disabling necessary technical features may affect how the site works.\n\n4. Policy updates\nThis policy is reviewed when the website or its third-party services change. See the Privacy Policy and KVKK Privacy Notice for more information about personal data.\n\nFor questions, email info@bellalilykidshoes.com.\n\nThis translation is provided for convenience. The Turkish version is authoritative; have this translation reviewed before publication."
+    }
+  }
+}

@@ -34,9 +34,22 @@
       justify-content: space-between;
       align-items: center;
       gap: 24px;
+      flex-wrap: wrap;
       padding: 22px 7%;
       border-bottom: 1px solid var(--line);
       background: var(--paper);
+    }
+    .language-picker { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+    .language-picker label { color: var(--muted); font-size: 13px; font-weight: 700; }
+    .language-picker select {
+      min-height: 38px;
+      padding: 6px 30px 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--white);
+      color: var(--ink);
+      font: inherit;
+      cursor: pointer;
     }
     .logo { font-size: 18px; font-weight: 800; letter-spacing: 1.5px; }
     .logo span { color: var(--rose-dark); }
@@ -685,132 +698,132 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="BellaLily Kid Shoes ana sayfa">
+    <a class="brand" href="#top" aria-label="BellaLily Kid Shoes ana sayfa" data-i18n-aria="homeAria">
       <img class="brand-logo" src="brand.jpg" alt="">
       <span>BellaLily Kid Shoes</span>
     </a>
-    <nav aria-label="Ana menü">
-      <a href="#koleksiyon">Koleksiyon</a>
-      <a href="#hakkimizda">Hakkımızda</a>
-      <a href="#toplu-satis">Toplu satış</a>
-      <a href="#iletisim">İletişim</a>
+    <nav aria-label="Ana menü" data-i18n-aria="mainNav">
+      <a href="#koleksiyon" data-i18n="navCollection">Koleksiyon</a>
+      <a href="#hakkimizda" data-i18n="navAbout">Hakkımızda</a>
+      <a href="#toplu-satis" data-i18n="navWholesale">Toplu satış</a>
+      <a href="#iletisim" data-i18n="navContact">İletişim</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
       <div>
-        <span class="eyebrow">Küçük adımlara büyük özen</span>
-        <h1>Mutlu adımlar,<br>güzel başlangıçlar.</h1>
-        <p>
+        <span class="eyebrow" data-i18n="heroEyebrow">Küçük adımlara büyük özen</span>
+        <h1 data-i18n-html="heroTitle">Mutlu adımlar,<br>güzel başlangıçlar.</h1>
+        <p data-i18n="heroDescription">
           BellaLily Kid Shoes çocuk ayakkabısı koleksiyonunu keşfedin.
           Mağazalar, bayiler ve distribütörler için yalnızca toptan satış
           ve iş ortaklığı sunuyoruz; sitede bireysel satış yapılmıyor.
         </p>
         <div class="actions">
-          <a class="button" href="#koleksiyon">Toptan kataloğu inceleyin</a>
-          <a class="button secondary" href="#iletisim">İş ortaklığı talebi</a>
+          <a class="button" href="#koleksiyon" data-i18n="heroCatalog">Toptan kataloğu inceleyin</a>
+          <a class="button secondary" href="#iletisim" data-i18n="heroPartner">İş ortaklığı talebi</a>
         </div>
       </div>
       <div class="hero-visual">
-        <img src="new-model.jpg" alt="Yeni Sezon Çocuk Ayakkabısı Modeli">
+        <img src="new-model.jpg" alt="Yeni Sezon Çocuk Ayakkabısı Modeli" data-i18n-alt="featuredAlt">
       </div>
     </section>
 
     <section class="section catalog" id="koleksiyon">
       <div class="section-heading">
-        <span class="eyebrow">Koleksiyon</span>
-        <h2>İş ortaklarımız için çocuk ayakkabısı koleksiyonu</h2>
-        <p class="section-intro">
+        <span class="eyebrow" data-i18n="collectionEyebrow">Koleksiyon</span>
+        <h2 data-i18n="collectionTitle">İş ortaklarımız için çocuk ayakkabısı koleksiyonu</h2>
+        <p class="section-intro" data-i18n="collectionIntro">
           Modelleri inceleyin; toptan fiyat, stok ve sezon bilgisi için işletmeniz adına teklif isteyin.
         </p>
       </div>
-      <div class="season-tabs" id="season-tabs" role="tablist" aria-label="Sezon kataloğu">
-        <button class="season-tab" id="season-yazlik" type="button" role="tab"
+      <div class="season-tabs" id="season-tabs" role="tablist" aria-label="Sezon kataloğu" data-i18n-aria="seasonTabs">
+        <button class="season-tab" id="season-yazlik" type="button" role="tab" data-i18n="seasonSummer"
           aria-selected="true" aria-controls="shoe-carousel" tabindex="0">Yazlık</button>
-        <button class="season-tab" id="season-kislik" type="button" role="tab"
+        <button class="season-tab" id="season-kislik" type="button" role="tab" data-i18n="seasonWinter"
           aria-selected="false" aria-controls="shoe-carousel" tabindex="-1">Kışlık</button>
-        <button class="season-tab" id="season-okulluk" type="button" role="tab"
+        <button class="season-tab" id="season-okulluk" type="button" role="tab" data-i18n="seasonSchool"
           aria-selected="false" aria-controls="shoe-carousel" tabindex="-1">Okulluk</button>
       </div>
-      <div class="shoe-carousel" id="shoe-carousel" aria-label="Ayakkabı modelleri">
+      <div class="shoe-carousel" id="shoe-carousel" aria-label="Ayakkabı modelleri" data-i18n-aria="shoeModels">
         <p class="carousel-status" id="carousel-status" role="status" aria-live="polite">
-          Katalog yükleniyor...
+          <span data-i18n="loadingCatalog">Katalog yükleniyor...</span>
         </p>
         <figure class="shoe-figure" id="shoe-figure" hidden>
           <img class="shoe-image" id="shoe-image" alt="">
           <figcaption class="shoe-caption">
-            <span class="eyebrow">Model</span>
+            <span class="eyebrow" data-i18n="modelLabel">Model</span>
             <h3 id="shoe-name"></h3>
             <p class="shoe-color" id="shoe-color">
-              <span class="eyebrow">Renkler</span>
+              <span class="eyebrow" data-i18n="colorsLabel">Renkler</span>
               <span id="shoe-color-name"></span>
             </p>
-            <div class="carousel-dots" id="carousel-dots" role="group" aria-label="Renk seçin" hidden></div>
+            <div class="carousel-dots" id="carousel-dots" role="group" aria-label="Renk seçin" data-i18n-aria="chooseColor" hidden></div>
           </figcaption>
         </figure>
         <div class="carousel-controls" id="carousel-controls" hidden>
-          <button type="button" id="previous-model" aria-label="Önceki model">‹</button>
+          <button type="button" id="previous-model" aria-label="Önceki model" data-i18n-aria="previousModel">‹</button>
           <span class="carousel-count" id="carousel-count" aria-live="polite"></span>
-          <button type="button" id="next-model" aria-label="Sonraki model">›</button>
+          <button type="button" id="next-model" aria-label="Sonraki model" data-i18n-aria="nextModel">›</button>
         </div>
         <p class="carousel-error" id="carousel-error" role="alert" hidden></p>
       </div>
       <div class="catalog-panel">
         <div>
-          <h3>Toptan ürün kataloğu ve fiyat teklifi</h3>
-          <p>
+          <h3 data-i18n="catalogPanelTitle">Toptan ürün kataloğu ve fiyat teklifi</h3>
+          <p data-i18n="catalogPanelDescription">
             Model, sezon, stok ve toptan fiyat bilgileri değişebilir.
             Güncel katalog ve işletmenize özel teklif için bize e-posta gönderin.
           </p>
         </div>
         <a class="button" href="mailto:info@bellalilykidshoes.com?subject=BellaLily%20Kid%20Shoes%20-%20%C3%9Cr%C3%BCn%20katalo%C4%9Fu%20talebi">
-          Toptan katalog ve teklif isteyin
+          <span data-i18n="requestCatalog">Toptan katalog ve teklif isteyin</span>
         </a>
       </div>
     </section>
 
     <section class="section about-section" id="hakkimizda">
       <div class="section-heading">
-        <span class="eyebrow">Hakkımızda</span>
-        <h2>İş ortaklarımız için özenle</h2>
+        <span class="eyebrow" data-i18n="aboutEyebrow">Hakkımızda</span>
+        <h2 data-i18n="aboutTitle">İş ortaklarımız için özenle</h2>
       </div>
       <div class="about-card">
-        <p>
+        <p data-i18n="aboutDescription">
           BellaLily Kid Shoes, mağazalar, bayiler ve distribütörlerle uzun soluklu
           iş ortaklıkları kurarak çocuk ayakkabısı koleksiyonunu toptan sunar.
         </p>
-        <a class="text-link" href="sayfalar/hakkimizda.html">BellaLily Kid Shoes hakkında daha fazlası →</a>
+        <a class="text-link" href="sayfalar/hakkimizda.html" data-i18n="aboutLink">BellaLily Kid Shoes hakkında daha fazlası →</a>
       </div>
     </section>
 
     <section class="section wholesale" id="toplu-satis">
       <div class="wholesale-content">
         <div>
-          <span class="eyebrow">İş ortaklığı</span>
-          <h2>Mağazalar ve bayiler için toptan iş ortaklığı</h2>
-          <p>
+          <span class="eyebrow" data-i18n="partnershipEyebrow">İş ortaklığı</span>
+          <h2 data-i18n="wholesaleTitle">Mağazalar ve bayiler için toptan iş ortaklığı</h2>
+          <p data-i18n="wholesaleDescription">
             Yalnızca işletmelere yönelik toptan satış yapıyoruz. Minimum sipariş
             miktarı 96 çifttir. Sezon, ürün grubu ve sipariş adedine göre katalog
             ve fiyat teklifi almak için bize ulaşın.
           </p>
-          <span class="wholesale-note">
+          <span class="wholesale-note" data-i18n="wholesaleNote">
             Siparişler ödeme onayından sonra genellikle 15–20 iş gününde hazırlanır.
             Bu hazırlık süresidir; sipariş içeriği ve üretim planına göre değişebilir.
           </span>
         </div>
-        <a class="button" href="sayfalar/toplu-satis.html">Toplu satış detayları</a>
+        <a class="button" href="sayfalar/toplu-satis.html" data-i18n="wholesaleLink">Toplu satış detayları</a>
       </div>
     </section>
 
     <section class="contact" id="iletisim">
-      <span class="eyebrow">Sorularınız mı var?</span>
-      <h2>Size yardımcı olmaktan mutluluk duyarız.</h2>
-      <p>
+      <span class="eyebrow" data-i18n="contactEyebrow">Sorularınız mı var?</span>
+      <h2 data-i18n="contactTitle">Size yardımcı olmaktan mutluluk duyarız.</h2>
+      <p data-i18n="contactDescription">
         Toptan katalog, fiyat teklifi veya iş ortaklığı için işletme bilgilerinizi
         ve talebinizi e-posta ile gönderin.
       </p>
-      <a class="button" href="mailto:info@bellalilykidshoes.com">E-posta gönderin</a>
+      <a class="button" href="mailto:info@bellalilykidshoes.com" data-i18n="sendEmail">E-posta gönderin</a>
       <a class="contact-address" href="mailto:info@bellalilykidshoes.com">info@bellalilykidshoes.com</a>
     </section>
   </main>
@@ -818,19 +831,20 @@
   <footer>
     <div class="footer-top">
       <span>© <span id="year"></span> BellaLily Kid Shoes</span>
-      <span>BellaLily Kid Shoes · Çocuklar için sevgiyle.</span>
+      <span data-i18n="footerTagline">BellaLily Kid Shoes · Çocuklar için sevgiyle.</span>
     </div>
-    <nav class="legal-links" aria-label="Yasal ve bilgilendirme sayfaları">
-      <a href="sayfalar/toplu-satis.html">Toplu satış</a>
-      <a href="sayfalar/toptan-siparis-kosullari.html">Toptan sipariş koşulları</a>
-      <a href="sayfalar/sartlar-ve-kosullar.html">B2B satış koşulları</a>
-      <a href="sayfalar/on-bilgilendirme-formu.html">Toptan sipariş süreci</a>
-      <a href="sayfalar/gizlilik-politikasi.html">Gizlilik politikası</a>
-      <a href="sayfalar/kvkk-aydinlatma-metni.html">KVKK aydınlatma metni</a>
-      <a href="sayfalar/cerez-politikasi.html">Çerez politikası</a>
+    <nav class="legal-links" aria-label="Yasal ve bilgilendirme sayfaları" data-i18n-aria="legalNav">
+      <a href="sayfalar/toplu-satis.html" data-i18n="pageWholesale">Toplu satış</a>
+      <a href="sayfalar/toptan-siparis-kosullari.html" data-i18n="pageOrderTerms">Toptan sipariş koşulları</a>
+      <a href="sayfalar/sartlar-ve-kosullar.html" data-i18n="pageB2bTerms">B2B satış koşulları</a>
+      <a href="sayfalar/on-bilgilendirme-formu.html" data-i18n="pageOrderProcess">Toptan sipariş süreci</a>
+      <a href="sayfalar/gizlilik-politikasi.html" data-i18n="pagePrivacy">Gizlilik politikası</a>
+      <a href="sayfalar/kvkk-aydinlatma-metni.html" data-i18n="pageKvkk">KVKK aydınlatma metni</a>
+      <a href="sayfalar/cerez-politikasi.html" data-i18n="pageCookies">Çerez politikası</a>
     </nav>
   </footer>
 
+  <script src="i18n.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -844,11 +858,12 @@
     const carouselControls = document.getElementById("carousel-controls");
     const carouselDots = document.getElementById("carousel-dots");
     const carouselCount = document.getElementById("carousel-count");
+    const t = (key, values) => window.SiteLanguage.text(key, values);
     const allowedImageName = /^[^/\\]+\.(?:avif|jpe?g|png|webp)$/i;
     const seasons = [
-      { key: "Yazlık", id: "season-yazlik" },
-      { key: "Kışlık", id: "season-kislik" },
-      { key: "Okulluk", id: "season-okulluk" },
+      { key: "Yazlık", id: "season-yazlik", translationKey: "seasonSummer" },
+      { key: "Kışlık", id: "season-kislik", translationKey: "seasonWinter" },
+      { key: "Okulluk", id: "season-okulluk", translationKey: "seasonSchool" },
     ];
     const seasonTabs = document.getElementById("season-tabs");
     let catalogs = Object.fromEntries(seasons.map(season => [season.key, []]));
@@ -857,7 +872,8 @@
     let activeModel = 0;
     let activeOption = 0;
     let imageRequest = 0;
-    let catalogWarning = "";
+    let catalogWarning = null;
+    let catalogLoaded = false;
 
     seasons.forEach(season => {
       const tab = document.getElementById(season.id);
@@ -872,7 +888,7 @@
       activeOption = 0;
       renderColorOptions(model);
       showOption(activeOption);
-      carouselCount.textContent = `Model ${activeModel + 1} / ${models.length}`;
+      carouselCount.textContent = t("modelCount", { current: activeModel + 1, total: models.length });
     }
 
     function renderColorOptions(model) {
@@ -883,10 +899,10 @@
         dot.className = "carousel-dot";
         dot.type = "button";
         dot.textContent = String(index + 1);
-        dot.setAttribute(
-          "aria-label",
-          `Renk seçeneği ${index + 1}${option.color ? `: ${option.color}` : ""}`
-        );
+        dot.setAttribute("aria-label", t("colorOption", {
+          number: index + 1,
+          color: option.color ? `: ${option.color}` : "",
+        }));
         dot.setAttribute("aria-pressed", String(index === activeOption));
         dot.addEventListener("click", () => showOption(index));
         carouselDots.append(dot);
@@ -902,12 +918,14 @@
 
       shoeName.textContent = model.name;
       shoeColorName.textContent = option.color;
-      shoeImage.alt = `${model.name}${option.color ? ` ${option.color} renk` : ""} model ayakkabı fotoğrafı`;
+      shoeImage.alt = t("shoeImageAlt", {
+        model: model.name,
+        color: option.color ? ` ${option.color}` : "",
+      });
       shoeImage.hidden = true;
       catalogStatus.hidden = false;
-      catalogStatus.textContent = "Fotoğraf yükleniyor...";
-      catalogError.textContent = catalogWarning;
-      catalogError.hidden = !catalogWarning;
+      catalogStatus.textContent = t("carouselLoading");
+      catalogWarningText();
 
       shoeImage.onload = () => {
         if (request !== imageRequest) return;
@@ -916,9 +934,11 @@
       };
       shoeImage.onerror = () => {
         if (request !== imageRequest) return;
-        catalogStatus.textContent =
-          `“${model.name}” fotoğrafı yüklenemedi. Görsel bağlantısını ve paylaşımın bağlantıya sahip herkes tarafından görüntülenebildiğini kontrol edin.`;
-        catalogError.textContent = `Fotoğraf bağlantısı kullanılamıyor.${catalogWarning ? ` ${catalogWarning}` : ""}`;
+        catalogStatus.textContent = t("imageLoadError", { model: model.name });
+        catalogError.textContent = [
+          t("imageError"),
+          catalogWarning ? t(catalogWarning.key, catalogWarning.values) : "",
+        ].filter(Boolean).join(" ");
         catalogError.hidden = false;
       };
       shoeImage.src = option.src;
@@ -947,7 +967,8 @@
         carouselDots.replaceChildren();
         carouselDots.hidden = true;
         catalogStatus.hidden = false;
-        catalogStatus.textContent = `${season} sezonu için henüz katalog ürünü eklenmedi.`;
+        const seasonLabel = seasons.find(item => item.key === season);
+        catalogStatus.textContent = t("emptySeason", { season: t(seasonLabel.translationKey) });
         carouselCount.textContent = "";
         return;
       }
@@ -957,7 +978,9 @@
     }
 
     function catalogWarningText() {
-      catalogError.textContent = catalogWarning;
+      catalogError.textContent = catalogWarning
+        ? t(catalogWarning.key, catalogWarning.values)
+        : "";
       catalogError.hidden = !catalogWarning;
     }
 
@@ -1042,7 +1065,7 @@
         if (Array.isArray(entries)) {
           catalogs[seasons[0].key] = entries.map(parseModel).filter(Boolean);
           if (catalogs[seasons[0].key].length !== entries.length) {
-            catalogWarning = "Bazı Yazlık katalog kayıtları geçersiz; dosya adlarını ve HTTPS görsel bağlantılarını kontrol edin.";
+            catalogWarning = { key: "catalogInvalidSummer" };
           }
         } else if (entries && typeof entries === "object") {
           let invalidCount = 0;
@@ -1055,17 +1078,17 @@
             invalidCount += seasonEntries.length - catalogs[season.key].length;
           }
           if (invalidCount > 0) {
-            catalogWarning = `${invalidCount} katalog kaydı geçersiz; yerel fotoğraf dosya adlarını veya HTTPS görsel bağlantılarını kontrol edin.`;
+            catalogWarning = { key: "catalogInvalidCount", values: { count: invalidCount } };
           }
         } else {
           throw new Error("Katalog dosyası sezonlara göre model listeleri içermelidir.");
         }
 
+        catalogLoaded = true;
         showSeason(activeSeason);
       } catch (error) {
         console.error("Ayakkabı kataloğu yüklenemedi:", error);
-        catalogStatus.textContent =
-          "Katalog yüklenemedi. Lütfen public/katalog/catalog.json dosyasının mevcut ve geçerli JSON biçiminde olduğunu kontrol edin.";
+        catalogStatus.textContent = t("catalogLoadError");
         catalogError.textContent = error.message;
         catalogError.hidden = false;
       }
@@ -1096,7 +1119,10 @@
       }
     });
 
-    loadCatalog();
+    window.SiteLanguage.ready.then(loadCatalog);
+    document.addEventListener("site-language-change", () => {
+      if (catalogLoaded) showSeason(activeSeason);
+    });
   </script>
 </body>
 </html>

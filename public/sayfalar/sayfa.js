@@ -1,12 +1,12 @@
 const pages = [
-  { title: "Hakkımızda", file: "hakkimizda.md", sourceTitle: "Hakkımızda", url: "hakkimizda.html" },
-  { title: "Toptan Satış", file: "toplu-satis.md", sourceTitle: "Toptan Satış", url: "toplu-satis.html" },
-  { title: "Toptan Sipariş Koşulları", file: "toptan-siparis-kosullari.md", sourceTitle: "Toptan Sipariş Koşulları", url: "toptan-siparis-kosullari.html" },
-  { title: "Toptan Sipariş Süreci", file: "toptan-siparis-sureci.md", sourceTitle: "Toptan Sipariş Süreci", url: "on-bilgilendirme-formu.html" },
-  { title: "B2B Satış Koşulları", file: "b2b-satis-kosullari.md", sourceTitle: "B2B Satış Koşulları", url: "sartlar-ve-kosullar.html" },
-  { title: "Gizlilik Politikası", file: "gizlilik-politikasi.md", sourceTitle: "Gizlilik Politikası", url: "gizlilik-politikasi.html" },
-  { title: "KVKK Aydınlatma Metni", file: "kvkk-aydinlatma-metni.md", sourceTitle: "KVKK Aydınlatma Metni", url: "kvkk-aydinlatma-metni.html" },
-  { title: "Çerez Politikası", file: "cerez-politikasi.md", sourceTitle: "Çerez Politikası", url: "cerez-politikasi.html" },
+  { title: "Hakkımızda", file: "hakkimizda.md", sourceTitle: "Hakkımızda", kicker: "İş ortaklığı", url: "hakkimizda.html" },
+  { title: "Toptan Satış", file: "toplu-satis.md", sourceTitle: "Toptan Satış", kicker: "İş ortaklığı", url: "toplu-satis.html" },
+  { title: "Toptan Sipariş Koşulları", file: "toptan-siparis-kosullari.md", sourceTitle: "Toptan Sipariş Koşulları", kicker: "İş ortaklığı", url: "toptan-siparis-kosullari.html" },
+  { title: "Toptan Sipariş Süreci", file: "toptan-siparis-sureci.md", sourceTitle: "Toptan Sipariş Süreci", kicker: "İş ortaklığı", url: "on-bilgilendirme-formu.html" },
+  { title: "B2B Satış Koşulları", file: "b2b-satis-kosullari.md", sourceTitle: "B2B Satış Koşulları", kicker: "İş ortaklığı", url: "sartlar-ve-kosullar.html" },
+  { title: "Gizlilik Politikası", file: "gizlilik-politikasi.md", sourceTitle: "Gizlilik Politikası", kicker: "Yasal bilgilendirme", url: "gizlilik-politikasi.html" },
+  { title: "KVKK Aydınlatma Metni", file: "kvkk-aydinlatma-metni.md", sourceTitle: "KVKK Aydınlatma Metni", kicker: "Yasal bilgilendirme", url: "kvkk-aydinlatma-metni.html" },
+  { title: "Çerez Politikası", file: "cerez-politikasi.md", sourceTitle: "Çerez Politikası", kicker: "Yasal bilgilendirme", url: "cerez-politikasi.html" },
 ];
 
 const content = document.getElementById("page-content");
@@ -14,6 +14,11 @@ const currentPath = window.location.pathname.split("/").pop();
 const currentPage =
   pages.find(page => page.file === content.dataset.source) ||
   pages.find(page => page.url === currentPath);
+let pageLoadRequest = 0;
+
+function translatedPage(page = currentPage) {
+  return window.SiteLanguage.page(page.file);
+}
 
 function appendTextWithEmailLinks(parent, text) {
   const emailPattern = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi;
@@ -70,7 +75,8 @@ function renderBlock(lines, state) {
   if (!text) return;
 
   if (text.startsWith("❓") ||
-      (text.endsWith("?") && !/^(\d+)\.\s+/.test(text) && text !== "Neden BellaLily Kid Shoes?")) {
+      ((text.endsWith("?") || text.endsWith("؟")) &&
+        !/^(\d+)\.\s+/.test(text) && text !== "Neden BellaLily Kid Shoes?")) {
     const questionText = text.replace(/^❓\s*/, "");
     const item = document.createElement("section");
     item.className = "faq-item";
@@ -176,7 +182,7 @@ function renderLines(lines, state) {
         "Toplu Satış Hakkında Sıkça Sorulan Sorular",
         "Sıkça Sorulan Sorular",
       ].includes(text) ||
-      (lines.length > 1 && text.endsWith("?"));
+      (lines.length > 1 && (text.endsWith("?") || text.endsWith("؟")));
   };
   const ordinary = [];
   const flushOrdinary = () => {
@@ -194,11 +200,11 @@ function renderLines(lines, state) {
   flushOrdinary();
 }
 
-function renderDocument(source) {
+function renderDocument(source, title) {
   const lines = source.replace(/\r/g, "").split("\n");
   while (lines.length && !lines[0].trim()) lines.shift();
 
-  if (lines[0]?.trim() === currentPage.sourceTitle) {
+  if (lines[0]?.trim() === title) {
     lines.shift();
   }
 
@@ -217,11 +223,12 @@ function renderDocument(source) {
 
 function renderNavigation() {
   const list = document.getElementById("page-links");
+  list.replaceChildren();
   for (const page of pages) {
     const item = document.createElement("li");
     const link = document.createElement("a");
     link.href = page.url;
-    link.textContent = page.title;
+    link.textContent = translatedPage(page)?.title || page.title;
     if (page === currentPage) link.setAttribute("aria-current", "page");
     item.append(link);
     list.append(item);
@@ -229,26 +236,42 @@ function renderNavigation() {
 }
 
 async function loadPage() {
+  const request = ++pageLoadRequest;
+  await window.SiteLanguage.ready;
+  if (request !== pageLoadRequest) return;
   if (!currentPage) {
     content.classList.add("load-error");
-    content.textContent = "Bu bilgilendirme sayfası bulunamadı.";
+    content.textContent = window.SiteLanguage.text("catalogNotFound");
     return;
   }
 
-  document.title = `${currentPage.title} | BellaLily Kid Shoes`;
-  document.getElementById("page-title").textContent = currentPage.title;
+  const localizedPage = translatedPage();
+  const title = localizedPage?.title || currentPage.title;
+  document.title = `${title} | BellaLily Kid Shoes`;
+  document.querySelector('meta[name="description"]').content = title;
+  document.getElementById("page-title").textContent = title;
+  document.querySelector(".page-kicker").textContent =
+    localizedPage?.kicker || (currentPage.kicker ?? "Yasal bilgilendirme");
   renderNavigation();
 
   try {
     content.replaceChildren();
-    const response = await fetch(encodeURIComponent(currentPage.file));
-    if (!response.ok) throw new Error(`Sayfa içeriği HTTP ${response.status} yanıtı verdi.`);
-    renderDocument(await response.text());
+    let source;
+    if (localizedPage) {
+      source = localizedPage.content;
+    } else {
+      const response = await fetch(encodeURIComponent(currentPage.file));
+      if (!response.ok) throw new Error(`Sayfa içeriği HTTP ${response.status} yanıtı verdi.`);
+      source = await response.text();
+    }
+    if (request !== pageLoadRequest) return;
+    renderDocument(source, localizedPage?.title || currentPage.sourceTitle);
   } catch (error) {
     console.error("Bilgilendirme sayfası yüklenemedi:", error);
     content.classList.add("load-error");
-    content.textContent = "Sayfa içeriği yüklenemedi. Lütfen daha sonra tekrar deneyin.";
+    content.textContent = window.SiteLanguage.text("pageLoadError");
   }
 }
 
+document.addEventListener("site-language-change", loadPage);
 loadPage();

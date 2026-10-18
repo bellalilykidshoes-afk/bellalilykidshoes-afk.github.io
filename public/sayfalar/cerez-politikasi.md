@@ -5,6 +5,8 @@ BellaLily Kid Shoes web sitesi ürün kataloğu ve toptan satış hakkında bilg
 1. Çerezler hakkında
 Çerezler, web sitelerinin tarayıcı aracılığıyla cihazda saklayabildiği küçük dosyalardır. Web sitesinin çalışması ve güvenliği için barındırma altyapısının gerekli teknik kayıt veya çerezleri kullanması mümkündür.
 
+Seçtiğiniz arayüz dili, tercihinizin sonraki ziyaretlerde hatırlanması için tarayıcınızın yerel depolama alanında cihazınızda saklanır. Bu tercih bir çerez değildir ve sunucuya gönderilmez.
+
 2. Analitik ve reklam çerezleri
 Sitede şu anda alışveriş sepeti, ödeme sağlayıcısı veya kullanıcı hesabı bulunmamaktadır. Analitik, pazarlama ya da reklam çerezleri eklenirse kullanımları ve tercihlerin nasıl yönetileceği bu politika üzerinden ayrıca açıklanacaktır.
 
