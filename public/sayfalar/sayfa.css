@@ -1,9 +1,9 @@
 :root {
   color-scheme: light;
   --ink: #3c3329;
-  --title: #061c67;
+  --title: #070370;
   --muted: #756a68;
-  --paper: #fff5f9;
+  --paper: #f07c1c;
   --white: #fffdfb;
   --rose: #ead9d5;
   --rose-dark: #a10e0e;
@@ -36,12 +36,12 @@ a:focus-visible { outline: 3px solid var(--rose-dark); outline-offset: 4px; }
   gap: 20px;
   padding: 19px max(7%, calc((100% - 1120px) / 2));
   border-bottom: 1px solid rgba(255, 255, 255, .16);
-  background: #123f64;
+  background: #0e013d;
 }
 .site-header .brand, .site-header .header-contact, .language-picker label { color: #fff; }
 .site-header .header-contact:hover { color: var(--accent-light); }
 .language-picker { display: flex; align-items: center; gap: 8px; margin-left: auto; }
-.language-picker label { color: var(--muted); font-size: 13px; font-weight: 700; }
+.language-picker label { color: var(--white); font-size: 13px; font-weight: 700; }
 .language-picker select {
   min-height: 38px;
   padding: 6px 30px 6px 10px;
@@ -184,11 +184,11 @@ h1 {
 .site-footer {
   padding: 23px 7%;
   border-top: 1px solid var(--line);
-  color: var(--muted);
+  color: var(--white);
   font-size: 12px;
   text-align: center;
 }
-.site-footer a { color: var(--accent); text-decoration: none; }
+.site-footer a { color: var(--title); text-decoration: none; }
 .load-error {
   padding: 18px;
   border-left: 3px solid #a33;

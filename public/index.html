@@ -37,6 +37,9 @@
       --color-white: #ffffff;
       --color-white-ring: rgba(255, 255, 255, .62);
       --color-white-panel: rgba(255, 255, 255, .78);
+      --color-control-background: rgba(255, 255, 255, .12);
+      --color-control-border: rgba(255, 255, 255, .65);
+      --color-control-arrow: var(--color-accent-orange);
       --color-shadow-logo: rgba(73, 5, 10, .14);
       --color-shadow-button: rgba(139, 30, 53, .14);
       --color-shadow-button-hover: rgba(139, 30, 53, .2);
@@ -526,21 +529,21 @@
     .catalog-select {
       display: block;
       width: 100%;
-      padding: 7px 30px 7px 0;
-      border: 0;
-      border-radius: 4px;
+      padding: 9px 36px 9px 11px;
+      border: 1px solid var(--color-control-border);
+      border-radius: 8px;
       appearance: none;
-      background: var(--color-transparent);
-      background-image: linear-gradient(45deg, var(--color-transparent) 50%, var(--color-title) 50%),
-        linear-gradient(135deg, var(--color-title) 50%, var(--color-transparent) 50%);
+      background-color: var(--color-control-background);
+      background-image: linear-gradient(45deg, var(--color-transparent) 50%, var(--color-control-arrow) 50%),
+        linear-gradient(135deg, var(--color-control-arrow) 50%, var(--color-transparent) 50%);
       background-size: 6px 6px;
       background-repeat: no-repeat;
-      background-position: calc(100% - 10px) center, calc(100% - 5px) center;
-      color: var(--color-title);
+      background-position: calc(100% - 14px) center, calc(100% - 9px) center;
+      color: var(--color-white);
       cursor: pointer;
       font: inherit;
     }
-    .catalog-select option { background: var(--color-surface); color: var(--color-white); }
+    .catalog-select option { background: var(--color-surface); color: var(--color-text); }
     .model-select {
       margin: 8px 0 18px;
       font-size: clamp(20px, 2.2vw, 25px);
@@ -645,11 +648,11 @@
         var(--color-page-background);
       text-align: center;
     }
-    .contact .eyebrow { justify-content: center; }
+    .contact .eyebrow { justify-content: center; color: var(--color-title); }
     .contact h2 { max-width: 720px; margin: 12px auto; }
     .contact p { max-width: 620px; margin: 0 auto; color: var(--color-text-muted); font-size: 17px; line-height: 1.8; }
     .contact .button { margin-top: 26px; }
-    .contact-address { display: block; margin-top: 14px; color: var(--color-accent-rose); font-size: 15px; font-weight: 700; }
+    .contact-address { display: block; margin-top: 14px; color: var(--color-title); font-size: 15px; font-weight: 700; }
     .site-footer {
       padding: 28px max(6%, calc((100% - 1180px) / 2));
       border-top: 1px solid var(--color-border);
