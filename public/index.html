@@ -545,22 +545,36 @@
     }
     .catalog-select option { background: var(--color-surface); color: var(--color-text); }
     .model-select {
-      margin: 8px 0 18px;
-      font-size: clamp(20px, 2.2vw, 25px);
+      margin: 4px 0 14px;
+      font-size: clamp(12px, 2.2vw, 20px);
       font-weight: 800;
       letter-spacing: -.7px;
       line-height: 1.15;
     }
     .color-select {
       margin-top: 3px;
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 500;
     }
     .shoe-color {
       margin: 14px 0 0;
       color: var(--color-white);
-      font-size: 15px;
-      font-weight: 700;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .model-color-code {
+      display: block;
+      width: fit-content;
+      max-width: 100%;
+      margin: 18px auto 0;
+      padding: 8px 20px;
+      border: 1px solid var(--color-control-border);
+      border-radius: 999px;
+      color: var(--color-white);
+      font-size: clamp(14px, 2vw, 18px);
+      font-weight: 600;
+      overflow-wrap: anywhere;
+      text-align: center;
     }
     .carousel-status, .carousel-error { font-size: 15px; }
     .catalog-select:focus-visible { outline: 3px solid var(--color-accent-orange); outline-offset: 4px; }
@@ -759,6 +773,8 @@
               <label class="eyebrow" for="color-select" data-i18n="colorsLabel">Renkler</label>
               <select class="catalog-select color-select" id="color-select" aria-label="Renkler" data-i18n-aria="colorsLabel"></select>
             </p>
+            <output class="model-color-code" id="model-color-code" aria-label="Model ve renk kodu"
+              data-i18n-aria="modelColorCodeLabel"></output>
           </figcaption>
         </figure>
         <p class="carousel-error" id="carousel-error" role="alert" hidden></p>
@@ -850,6 +866,7 @@
     const shoeImage = document.getElementById("shoe-image");
     const modelSelect = document.getElementById("model-select");
     const colorSelect = document.getElementById("color-select");
+    const modelColorCode = document.getElementById("model-color-code");
     const t = (key, values) => window.SiteLanguage.text(key, values);
     const allowedImageName = /^[^/\\]+\.(?:avif|jpe?g|png|webp)$/i;
     const colorLanguageColumns = { tr: "Turkce", en: "English", ru: "Русский", ar: "العربية" };
@@ -901,12 +918,16 @@
       return color?.[window.SiteLanguage.language] || code;
     }
 
+    function localizedOptionColors(option) {
+      return option.colors.map(localizedColorName).join(", ");
+    }
+
     function renderColorOptions(model) {
       colorSelect.replaceChildren();
       model.options.forEach((option, index) => {
         const colorOption = document.createElement("option");
         colorOption.value = String(index);
-        colorOption.textContent = localizedColorName(option.color || String(index + 1));
+        colorOption.textContent = localizedOptionColors(option) || String(index + 1);
         colorSelect.append(colorOption);
       });
       colorSelect.value = String(activeOption);
@@ -920,9 +941,10 @@
       const request = ++imageRequest;
 
       colorSelect.value = String(activeOption);
+      modelColorCode.value = [...option.colors].join("-");
       shoeImage.alt = t("shoeImageAlt", {
         model: model.name,
-        color: option.color ? ` ${localizedColorName(option.color)}` : "",
+        color: option.colors.length > 0 ? ` ${localizedOptionColors(option)}` : "",
       });
       shoeImage.hidden = true;
       catalogStatus.hidden = false;
@@ -1024,16 +1046,21 @@
       if (!option || typeof option !== "object" || Array.isArray(option)) return null;
       const image = parseImage(option.image);
       if (!image) return null;
+      const colors = typeof option.color === "string"
+        ? [option.color.trim()].filter(Boolean)
+        : Array.isArray(option.color)
+          ? option.color.filter(color => typeof color === "string").map(color => color.trim()).filter(Boolean)
+          : [];
       return {
         src: image.src,
-        color: typeof option.color === "string" ? option.color.trim() : "",
+        colors,
       };
     }
 
     function parseModel(entry) {
       if (typeof entry === "string") {
         const image = parseImage(entry);
-        return image ? { name: image.inferredName, options: [{ src: image.src, color: "" }] } : null;
+        return image ? { name: image.inferredName, options: [{ src: image.src, colors: [] }] } : null;
       }
       if (!entry || typeof entry !== "object" || Array.isArray(entry)) return null;
 

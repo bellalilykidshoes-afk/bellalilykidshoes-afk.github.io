@@ -25,6 +25,7 @@
     "loadingCatalog": "Loading catalog...",
     "modelLabel": "Model",
     "colorsLabel": "Colors",
+    "modelColorCodeLabel": "Model and color code",
     "catalogPanelTitle": "Wholesale catalog and price quote",
     "catalogPanelDescription": "Models, seasons, availability, and wholesale prices may change. Email us for the latest catalog and a quote tailored to your business.",
     "requestCatalog": "Request the wholesale catalog and a quote",

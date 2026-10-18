@@ -48,6 +48,7 @@
     loadingCatalog: "Katalog yükleniyor...",
     modelLabel: "Model",
     colorsLabel: "Renkler",
+    modelColorCodeLabel: "Model ve renk kodu",
     catalogPanelTitle: "Toptan ürün kataloğu ve fiyat teklifi",
     catalogPanelDescription: "Model, sezon, stok ve toptan fiyat bilgileri değişebilir. Güncel katalog ve işletmenize özel teklif için bize e-posta gönderin.",
     requestCatalog: "Toptan katalog ve teklif isteyin",

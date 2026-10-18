@@ -3,19 +3,19 @@
     {
       "name": "25Y1000",
       "options": [
-       { "color": "1", "image": "https://drive.google.com/file/d/15kW1Ms5XCtARFi_-IA-BK3ng5sgrk3EV/view" },
-       { "color": "2", "image": "https://drive.google.com/file/d/1ZnwUVUcEQDNr9EA_QdVdsHKEsR_zMBwH/view" },
-       { "color": "3", "image": "https://drive.google.com/file/d/1gSZIFpGfnVLgFYkahN2dJ3RGg1KcxH8C/view" },
-       { "color": "4", "image": "https://drive.google.com/file/d/1q0Zt995Eu9gM7bkXqOPTB2OwPmrCqoHu/view" }
+       { "color": ["34", "06", "005"], "image": "https://drive.google.com/file/d/15kW1Ms5XCtARFi_-IA-BK3ng5sgrk3EV/view" },
+       { "color": ["35", "12", "41"], "image": "https://drive.google.com/file/d/1ZnwUVUcEQDNr9EA_QdVdsHKEsR_zMBwH/view" },
+       { "color": ["36", "03", "41"], "image": "https://drive.google.com/file/d/1gSZIFpGfnVLgFYkahN2dJ3RGg1KcxH8C/view" },
+       { "color": ["46", "02", "006"], "image": "https://drive.google.com/file/d/1q0Zt995Eu9gM7bkXqOPTB2OwPmrCqoHu/view" }
       ]
     },
     {
       "name": "25Y1001",
       "options": [
-       { "color": "1", "image": "https://drive.google.com/file/d/1RHUclYu8_bcOwqfd2dUV24BvAZsieKlN/view" },
-       { "color": "2", "image": "https://drive.google.com/file/d/1S5x-fK-ScFtmiMsiJyq2HUK2Wj6JD65n/view" },
-       { "color": "3", "image": "https://drive.google.com/file/d/1N5XBkTVRiB2X8I0kLw5LkMsFNT0nFzo3/view" },
-       { "color": "4", "image": "https://drive.google.com/file/d/1NStZvulK7D5AarBYZVjXRHTV-Cf8w0ln/view" }
+       { "color": ["47", "02"], "image": "https://drive.google.com/file/d/1RHUclYu8_bcOwqfd2dUV24BvAZsieKlN/view" },
+       { "color": ["003", "33", "12"], "image": "https://drive.google.com/file/d/1S5x-fK-ScFtmiMsiJyq2HUK2Wj6JD65n/view" },
+       { "color": ["14", "37", "002"], "image": "https://drive.google.com/file/d/1N5XBkTVRiB2X8I0kLw5LkMsFNT0nFzo3/view" },
+       { "color": ["49", "07"], "image": "https://drive.google.com/file/d/1NStZvulK7D5AarBYZVjXRHTV-Cf8w0ln/view" }
       ]
     }
   ],
@@ -23,20 +23,21 @@
     {
       "name": "25K4050",
       "options": [
-       { "color": "1", "image": "https://drive.google.com/file/d/1xq7RDSwFbCxBBLBJbE3M1bD3uzC82vpQ/view" },
-       { "color": "2", "image": "https://drive.google.com/file/d/1eu6wu-els5-iP62Z7717_ums4ZZYLI2B/view" },
-       { "color": "3", "image": "https://drive.google.com/file/d/1bkOodh51G6rsD2A9osKUzUdQkMVT_2qz/view" },
-       { "color": "4", "image": "https://drive.google.com/file/d/1_mEOlcvKpkUQJT08ZlSJ_n9gvv3Augp6/view" }
+       { "color": "30", "image": "https://drive.google.com/file/d/1xq7RDSwFbCxBBLBJbE3M1bD3uzC82vpQ/view" },
+       { "color": "14", "image": "https://drive.google.com/file/d/1xq7RDSwFbCxBBLBJbE3M1bD3uzC82vpQ/view" },
+       { "color": "01", "image": "https://drive.google.com/file/d/1eu6wu-els5-iP62Z7717_ums4ZZYLI2B/view" },
+       { "color": "50", "image": "https://drive.google.com/file/d/1bkOodh51G6rsD2A9osKUzUdQkMVT_2qz/view" },
+       { "color": "33", "image": "https://drive.google.com/file/d/1_mEOlcvKpkUQJT08ZlSJ_n9gvv3Augp6/view" }
       ]
     },
     {
       "name": "25K4053",
       "options": [
-       { "color": "1", "image": "https://drive.google.com/file/d/1wJsLcT23BfprS4lKcscnkB5HygHAaECu/view" },
-       { "color": "2", "image": "https://drive.google.com/file/d/1v4XOzCrlX4zzjJ_hRXXSexaLwGqxzitb/view" },
-       { "color": "3", "image": "https://drive.google.com/file/d/1Wetq2OChxfkneNJH6Y3PGXzMyDiIA1rs/view" },
-       { "color": "4", "image": "https://drive.google.com/file/d/1IlrFyicHTyJyS4tua31N3ram_rHy3r4U/view" },
-       { "color": "5", "image": "https://drive.google.com/file/d/1FP73E5BjShpYgu7UP7a67Vpt92rXkOa1/view" }
+       { "color": "30", "image": "https://drive.google.com/file/d/1wJsLcT23BfprS4lKcscnkB5HygHAaECu/view" },
+       { "color": "33", "image": "https://drive.google.com/file/d/1v4XOzCrlX4zzjJ_hRXXSexaLwGqxzitb/view" },
+       { "color": "01", "image": "https://drive.google.com/file/d/1Wetq2OChxfkneNJH6Y3PGXzMyDiIA1rs/view" },
+       { "color": "14", "image": "https://drive.google.com/file/d/1IlrFyicHTyJyS4tua31N3ram_rHy3r4U/view" },
+       { "color": "50", "image": "https://drive.google.com/file/d/1FP73E5BjShpYgu7UP7a67Vpt92rXkOa1/view" }
       ]
     }
   ],
@@ -44,19 +45,19 @@
     {
       "name": "25O2010",
       "options": [
-       { "color": "1", "image": "https://drive.google.com/file/d/1kO5njH8_opgRNtlvcLBbKOZDng1Yende/view" },
-       { "color": "2", "image": "https://drive.google.com/file/d/1kP57GvBaeQQm2v-GBpDMVlbN1lIT9lq5/view" },
-       { "color": "3", "image": "https://drive.google.com/file/d/1vaVWBzO4sjkenYKFGoTw0oAiR4GzIVZu/view" }
+       { "color": ["017", "37", "63"], "image": "https://drive.google.com/file/d/1kO5njH8_opgRNtlvcLBbKOZDng1Yende/view" },
+       { "color": ["016", "31", "70"], "image": "https://drive.google.com/file/d/1kP57GvBaeQQm2v-GBpDMVlbN1lIT9lq5/view" },
+       { "color": ["016", "32", "15"], "image": "https://drive.google.com/file/d/1vaVWBzO4sjkenYKFGoTw0oAiR4GzIVZu/view" }
       ]
     },
     {
       "name": "25O8011",
       "options": [
-       { "color": "1", "image": "https://drive.google.com/file/d/1M61JF-sF1qLlTsZPebuvJGE1tyyewrbL/view" },
-       { "color": "2", "image": "https://drive.google.com/file/d/1YduSrfLomGFNXI8phtku4U3i0nPa48us/view" },
-       { "color": "3", "image": "https://drive.google.com/file/d/1nH5EOu0j-K9G3wlfyjgD4Fg5HOOBoJtj/view" },
-       { "color": "4", "image": "https://drive.google.com/file/d/1tFAFFFJH_gOlgTFZSG1eSGFN7Lv-I3xm/view" },
-       { "color": "5", "image": "https://drive.google.com/file/d/1rtsL1VcYs_QtxqYHamHD9OsCWrF4btft/view" }
+       { "color": ["14"], "image": "https://drive.google.com/file/d/1M61JF-sF1qLlTsZPebuvJGE1tyyewrbL/view" },
+       { "color": ["73"], "image": "https://drive.google.com/file/d/1YduSrfLomGFNXI8phtku4U3i0nPa48us/view" },
+       { "color": ["15"], "image": "https://drive.google.com/file/d/1nH5EOu0j-K9G3wlfyjgD4Fg5HOOBoJtj/view" },
+       { "color": ["63"], "image": "https://drive.google.com/file/d/1tFAFFFJH_gOlgTFZSG1eSGFN7Lv-I3xm/view" },
+       { "color": ["70"], "image": "https://drive.google.com/file/d/1rtsL1VcYs_QtxqYHamHD9OsCWrF4btft/view" }
       ]
     }
   ]
