@@ -352,10 +352,13 @@
       align-items: center;
       gap: 28px;
       padding: 12px max(6%, calc((100% - 1180px) / 2));
-      border-bottom: 1px solid rgba(238, 223, 218, .88);
-      background: rgba(255, 250, 243, .94);
+      border-bottom: 1px solid rgba(255, 255, 255, .16);
+      background: rgba(18, 63, 100, .97);
       backdrop-filter: blur(14px);
     }
+    .site-header .brand,
+    .site-header nav a,
+    .language-picker label { color: #fff; }
     .brand {
       display: inline-flex;
       align-items: center;
@@ -386,7 +389,8 @@
       text-decoration: none;
       transition: color .18s ease;
     }
-    .site-header nav a:hover, .text-link:hover, .legal-links a:hover {
+    .site-header nav a:hover { color: var(--boy-blue-light); }
+    .text-link:hover, .legal-links a:hover {
       color: var(--berry);
     }
     .hero {
@@ -539,6 +543,24 @@
     }
     .shoe-color .eyebrow { display: block; margin-bottom: 3px; }
     .shoe-caption .carousel-dots { justify-content: flex-start; margin-top: 8px; }
+    .shoe-caption .carousel-dot {
+      border-color: #fff;
+      background: #fff;
+      color: var(--rose-dark);
+      font-weight: 700;
+    }
+    .shoe-caption .carousel-dot[aria-pressed="true"],
+    .shoe-caption .carousel-dot[aria-pressed="true"]:hover {
+      border-color: var(--boy-blue);
+      background: var(--boy-blue);
+      color: #fff;
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, .55);
+    }
+    .shoe-caption .carousel-dot:hover:not([aria-pressed="true"]) {
+      border-color: #fff;
+      background: #e5f2fb;
+      color: var(--rose-dark);
+    }
     .shoe-caption h3 {
       margin: 10px 0;
       color: #fff;
