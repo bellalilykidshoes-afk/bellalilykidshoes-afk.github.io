@@ -2,29 +2,27 @@
 
 ## Shoe catalog
 
-To add models to the homepage slideshow:
+The featured hero image on the homepage is `public/new-model.jpg`. Replace this file with the new model picture when updating the featured model; keep the same filename so the homepage image path does not need to change.
 
-1. Add each shoe photo (`.jpg`, `.jpeg`, `.png`, `.webp`, or `.avif`) to `public/katalog/fotograflar/`.
-2. Add each exact filename to the JSON array in `public/katalog/catalog.json`, for example:
+The homepage has separate `Yazlık`, `Kışlık`, and `Okulluk` catalogs. Add models to the matching season in `public/katalog/catalog.json`. Each model can have any number of color options; the carousel displays numbered selectors for the options on the selected model.
+
+1. Add each shoe photo (`.jpg`, `.jpeg`, `.png`, `.webp`, or `.avif`) to `public/katalog/fotograflar/`, or use an HTTPS image URL.
+2. Add a model object to the relevant season list:
 
    ```json
-   ["Bella-01.jpg", "Bella-02.webp"]
+   {
+     "name": "Bella-01",
+     "options": [
+       { "color": "Pembe", "image": "Bella-01-pembe.jpg" },
+       { "color": "Beyaz", "image": "Bella-01-beyaz.jpg" },
+       { "color": "Siyah", "image": "https://example.com/bella-01-siyah.jpg" }
+     ]
+   }
    ```
 
-The slideshow displays each filename without its extension as the model name. You can also use externally hosted images by adding an object with a model name and an HTTPS image URL:
+The `options` array controls how many numbered color selectors are shown. Each option needs an `image`; `color` is optional and is shown in the model details. For a model with only one image, the existing `{ "name": "Bella-02", "color": "Pembe", "image": "Bella-02.jpg" }` format is also supported. Filename-only entries such as `"Bella-03.jpg"` remain supported. The older top-level JSON array format is still accepted and is treated as the `Yazlık` catalog.
 
-```json
-[
-  "Bella-01.jpg",
-  {
-    "name": "Bella-02",
-    "color": "Pink",
-    "image": "https://onedrive.live.com/embed?resid=YOUR_FILE_ID&authkey=YOUR_SHARE_KEY"
-  }
-]
-```
-
-Add an optional `color` value to show the shoe color alongside its model name; string filename entries can still be used when no color is needed. For Google Drive, allow anyone with the link to view the image. Standard file links such as `https://drive.google.com/file/d/FILE_ID/view` are converted to a 1200-pixel thumbnail URL by the catalog so the photo loads as an image rather than as a Drive preview page. For OneDrive, use a direct/embed image URL that displays the image itself; a normal sharing link may open a OneDrive page instead. Include `name` because hosted image URLs do not always contain the original filename. Deploy the site after updating the catalog; externally hosted images remain on their host.
+For Google Drive, allow anyone with the link to view the image. Standard file links such as `https://drive.google.com/file/d/FILE_ID/view` are converted to a 1200-pixel thumbnail URL so the photo loads as an image rather than as a Drive preview page. For other hosts, use a direct/embed image URL that displays the image itself; a normal sharing link may open a preview page instead. Include `name` because hosted image URLs do not always contain the original filename. Deploy the site after updating the catalog; externally hosted images remain on their host.
 
 ## Information pages
 

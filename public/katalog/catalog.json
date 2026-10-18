@@ -1,16 +1,42 @@
-[
+{
+  "Yazlık": [
     {
-        "name": "APC_1041.jpg",
-        "color": "02-30"
+      "name": "APC_1041",
+      "options": [
+       { "color": "1", "image": "APC_1041.jpg" },
+       { "color": "2", "image": "APC_1041.jpg" },
+       { "color": "3", "image": "APC_1041.jpg" }
+      ]
     },
     {
-        "name": "Bella-02",
-        "color": "02-30",
-        "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view"
-    },
-    {
-        "name": "Bella-03",
-        "color": "02-30",
-        "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view"
+      "name": "Bella-02",
+      "options": [
+        { "color": "1", "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view" },
+        { "color": "2", "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view" }
+      ]
     }
-]
+  ],
+  "Kışlık": [
+    {
+     "name": "Bella-01",
+     "options": [
+       { "color": "Pembe", "image": "APC_1041.jpg" },
+       { "color": "Beyaz", "image": "APC_1041.jpg" }
+     ]
+    },
+    {
+     "name": "Bella-01",
+     "options": [
+       { "color": "Pembe", "image": "APC_1041.jpg" }
+     ]
+    }
+  ],
+  "Okulluk": [
+    {
+     "name": "Bella-01",
+     "options": [
+       { "color": "Pembe", "image": "APC_1041.jpg" }
+     ]
+    }
+  ]
+}
