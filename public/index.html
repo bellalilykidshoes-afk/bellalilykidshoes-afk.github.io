@@ -187,7 +187,7 @@
       gap: 30px;
       margin: 0;
     }
-    .shoe-figure[hidden], .carousel-controls[hidden], .carousel-dots[hidden],
+    .shoe-figure[hidden],
     .carousel-error[hidden], .shoe-image[hidden] { display: none; }
     .shoe-image {
       display: block;
@@ -213,41 +213,6 @@
     }
     .carousel-error { color: #9a3636; }
     .carousel-status code { overflow-wrap: anywhere; }
-    .carousel-controls {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 22px;
-      margin-top: 18px;
-    }
-    .carousel-controls button, .carousel-dot {
-      min-width: 42px;
-      min-height: 42px;
-      border: 1px solid var(--line);
-      border-radius: 50%;
-      background: var(--white);
-      color: var(--ink);
-      cursor: pointer;
-      font: inherit;
-    }
-    .carousel-controls button:hover, .carousel-dot[aria-pressed="true"] {
-      border-color: var(--rose-dark);
-      background: var(--rose-dark);
-      color: white;
-    }
-    .carousel-count { color: var(--muted); font-size: 13px; }
-    .carousel-dots {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 14px;
-    }
-    .carousel-dot {
-      min-width: 34px;
-      min-height: 34px;
-      font-size: 12px;
-    }
     .about-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -319,10 +284,10 @@
       --rose: #f9e6e6;
       --rose-dark: #8b1e35;
       --line: #eedfda;
-      --sage: #e5f2fb;
+      --sage: #f07c1c;
       --berry: #bf3d62;
-      --boy-blue: #17699f;
-      --boy-blue-light: #e5f2fb;
+      --boy-blue: #060363;
+      --boy-blue-light: #f07c1c;
       --girl-pink: #d63c83;
       --girl-pink-light: #fdeaf2;
       color-scheme: light;
@@ -330,8 +295,8 @@
     html { scroll-padding-top: 88px; }
     body {
       background:
-        radial-gradient(ellipse at 2% 8%, rgba(23, 105, 159, .1), transparent 24rem),
-        radial-gradient(ellipse at 98% 12%, rgba(214, 60, 131, .08), transparent 24rem),
+        radial-gradient(ellipse at 2% 8%, rgba(153, 77, 0, .12), transparent 24rem),
+        radial-gradient(ellipse at 98% 12%, rgba(153, 77, 0, .08), transparent 24rem),
         var(--paper);
       color: var(--ink);
       font-family: "Aptos", "Segoe UI", "Trebuchet MS", sans-serif;
@@ -535,58 +500,42 @@
       color: #fff;
     }
     .shoe-caption .eyebrow { color: var(--girl-pink-light); }
+    .catalog-select {
+      display: block;
+      width: 100%;
+      padding: 7px 30px 7px 0;
+      border: 0;
+      border-radius: 4px;
+      appearance: none;
+      background: transparent;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m3 6 5 5 5-5' fill='none' stroke='%23123f64' stroke-width='2'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 5px center;
+      color: var(--title);
+      cursor: pointer;
+      font: inherit;
+    }
+    .catalog-select option { background: #fff; color: var(--ink); }
+    .model-select {
+      margin: 8px 0 18px;
+      font-size: clamp(20px, 2.2vw, 25px);
+      font-weight: 800;
+      letter-spacing: -.7px;
+      line-height: 1.15;
+    }
+    .color-select {
+      margin-top: 3px;
+      font-size: 15px;
+      font-weight: 500;
+    }
     .shoe-color {
       margin: 14px 0 0;
       color: #fff;
       font-size: 15px;
       font-weight: 700;
     }
-    .shoe-color .eyebrow { display: block; margin-bottom: 3px; }
-    .shoe-caption .carousel-dots { justify-content: flex-start; margin-top: 8px; }
-    .shoe-caption .carousel-dot {
-      border-color: #fff;
-      background: #fff;
-      color: var(--rose-dark);
-      font-weight: 700;
-    }
-    .shoe-caption .carousel-dot[aria-pressed="true"],
-    .shoe-caption .carousel-dot[aria-pressed="true"]:hover {
-      border-color: var(--boy-blue);
-      background: var(--boy-blue);
-      color: #fff;
-      box-shadow: 0 0 0 2px rgba(255, 255, 255, .55);
-    }
-    .shoe-caption .carousel-dot:hover:not([aria-pressed="true"]) {
-      border-color: #fff;
-      background: #e5f2fb;
-      color: var(--rose-dark);
-    }
-    .shoe-caption h3 {
-      margin: 10px 0;
-      color: #fff;
-      font-family: "Trebuchet MS", "Aptos", "Segoe UI", sans-serif;
-      font-size: clamp(24px, 2.8vw, 32px);
-      font-weight: 800;
-      letter-spacing: -1.5px;
-      line-height: 1.15;
-    }
     .carousel-status, .carousel-error { font-size: 15px; }
-    .carousel-controls { gap: 18px; margin-top: 24px; }
-    .carousel-controls button, .carousel-dot {
-      border-color: var(--line);
-      background: #fff1f6;
-      font-size: 20px;
-      font-weight: 700;
-      transition: background .18s ease, transform .18s ease;
-    }
-    .carousel-controls button:hover, .carousel-dot[aria-pressed="true"] {
-      border-color: var(--rose-dark);
-      background: var(--rose-dark);
-      color: white;
-      transform: translateY(-1px);
-    }
-    .carousel-count { color: var(--muted); font-size: 14px; font-weight: 700; }
-    .carousel-dot { font-size: 13px; }
+    .catalog-select:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
     .catalog-panel {
       grid-template-columns: 1fr auto;
       gap: 24px;
@@ -775,20 +724,14 @@
         <figure class="shoe-figure" id="shoe-figure" hidden>
           <img class="shoe-image" id="shoe-image" alt="">
           <figcaption class="shoe-caption">
-            <span class="eyebrow" data-i18n="modelLabel">Model</span>
-            <h3 id="shoe-name"></h3>
+            <label class="eyebrow" for="model-select" data-i18n="modelLabel">Model</label>
+            <select class="catalog-select model-select" id="model-select" aria-label="Model" data-i18n-aria="modelLabel"></select>
             <p class="shoe-color" id="shoe-color">
-              <span class="eyebrow" data-i18n="colorsLabel">Renkler</span>
-              <span id="shoe-color-name"></span>
+              <label class="eyebrow" for="color-select" data-i18n="colorsLabel">Renkler</label>
+              <select class="catalog-select color-select" id="color-select" aria-label="Renkler" data-i18n-aria="colorsLabel"></select>
             </p>
-            <div class="carousel-dots" id="carousel-dots" role="group" aria-label="Renk seçin" data-i18n-aria="chooseColor" hidden></div>
           </figcaption>
         </figure>
-        <div class="carousel-controls" id="carousel-controls" hidden>
-          <button type="button" id="previous-model" aria-label="Önceki model" data-i18n-aria="previousModel">‹</button>
-          <span class="carousel-count" id="carousel-count" aria-live="polite"></span>
-          <button type="button" id="next-model" aria-label="Sonraki model" data-i18n-aria="nextModel">›</button>
-        </div>
         <p class="carousel-error" id="carousel-error" role="alert" hidden></p>
       </div>
       <div class="catalog-panel">
@@ -874,14 +817,11 @@
     const catalogError = document.getElementById("carousel-error");
     const shoeFigure = document.getElementById("shoe-figure");
     const shoeImage = document.getElementById("shoe-image");
-    const shoeName = document.getElementById("shoe-name");
-    const shoeColor = document.getElementById("shoe-color");
-    const shoeColorName = document.getElementById("shoe-color-name");
-    const carouselControls = document.getElementById("carousel-controls");
-    const carouselDots = document.getElementById("carousel-dots");
-    const carouselCount = document.getElementById("carousel-count");
+    const modelSelect = document.getElementById("model-select");
+    const colorSelect = document.getElementById("color-select");
     const t = (key, values) => window.SiteLanguage.text(key, values);
     const allowedImageName = /^[^/\\]+\.(?:avif|jpe?g|png|webp)$/i;
+    const colorLanguageColumns = { tr: "Turkce", en: "English", ru: "Русский", ar: "العربية" };
     const seasons = [
       { key: "Yazlık", id: "season-yazlik", translationKey: "seasonSummer" },
       { key: "Kışlık", id: "season-kislik", translationKey: "seasonWinter" },
@@ -896,6 +836,7 @@
     let imageRequest = 0;
     let catalogWarning = null;
     let catalogLoaded = false;
+    let colorNames = new Map();
 
     seasons.forEach(season => {
       const tab = document.getElementById(season.id);
@@ -908,27 +849,36 @@
       activeModel = (index + models.length) % models.length;
       const model = models[activeModel];
       activeOption = 0;
+      modelSelect.value = String(activeModel);
       renderColorOptions(model);
       showOption(activeOption);
-      carouselCount.textContent = t("modelCount", { current: activeModel + 1, total: models.length });
+    }
+
+    function renderModelOptions() {
+      modelSelect.replaceChildren();
+      models.forEach((model, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = model.name;
+        modelSelect.append(option);
+      });
+      modelSelect.value = String(activeModel);
+    }
+
+    function localizedColorName(code) {
+      const color = colorNames.get(code);
+      return color?.[window.SiteLanguage.language] || code;
     }
 
     function renderColorOptions(model) {
-      carouselDots.replaceChildren();
-      carouselDots.hidden = model.options.length === 0;
+      colorSelect.replaceChildren();
       model.options.forEach((option, index) => {
-        const dot = document.createElement("button");
-        dot.className = "carousel-dot";
-        dot.type = "button";
-        dot.textContent = String(index + 1);
-        dot.setAttribute("aria-label", t("colorOption", {
-          number: index + 1,
-          color: option.color ? `: ${option.color}` : "",
-        }));
-        dot.setAttribute("aria-pressed", String(index === activeOption));
-        dot.addEventListener("click", () => showOption(index));
-        carouselDots.append(dot);
+        const colorOption = document.createElement("option");
+        colorOption.value = String(index);
+        colorOption.textContent = localizedColorName(option.color || String(index + 1));
+        colorSelect.append(colorOption);
       });
+      colorSelect.value = String(activeOption);
     }
 
     function showOption(index) {
@@ -938,11 +888,10 @@
       const option = model.options[activeOption];
       const request = ++imageRequest;
 
-      shoeName.textContent = model.name;
-      shoeColorName.textContent = option.color;
+      colorSelect.value = String(activeOption);
       shoeImage.alt = t("shoeImageAlt", {
         model: model.name,
-        color: option.color ? ` ${option.color}` : "",
+        color: option.color ? ` ${localizedColorName(option.color)}` : "",
       });
       shoeImage.hidden = true;
       catalogStatus.hidden = false;
@@ -964,10 +913,6 @@
         catalogError.hidden = false;
       };
       shoeImage.src = option.src;
-
-      carouselDots.querySelectorAll("button").forEach((dot, dotIndex) => {
-        dot.setAttribute("aria-pressed", String(dotIndex === activeOption));
-      });
     }
 
     function showSeason(season) {
@@ -976,22 +921,20 @@
       activeModel = 0;
       activeOption = 0;
       imageRequest++;
+      renderModelOptions();
       seasonTabs.querySelectorAll('[role="tab"]').forEach(tab => {
         const selected = tab.dataset.season === season;
         tab.setAttribute("aria-selected", String(selected));
         tab.tabIndex = selected ? 0 : -1;
       });
       shoeFigure.hidden = models.length === 0;
-      carouselControls.hidden = models.length < 2;
       catalogWarningText();
 
       if (models.length === 0) {
-        carouselDots.replaceChildren();
-        carouselDots.hidden = true;
+        colorSelect.replaceChildren();
         catalogStatus.hidden = false;
         const seasonLabel = seasons.find(item => item.key === season);
         catalogStatus.textContent = t("emptySeason", { season: t(seasonLabel.translationKey) });
-        carouselCount.textContent = "";
         return;
       }
 
@@ -1078,12 +1021,53 @@
       return name ? { name, options } : null;
     }
 
+    function parseColorNames(table) {
+      const delimiter = table.includes("\t") ? "\t" : "|";
+      const rows = table.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+      const cells = line => {
+        const values = line.split(delimiter).map(value => value.trim());
+        if (delimiter === "|") {
+          if (values[0] === "") values.shift();
+          if (values[values.length - 1] === "") values.pop();
+        }
+        return values;
+      };
+      const headers = cells(rows.shift() || "");
+      const codeColumn = headers.indexOf("Kod");
+      const nameColumns = Object.fromEntries(
+        Object.entries(colorLanguageColumns).map(([language, header]) => [language, headers.indexOf(header)])
+      );
+      if (codeColumn < 0 || Object.values(nameColumns).some(index => index < 0)) {
+        throw new Error("Renk tablosu Kod ve desteklenen dil sütunlarını içermelidir.");
+      }
+
+      const names = new Map();
+      for (const row of rows) {
+        const values = cells(row);
+        if (values.every(value => /^:?-{3,}:?$/.test(value))) continue;
+        const code = values[codeColumn];
+        if (!code) continue;
+        names.set(code, Object.fromEntries(
+          Object.entries(nameColumns).map(([language, column]) => [language, values[column] || ""])
+        ));
+      }
+      return names;
+    }
+
     async function loadCatalog() {
       try {
-        const response = await fetch("katalog/catalog.json");
-        if (!response.ok) throw new Error(`Katalog dosyası HTTP ${response.status} yanıtı verdi.`);
+        const [catalogResponse, colorsResponse] = await Promise.all([
+          fetch("katalog/catalog.json"),
+          fetch("katalog/renkler.tsv"),
+        ]);
+        if (!catalogResponse.ok) throw new Error(`Katalog dosyası HTTP ${catalogResponse.status} yanıtı verdi.`);
+        if (!colorsResponse.ok) throw new Error(`Renk tablosu HTTP ${colorsResponse.status} yanıtı verdi.`);
 
-        const entries = await response.json();
+        const [entries, colorsTable] = await Promise.all([
+          catalogResponse.json(),
+          colorsResponse.text(),
+        ]);
+        colorNames = parseColorNames(colorsTable);
         if (Array.isArray(entries)) {
           catalogs[seasons[0].key] = entries.map(parseModel).filter(Boolean);
           if (catalogs[seasons[0].key].length !== entries.length) {
@@ -1116,11 +1100,11 @@
       }
     }
 
-    document.getElementById("previous-model").addEventListener("click", () => {
-      showModel(activeModel - 1);
+    modelSelect.addEventListener("change", () => {
+      showModel(Number(modelSelect.value));
     });
-    document.getElementById("next-model").addEventListener("click", () => {
-      showModel(activeModel + 1);
+    colorSelect.addEventListener("change", () => {
+      showOption(Number(colorSelect.value));
     });
     seasonTabs.addEventListener("keydown", event => {
       if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
@@ -1131,19 +1115,16 @@
       document.getElementById(nextSeason.id).focus();
       showSeason(nextSeason.key);
     });
-    document.getElementById("shoe-carousel").addEventListener("keydown", event => {
-      if (event.key === "ArrowLeft" && models.length > 1) {
-        event.preventDefault();
-        showModel(activeModel - 1);
-      } else if (event.key === "ArrowRight" && models.length > 1) {
-        event.preventDefault();
-        showModel(activeModel + 1);
-      }
-    });
-
     window.SiteLanguage.ready.then(loadCatalog);
     document.addEventListener("site-language-change", () => {
-      if (catalogLoaded) showSeason(activeSeason);
+      if (!catalogLoaded) return;
+      if (models.length === 0) {
+        const seasonLabel = seasons.find(item => item.key === activeSeason);
+        catalogStatus.textContent = t("emptySeason", { season: t(seasonLabel.translationKey) });
+        return;
+      }
+      renderColorOptions(models[activeModel]);
+      showOption(activeOption);
     });
   </script>
 </body>

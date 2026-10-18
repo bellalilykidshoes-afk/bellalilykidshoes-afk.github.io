@@ -1,0 +1,81 @@
+
+| Kod    | Turkce                     | English                          | Русский                                    | العربية                                      |
+| ------ | -------------------------- | -------------------------------- | ------------------------------------------ | -------------------------------------------- |
+| 1      | Siyah Soft                 | Black Soft Leather               | Чёрная мягкая кожа                         | جلد ناعم أسود                                |
+| 2      | Beyaz Soft                 | White Soft Leather               | Белая мягкая кожа                          | جلد ناعم أبيض                                |
+| 3      | Sarı Neco Soft             | Yellow Neco Soft                 | Жёлтая кожа Neco Soft                      | جلد أصفر Neco Soft                           |
+| 4      | Gül Kurusu Soft            | Dusty Rose Soft                  | Пыльно-розовая кожа                        | جلد وردي غباري                               |
+| 5      | Bebe Mavisi Soft           | Baby Blue Soft                   | Нежно-голубая кожа                         | جلد أزرق سماوي فاتح                          |
+| 6      | Su Yeşili Soft             | Aqua Green Soft                  | Аква-зелёная кожа                          | جلد أخضر مائي                                |
+| 7      | Pudra Soft                 | Powder Pink Soft                 | Пудрово-розовая кожа                       | جلد وردي بودري                               |
+| 8      | Kırmızı Soft               | Red Soft Leather                 | Красная мягкая кожа                        | جلد ناعم أحمر                                |
+| 9      | Gri Soft                   | Grey Soft Leather                | Серая мягкая кожа                          | جلد ناعم رمادي                               |
+| 10     | Avokado Soft               | Avocado Green Soft               | Авокадо-зелёная кожа                       | جلد أخضر أفوكادو                             |
+| 11     | Bej Soft                   | Beige Soft Leather               | Бежевая мягкая кожа                        | جلد ناعم بيج                                 |
+| 12     | Kum Bej Soft               | Sand Beige Soft                  | Песочно-бежевая кожа                       | جلد بيج رملي                                 |
+| 13     | Lacivert Soft              | Navy Blue Soft                   | Тёмно-синяя кожа                           | جلد أزرق كحلي                                |
+| 14     | Vizon Soft                 | Taupe Soft Leather               | Серо-бежевая кожа                          | جلد رمادي مائل إلى البيج                     |
+| 15     | Koyu Kahve Soft            | Dark Brown Soft                  | Тёмно-коричневая кожа                      | جلد بني داكن                                 |
+| 16     | Açık Gri Soft              | Light Grey Soft                  | Светло-серая кожа                          | جلد رمادي فاتح                               |
+| 17     | Krem Rengi Soft            | Cream Soft Leather               | Кремовая кожа                              | جلد كريمي                                    |
+| 19     | Bordo Soft                 | Burgundy Soft                    | Бордовая кожа                              | جلد عنابي                                    |
+| 20     | Siyah Nubuk                | Black Nubuck                     | Чёрный нубук                               | نوبوك أسود                                   |
+| 21     | Gri Nubuk                  | Grey Nubuck                      | Серый нубук                                | نوبوك رمادي                                  |
+| 22     | Kum Mavisi Nubuk           | Sand Blue Nubuck                 | Песочно-голубой нубук                      | نوبوك أزرق رملي                              |
+| 23     | Su Yeşili Nubuk            | Aqua Green Nubuck                | Аква-зелёный нубук                         | نوبوك أخضر مائي                              |
+| 24     | Bordo Nubuk                | Burgundy Nubuck                  | Бордовый нубук                             | نوبوك عنابي                                  |
+| 30     | Siyah Süet                 | Black Suede                      | Чёрная замша                               | شمواه أسود                                   |
+| 31     | Taba Süet                  | Tan Suede                        | Рыжевато-коричневая замша                  | شمواه بني جملي                               |
+| 32     | Kahverengi Süet            | Brown Suede                      | Коричневая замша                           | شمواه بني                                    |
+| 33     | Bej Süet                   | Beige Suede                      | Бежевая замша                              | شمواه بيج                                    |
+| 34     | Su Yeşili Süet             | Aqua Green Suede                 | Аква-зелёная замша                         | شمواه أخضر مائي                              |
+| 35     | Kum Süet                   | Sand Suede                       | Песочная замша                             | شمواه رملي                                   |
+| 36     | Sarı Süet                  | Yellow Suede                     | Жёлтая замша                               | شمواه أصفر                                   |
+| 37     | Vizon Süet                 | Taupe Suede                      | Серо-бежевая замша                         | شمواه رمادي مائل إلى البيج                   |
+| 40     | Gümüş Baskılı              | Silver Printed                   | Серебристый принт                          | بطباعة فضية                                  |
+| 41     | Altın Baskılı              | Gold Printed                     | Золотистый принт                           | بطباعة ذهبية                                 |
+| 42     | Gümüş Havlu Baskılı        | Silver Towel-Textured Print      | Серебристый принт с махровой текстурой     | طباعة فضية بملمس منشفة                       |
+| 43     | Bej Süet Baskılı           | Beige Printed Suede              | Бежевая замша с принтом                    | شمواه بيج مطبوع                              |
+| 44     | Laupar Baskılı             | Laupar Printed                   | Принт Laupar                               | طباعة Laupar                                 |
+| 45     | Bej Baskılı                | Beige Printed                    | Бежевый принт                              | طباعة بيج                                    |
+| 46     | Kahve Havlu Nubuk          | Brown Towel-Textured Nubuck      | Коричневый нубук с махровой текстурой      | نوبوك بني بملمس منشفة                        |
+| 47     | Beyaz Baskılı Cihan        | Cihan White Print                | Белый принт Cihan                          | طباعة Cihan بيضاء                            |
+| 48     | Bej Baskılı Cihan          | Cihan Beige Print                | Бежевый принт Cihan                        | طباعة Cihan باللون البيج                     |
+| 49     | Gül Pembesi Baskılı Cihan  | Cihan Rose Pink Print            | Розовый принт Cihan                        | طباعة Cihan وردية                            |
+| 50     | Siyah Rugan                | Black Patent Leather             | Чёрная лакированная кожа                   | جلد لامع أسود                                |
+| 51     | Lacivert Rugan             | Navy Blue Patent Leather         | Тёмно-синяя лакированная кожа              | جلد لامع أزرق كحلي                           |
+| 60     | Siyah Floter               | Black Floater Leather            | Чёрная зернистая кожа                      | جلد أسود محبب                                |
+| 61     | Beyaz Floter               | White Floater Leather            | Белая зернистая кожа                       | جلد أبيض محبب                                |
+| 62     | Bej Floter                 | Beige Floater Leather            | Бежевая зернистая кожа                     | جلد بيج محبب                                 |
+| 63     | Vizon Floter               | Taupe Floater Leather            | Серо-бежевая зернистая кожа                | جلد رمادي مائل إلى البيج محبب                |
+| 64     | Kahverengi Floter          | Brown Floater Leather            | Коричневая зернистая кожа                  | جلد بني محبب                                 |
+| 65     | Siyah Şiringır             | Black Şiringır                   | Чёрный Şiringır                            | Şiringır أسود                                |
+| 70     | Siyah Havlu Nubuk          | Black Towel-Textured Nubuck      | Чёрный нубук с махровой текстурой          | نوبوك أسود بملمس منشفة                       |
+| 71     | Bej Havlu Nubuk            | Beige Towel-Textured Nubuck      | Бежевый нубук с махровой текстурой         | نوبوك بيج بملمس منشفة                        |
+| 72     | Vizon Havlu Nubuk          | Taupe Towel-Textured Nubuck      | Серо-бежевый нубук с махровой текстурой    | نوبوك رمادي مائل إلى البيج بملمس منشفة       |
+| 73     | Kahverengi Havlu Nubuk     | Brown Towel-Textured Nubuck      | Коричневый нубук с махровой текстурой      | نوبوك بني بملمس منشفة                        |
+| 74     | Gri Havlu Nubuk            | Grey Towel-Textured Nubuck       | Серый нубук с махровой текстурой           | نوبوك رمادي بملمس منشفة                      |
+| 75     | Haki Havlu Nubuk           | Khaki Towel-Textured Nubuck      | Хаки нубук с махровой текстурой            | نوبوك كاكي بملمس منشفة                       |
+| 76     | Koyu Bej Havlu Nubuk       | Dark Beige Towel-Textured Nubuck | Тёмно-бежевый нубук с махровой текстурой   | نوبوك بيج داكن بملمس منشفة                   |
+| 001    | Vizon Baskılı Cihan        | Cihan Taupe Print                | Серо-бежевый принт Cihan                   | طباعة Cihan رمادية مائلة إلى البيج           |
+| 002    | Vizon Leopar Baskılı Cihan | Cihan Taupe Leopard Print        | Серо-бежевый леопардовый принт Cihan       | طباعة Cihan بنقشة الفهد باللون الرمادي البيج |
+| 003    | Bej File                   | Beige Mesh                       | Бежевая сетка                              | شبك بيج                                      |
+| 004    | Pembe Baskılı              | Pink Printed                     | Розовый принт                              | طباعة وردية                                  |
+| 005    | Mavi Simli Baskılı         | Blue Glitter Print               | Синий принт с блёстками                    | طباعة زرقاء لامعة                            |
+| 006    | Gri Simli Baskılı          | Grey Glitter Print               | Серый принт с блёстками                    | طباعة رمادية لامعة                           |
+| 007    | Bej Suni Simli             | Beige Faux Glitter               | Искусственный бежевый материал с блёстками | مادة صناعية بيج لامعة                        |
+| 013    | Kahverengi Rugan Baskılı   | Brown Patent Printed             | Коричневая лакированная кожа с принтом     | جلد لامع بني مطبوع                           |
+| 015    | Siyah Kalpli Baskılı       | Black Heart Print                | Чёрный принт с сердечками                  | طباعة سوداء بنقشة القلوب                     |
+| 55     | Rugan Fasulye Baskılı      | Patent Leather Bean Print        | Лакированная кожа с принтом в виде фасоли  | جلد لامع مطبوع بنقشة الفاصوليا               |
+| 01     | Siyah Soft                 | Black Soft Leather               | Чёрная мягкая кожа                         | جلد ناعم أسود                                |
+| 02     | Beyaz Soft                 | White Soft Leather               | Белая мягкая кожа                          | جلد ناعم أبيض                                |
+| 03     | Sarı Neco Soft             | Yellow Neco Soft                 | Жёлтая кожа Neco Soft                      | جلد أصفر Neco Soft                           |
+| 04     | Gül Kurusu Soft            | Dusty Rose Soft                  | Пыльно-розовая кожа                        | جلد وردي غباري                               |
+| 05     | Bebe Mavisi Soft           | Baby Blue Soft                   | Нежно-голубая кожа                         | جلد أزرق سماوي فاتح                          |
+| 06     | Su Yeşili Soft             | Aqua Green Soft                  | Аква-зелёная кожа                          | جلد أخضر مائي                                |
+| 07     | Pudra Soft                 | Powder Pink Soft                 | Пудрово-розовая кожа                       | جلد وردي بودري                               |
+| 08     | Kırmızı Soft               | Red Soft Leather                 | Красная мягкая кожа                        | جلد ناعم أحمر                                |
+| 09     | Gri Soft                   | Grey Soft Leather                | Серая мягкая кожа                          | جلد ناعم رمادي                               |
+| 018    | Kahverengi Baskılı Süet    | Brown Printed Suede              | Коричневая замша с принтом                 | شمواه بني مطبوع                              |
+| 019    | Siyah Baskılı Süet         | Black Printed Suede              | Чёрная замша с принтом                     | شمواه أسود مطبوع                             |
+| 66     | Geyik Floter               | Deer Floater Leather             | Кожа с текстурой «олень»                   | جلد محبب بنقشة جلد الغزال                    |
