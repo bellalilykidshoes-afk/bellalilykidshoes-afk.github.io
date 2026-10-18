@@ -1,42 +1,63 @@
 {
   "Yazlık": [
     {
-      "name": "APC_1041",
+      "name": "25Y1000",
       "options": [
-       { "color": "1", "image": "APC_1041.jpg" },
-       { "color": "2", "image": "APC_1041.jpg" },
-       { "color": "3", "image": "APC_1041.jpg" }
+       { "color": "1", "image": "https://drive.google.com/file/d/15kW1Ms5XCtARFi_-IA-BK3ng5sgrk3EV/view" },
+       { "color": "2", "image": "https://drive.google.com/file/d/1ZnwUVUcEQDNr9EA_QdVdsHKEsR_zMBwH/view" },
+       { "color": "3", "image": "https://drive.google.com/file/d/1gSZIFpGfnVLgFYkahN2dJ3RGg1KcxH8C/view" },
+       { "color": "4", "image": "https://drive.google.com/file/d/1q0Zt995Eu9gM7bkXqOPTB2OwPmrCqoHu/view" }
       ]
     },
     {
-      "name": "Bella-02",
+      "name": "25Y1001",
       "options": [
-        { "color": "1", "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view" },
-        { "color": "2", "image": "https://drive.google.com/file/d/10Y-V7Pyi0ce-gh3Rj93ZqnwO4nwJiSm0/view" }
+       { "color": "1", "image": "https://drive.google.com/file/d/1RHUclYu8_bcOwqfd2dUV24BvAZsieKlN/view" },
+       { "color": "2", "image": "https://drive.google.com/file/d/1S5x-fK-ScFtmiMsiJyq2HUK2Wj6JD65n/view" },
+       { "color": "3", "image": "https://drive.google.com/file/d/1N5XBkTVRiB2X8I0kLw5LkMsFNT0nFzo3/view" },
+       { "color": "4", "image": "https://drive.google.com/file/d/1NStZvulK7D5AarBYZVjXRHTV-Cf8w0ln/view" }
       ]
     }
   ],
   "Kışlık": [
     {
-     "name": "Bella-01",
-     "options": [
-       { "color": "Pembe", "image": "APC_1041.jpg" },
-       { "color": "Beyaz", "image": "APC_1041.jpg" }
-     ]
+      "name": "25K4050",
+      "options": [
+       { "color": "1", "image": "https://drive.google.com/file/d/1xq7RDSwFbCxBBLBJbE3M1bD3uzC82vpQ/view" },
+       { "color": "2", "image": "https://drive.google.com/file/d/1eu6wu-els5-iP62Z7717_ums4ZZYLI2B/view" },
+       { "color": "3", "image": "https://drive.google.com/file/d/1bkOodh51G6rsD2A9osKUzUdQkMVT_2qz/view" },
+       { "color": "4", "image": "https://drive.google.com/file/d/1_mEOlcvKpkUQJT08ZlSJ_n9gvv3Augp6/view" }
+      ]
     },
     {
-     "name": "Bella-01",
-     "options": [
-       { "color": "Pembe", "image": "APC_1041.jpg" }
-     ]
+      "name": "25K4053",
+      "options": [
+       { "color": "1", "image": "https://drive.google.com/file/d/1wJsLcT23BfprS4lKcscnkB5HygHAaECu/view" },
+       { "color": "2", "image": "https://drive.google.com/file/d/1v4XOzCrlX4zzjJ_hRXXSexaLwGqxzitb/view" },
+       { "color": "3", "image": "https://drive.google.com/file/d/1Wetq2OChxfkneNJH6Y3PGXzMyDiIA1rs/view" },
+       { "color": "4", "image": "https://drive.google.com/file/d/1IlrFyicHTyJyS4tua31N3ram_rHy3r4U/view" },
+       { "color": "5", "image": "https://drive.google.com/file/d/1FP73E5BjShpYgu7UP7a67Vpt92rXkOa1/view" }
+      ]
     }
   ],
   "Okulluk": [
     {
-     "name": "Bella-01",
-     "options": [
-       { "color": "Pembe", "image": "APC_1041.jpg" }
-     ]
+      "name": "25O2010",
+      "options": [
+       { "color": "1", "image": "https://drive.google.com/file/d/1kO5njH8_opgRNtlvcLBbKOZDng1Yende/view" },
+       { "color": "2", "image": "https://drive.google.com/file/d/1kP57GvBaeQQm2v-GBpDMVlbN1lIT9lq5/view" },
+       { "color": "3", "image": "https://drive.google.com/file/d/1vaVWBzO4sjkenYKFGoTw0oAiR4GzIVZu/view" }
+      ]
+    },
+    {
+      "name": "25O8011",
+      "options": [
+       { "color": "1", "image": "https://drive.google.com/file/d/1M61JF-sF1qLlTsZPebuvJGE1tyyewrbL/view" },
+       { "color": "2", "image": "https://drive.google.com/file/d/1YduSrfLomGFNXI8phtku4U3i0nPa48us/view" },
+       { "color": "3", "image": "https://drive.google.com/file/d/1nH5EOu0j-K9G3wlfyjgD4Fg5HOOBoJtj/view" },
+       { "color": "4", "image": "https://drive.google.com/file/d/1tFAFFFJH_gOlgTFZSG1eSGFN7Lv-I3xm/view" },
+       { "color": "5", "image": "https://drive.google.com/file/d/1rtsL1VcYs_QtxqYHamHD9OsCWrF4btft/view" }
+      ]
     }
   ]
 }
