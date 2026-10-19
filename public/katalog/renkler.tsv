@@ -42,8 +42,8 @@
 | 47     | Beyaz Baskılı Cihan        | Cihan White Print                | Белый принт Cihan                          | طباعة Cihan بيضاء                            |
 | 48     | Bej Baskılı Cihan          | Cihan Beige Print                | Бежевый принт Cihan                        | طباعة Cihan باللون البيج                     |
 | 49     | Gül Pembesi Baskılı Cihan  | Cihan Rose Pink Print            | Розовый принт Cihan                        | طباعة Cihan وردية                            |
-| 50     | Siyah Rugan                | Black Patent Leather             | Чёрная лакированная кожа                   | جلد لامع أسود                                |
-| 51     | Lacivert Rugan             | Navy Blue Patent Leather         | Тёмно-синяя лакированная кожа              | جلد لامع أزرق كحلي                           |
+| 50     | Siyah Rugan                | Black Patent Leather             | Чёрная лакированная кожа                   | جلد لامع أسود                                 |
+| 51     | Lacivert Rugan             | Navy Blue Patent Leather         | Тёмно-синяя лакированная кожа              | جلد لامع أزرق كحلي                            |
 | 60     | Siyah Floter               | Black Floater Leather            | Чёрная зернистая кожа                      | جلد أسود محبب                                |
 | 61     | Beyaz Floter               | White Floater Leather            | Белая зернистая кожа                       | جلد أبيض محبب                                |
 | 62     | Bej Floter                 | Beige Floater Leather            | Бежевая зернистая кожа                     | جلد بيج محبب                                 |
@@ -61,12 +61,12 @@
 | 002    | Vizon Leopar Baskılı Cihan | Cihan Taupe Leopard Print        | Серо-бежевый леопардовый принт Cihan       | طباعة Cihan بنقشة الفهد باللون الرمادي البيج |
 | 003    | Bej File                   | Beige Mesh                       | Бежевая сетка                              | شبك بيج                                      |
 | 004    | Pembe Baskılı              | Pink Printed                     | Розовый принт                              | طباعة وردية                                  |
-| 005    | Mavi Simli Baskılı         | Blue Glitter Print               | Синий принт с блёстками                    | طباعة زرقاء لامعة                            |
-| 006    | Gri Simli Baskılı          | Grey Glitter Print               | Серый принт с блёстками                    | طباعة رمادية لامعة                           |
-| 007    | Bej Suni Simli             | Beige Faux Glitter               | Искусственный бежевый материал с блёстками | مادة صناعية بيج لامعة                        |
-| 013    | Kahverengi Rugan Baskılı   | Brown Patent Printed             | Коричневая лакированная кожа с принтом     | جلد لامع بني مطبوع                           |
+| 005    | Mavi Simli Baskılı         | Blue Glitter Print               | Синий принт с блёстками                    | طباعة زرقاء لامعة                             |
+| 006    | Gri Simli Baskılı          | Grey Glitter Print               | Серый принт с блёстками                    | طباعة رمادية لامعة                            |
+| 007    | Bej Suni Simli             | Beige Faux Glitter               | Искусственный бежевый материал с блёстками | مادة صناعية بيج لامعة                         |
+| 013    | Kahverengi Rugan Baskılı   | Brown Patent Printed             | Коричневая лакированная кожа с принтом     | جلد لامع بني مطبوع                            |
 | 015    | Siyah Kalpli Baskılı       | Black Heart Print                | Чёрный принт с сердечками                  | طباعة سوداء بنقشة القلوب                     |
-| 55     | Rugan Fasulye Baskılı      | Patent Leather Bean Print        | Лакированная кожа с принтом в виде фасоли  | جلد لامع مطبوع بنقشة الفاصوليا               |
+| 55     | Rugan Fasulye Baskılı      | Patent Leather Bean Print        | Лакированная кожа с принтом в виде фасоли  | جلد لامع مطبوع بنقشة الفاصوليا                |
 | 01     | Siyah Soft                 | Black Soft Leather               | Чёрная мягкая кожа                         | جلد ناعم أسود                                |
 | 02     | Beyaz Soft                 | White Soft Leather               | Белая мягкая кожа                          | جلد ناعم أبيض                                |
 | 03     | Sarı Neco Soft             | Yellow Neco Soft                 | Жёлтая кожа Neco Soft                      | جلد أصفر Neco Soft                           |
