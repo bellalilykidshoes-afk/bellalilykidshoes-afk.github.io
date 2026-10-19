@@ -1,21 +1,879 @@
 {
   "Yazlık": [
     {
-      "name": "25Y1000",
+      "name": "1000",
       "options": [
-       { "color": ["34", "06", "005"], "image": "https://drive.google.com/file/d/15kW1Ms5XCtARFi_-IA-BK3ng5sgrk3EV/view" },
-       { "color": ["35", "12", "41"], "image": "https://drive.google.com/file/d/1ZnwUVUcEQDNr9EA_QdVdsHKEsR_zMBwH/view" },
-       { "color": ["36", "03", "41"], "image": "https://drive.google.com/file/d/1gSZIFpGfnVLgFYkahN2dJ3RGg1KcxH8C/view" },
-       { "color": ["46", "02", "006"], "image": "https://drive.google.com/file/d/1q0Zt995Eu9gM7bkXqOPTB2OwPmrCqoHu/view" }
+        {
+          "color": [
+            "36",
+            "03",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/18iwrTvitc-GFodj-xn7VtUMWViW-SXO9/view"
+        },
+        {
+          "color": [
+            "35",
+            "12",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1clZIgR67wYXnENxCAP-mtKKWzrX_SsOv/view"
+        },
+        {
+          "color": [
+            "46",
+            "02",
+            "006"
+          ],
+          "image": "https://drive.google.com/file/d/1kAJn86EbI9RAzMd_PolBRON62tRhTojw/view"
+        },
+        {
+          "color": [
+            "34",
+            "06",
+            "005"
+          ],
+          "image": "https://drive.google.com/file/d/1cOunIkGiekAESxrmR5AFlKBJNJBbjo_v/view"
+        }
       ]
     },
     {
-      "name": "25Y1001",
+      "name": "1000_1",
       "options": [
-       { "color": ["47", "02"], "image": "https://drive.google.com/file/d/1RHUclYu8_bcOwqfd2dUV24BvAZsieKlN/view" },
-       { "color": ["003", "33", "12"], "image": "https://drive.google.com/file/d/1S5x-fK-ScFtmiMsiJyq2HUK2Wj6JD65n/view" },
-       { "color": ["14", "37", "002"], "image": "https://drive.google.com/file/d/1N5XBkTVRiB2X8I0kLw5LkMsFNT0nFzo3/view" },
-       { "color": ["49", "07"], "image": "https://drive.google.com/file/d/1NStZvulK7D5AarBYZVjXRHTV-Cf8w0ln/view" }
+        {
+          "color": [
+            "73",
+            "15",
+            "46"
+          ],
+          "image": "https://drive.google.com/file/d/1ge8u0fZ2jHFCV17-CCTykuYE-SyVAcm1/view"
+        }
+      ]
+    },
+    {
+      "name": "1000T",
+      "options": [
+        {
+          "color": [
+            "73",
+            "15",
+            "46"
+          ],
+          "image": "https://drive.google.com/file/d/1vq3uj0JFYN5t3aHWNKAI6e2DmTfEBx8o/view"
+        }
+      ]
+    },
+    {
+      "name": "1001",
+      "options": [
+        {
+          "color": [
+            "14",
+            "45"
+          ],
+          "image": "https://drive.google.com/file/d/1V47AWuMkY2IN7pqK8Hdux7X0iUV3yfhJ/view"
+        },
+        {
+          "color": [
+            "02",
+            "46"
+          ],
+          "image": "https://drive.google.com/file/d/1dqEm-_6fJJTOqUDYrEDyn_24_Bzp_36k/view"
+        },
+        {
+          "color": [
+            "10",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1gFjQukPl1dyIrKu8Kj6eJwDnzeZvsS8-/view"
+        },
+        {
+          "color": [
+            "12",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1uOmLZpbW21_jnbhaK97p3zTS6yGDhlEL/view"
+        },
+        {
+          "color": [
+            "07",
+            "004"
+          ],
+          "image": "https://drive.google.com/file/d/1z-AwZe8LYooz-2EMqkaHfAw7k-6TLM86/view"
+        }
+      ]
+    },
+    {
+      "name": "1001_1",
+      "options": [
+        {
+          "color": [
+            "12",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1y0IMEhDihdB68tFcI1WOSWZQbcKGCB2-/view"
+        }
+      ]
+    },
+    {
+      "name": "2000",
+      "options": [
+        {
+          "color": [
+            "47",
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1IpRVtImtMLLEB7jnPDRNG7bsKNvDtPwN/view"
+        },
+        {
+          "color": [
+            "49",
+            "07"
+          ],
+          "image": "https://drive.google.com/file/d/1owSUQnCwrTNjCA1Qt5W5gXPPM_IKA-NJ/view"
+        },
+        {
+          "color": [
+            "14",
+            "37",
+            "002"
+          ],
+          "image": "https://drive.google.com/file/d/19j5tWQ08XuqMb3DdhrKVPhTdgWVMvbND/view"
+        },
+        {
+          "color": [
+            "003",
+            "33",
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/19mmleH0Sai1zWVT5DeomUbMKN7jA4Lgo/view"
+        },
+        {
+          "color": [
+            "001",
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1L3ejIJkEv09cbOVRztAc-iau3jI3tvt6/view"
+        }
+      ]
+    },
+    {
+      "name": "2001",
+      "options": [
+        {
+          "color": [
+            "76"
+          ],
+          "image": "https://drive.google.com/file/d/1R3NEAuYx3-dIBuvPxmvwwk8HrAQjGSjO/view"
+        },
+        {
+          "color": [
+            "73"
+          ],
+          "image": "https://drive.google.com/file/d/1jx5CGwUQA6L2MX6qDNI3xcc-xDDJGupp/view"
+        },
+        {
+          "color": [
+            "72"
+          ],
+          "image": "https://drive.google.com/file/d/1lbbybHnzR6bPXroZIDyon04lfQmL_HWU/view"
+        },
+        {
+          "color": [
+            "17"
+          ],
+          "image": "https://drive.google.com/file/d/1cGuSYFZAVszhQh38mWheYA472_FdB1bB/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1dbPajkQB_LMEs4xb1BgM31MHxAlpAJYl/view"
+        },
+        {
+          "color": [
+            "47"
+          ],
+          "image": "https://drive.google.com/file/d/1ipfAKdHE9AS_wsYDB5bfEu7XFAIvGrQ1/view"
+        }
+      ]
+    },
+    {
+      "name": "3000",
+      "options": [
+        {
+          "color": [
+            "77",
+            "11"
+          ],
+          "image": "https://drive.google.com/file/d/1iXJKTdtqqy7o6e-LwiaGdc6sfvwfQGlJ/view"
+        },
+        {
+          "color": [
+            "72"
+          ],
+          "image": "https://drive.google.com/file/d/1nvKUyQYC_xu-T_QEzN2S2ZKesjAQQ7sz/view"
+        },
+        {
+          "color": [
+            "64",
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1sL5Zfn8EiQ_D0FKz8CZafqufr00XzT5q/view"
+        },
+        {
+          "color": [
+            "62",
+            "33"
+          ],
+          "image": "https://drive.google.com/file/d/17it4li-pxr6waQJkWDIjaTavXzQhxfHX/view"
+        },
+        {
+          "color": [
+            "47",
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1xK8XDO-HA-4uF6TRRRqZJdXKK7AoIwgu/view"
+        }
+      ]
+    },
+    {
+      "name": "3000_1",
+      "options": [
+        {
+          "color": [
+            "63",
+            "37"
+          ],
+          "image": "https://drive.google.com/file/d/1adARogabGWh-0Zi-g8ptmRotcOFiYXMG/view"
+        },
+        {
+          "color": [
+            "73"
+          ],
+          "image": "https://drive.google.com/file/d/1qb3RcZQOzZj1IHOXo0bEpFGneJRmrP41/view"
+        },
+        {
+          "color": [
+            "61"
+          ],
+          "image": "https://drive.google.com/file/d/10ql6GLu-chl384bQsom-6FRKbN7ThbRP/view"
+        },
+        {
+          "color": [
+            "62",
+            "33"
+          ],
+          "image": "https://drive.google.com/file/d/1mfrfu2j58OV7cwiDW_3_tRj8ZflhIn-s/view"
+        }
+      ]
+    },
+    {
+      "name": "3000T",
+      "options": [
+        {
+          "color": [
+            "63",
+            "37"
+          ],
+          "image": "https://drive.google.com/file/d/1qf4PTswPHJ9YJbefkGsEN6C1Va9D9Kb4/view"
+        },
+        {
+          "color": [
+            "61"
+          ],
+          "image": "https://drive.google.com/file/d/1xnzPm1MvUxJIrw2KiHnpWtcq-wdfaEWh/view"
+        }
+      ]
+    },
+    {
+      "name": "3002",
+      "options": [
+        {
+          "color": [
+            "61",
+            "34"
+          ],
+          "image": "https://drive.google.com/file/d/19ELgeCNtBUxHe6Mm1dYCRFfOyPI4-HQ_/view"
+        },
+        {
+          "color": [
+            "49",
+            "004"
+          ],
+          "image": "https://drive.google.com/file/d/1Br6o0NX9iVVaUmb44rW6FXKZfMweI7Tl/view"
+        },
+        {
+          "color": [
+            "32",
+            "007"
+          ],
+          "image": "https://drive.google.com/file/d/1t-XzuBS7mI-afDdoZAvw1zGxJ03Y1FL0/view"
+        },
+        {
+          "color": [
+            "47",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1zB8VRjUayrfXMzhBy6s-uicSaa40cOS0/view"
+        }
+      ]
+    },
+    {
+      "name": "3003",
+      "options": [
+        {
+          "color": [
+            "62",
+            "36",
+            "08"
+          ],
+          "image": "https://drive.google.com/file/d/1EW2AhKBhM8vTwBFxiBAC27llqkcUBI_L/view"
+        },
+        {
+          "color": [
+            "63",
+            "43",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1jKVEBpBqcwz0FFlNjMs0EYJtM6dauVqe/view"
+        }
+      ]
+    },
+    {
+      "name": "3004",
+      "options": [
+        {
+          "color": [
+            "12",
+            "33",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/18_C1si80ixOy2Pfa_MFRyiIr_VSx3Moi/view"
+        }
+      ]
+    },
+    {
+      "name": "3005",
+      "options": [
+        {
+          "color": [
+            "011",
+            "62",
+            "33",
+            "12",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/12GwDoC_uC44sOUKqdR6oVGHCoPNIQ8WB/view"
+        }
+      ]
+    },
+    {
+      "name": "3006",
+      "options": [
+        {
+          "color": [
+            "15",
+            "32",
+            "11"
+          ],
+          "image": "https://drive.google.com/file/d/1a5BQtuQsoL2DASIhHRjVUC-JgIJAqOXI/view"
+        },
+        {
+          "color": [
+            "12",
+            "33",
+            "11",
+            "36"
+          ],
+          "image": "https://drive.google.com/file/d/1fhOsrNHmBJl-KOX9Mx_dDUuHtnDMfDvA/view"
+        }
+      ]
+    },
+    {
+      "name": "8000",
+      "options": [
+        {
+          "color": [
+            "12",
+            "18"
+          ],
+          "image": "https://drive.google.com/file/d/1-XscoXTh9j6qdFIvs0e98jgQXiU8ZytR/view"
+        },
+        {
+          "color": [
+            "10",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1O2tgWByIPxIi6u-bPTKQMI3hXeOO3NDY/view"
+        },
+        {
+          "color": [
+            "14",
+            "45"
+          ],
+          "image": "https://drive.google.com/file/d/1Zymx08vP2pOtkeXy4ClKA0zm9SG2_R4u/view"
+        },
+        {
+          "color": [
+            "02",
+            "006"
+          ],
+          "image": "https://drive.google.com/file/d/1RqoBpTlf0LcVyE6LqM9iWVwO8ubSnzrQ/view"
+        },
+        {
+          "color": [
+            "07",
+            "004"
+          ],
+          "image": "https://drive.google.com/file/d/1XWGMolJUQ0jsC5We_nOWvNVkRuulTNWI/view"
+        }
+      ]
+    },
+    {
+      "name": "8000T",
+      "options": [
+        {
+          "color": [
+            "17"
+          ],
+          "image": "https://drive.google.com/file/d/1p9jesqsK1MW9bj-KR3LXGiOy1Iahntzb/view"
+        }
+      ]
+    },
+    {
+      "name": "8001",
+      "options": [
+        {
+          "color": [
+            "42",
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/19lpzmZ3JbAlhkPWAHBhk8agAUVxJWPHD/view"
+        },
+        {
+          "color": [
+            "43",
+            "11"
+          ],
+          "image": "https://drive.google.com/file/d/1EHSlGB3tHnd0svo009vRuZkzX4_frQVS/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/16WvhLPPZEBVgIZF82IoH63j2rjao6mvK/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1Ni9ERjvk3NjgFrmZOk-04fxsOP1fYqSG/view"
+        },
+        {
+          "color": [
+            "07"
+          ],
+          "image": "https://drive.google.com/file/d/1SrPD8mYXbr1YH16aYzvDuJ7nlaIkRhIl/view"
+        },
+        {
+          "color": [
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1f2B8hxhceOi2ck8p4TfDsTyHyYk3M87w/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1lEuxz_dACKukCQFlzFhwKRi8fmYRK1L_/view"
+        }
+      ]
+    },
+    {
+      "name": "8002",
+      "options": [
+        {
+          "color": [
+            "12",
+            "43",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1Edfe8jvPDvK4Rc9YuncfbeFHBJ5O_8K4/view"
+        },
+        {
+          "color": [
+            "07",
+            "004",
+            "41",
+            "005"
+          ],
+          "image": "https://drive.google.com/file/d/1eMpL3kKVRoaVlVZDBDnM-JC6dwcf_6e6/view"
+        },
+        {
+          "color": [
+            "06",
+            "34",
+            "005",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1HI0VZQz53VEgobXAMueQ_mKMY2NAO0SE/view"
+        },
+        {
+          "color": [
+            "03",
+            "36",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1pNWgigmdq7lWh9vKQOcn9NGwUfz-5ptb/view"
+        },
+        {
+          "color": [
+            "02",
+            "42",
+            "004"
+          ],
+          "image": "https://drive.google.com/file/d/1ydcCFYkOGxFPqHu6yabtPMfcToGEe6iw/view"
+        }
+      ]
+    },
+    {
+      "name": "8003",
+      "options": [
+        {
+          "color": [
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1F-9dETsmN7Ga7OAspkBXMmwd9WPTznBH/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1cbu68SWP53XOpB4lf1Nr-xd4KhaCK29T/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1lShtx0moyT_rTRuKEUjrKI3Ml-dJ1u56/view"
+        }
+      ]
+    },
+    {
+      "name": "8003_1",
+      "options": [
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1vNhJ68jqJm51ciKpAmXr6ZzK_24Xci2d/view"
+        }
+      ]
+    },
+    {
+      "name": "8003Z",
+      "options": [
+        {
+          "color": [
+            "07"
+          ],
+          "image": "https://drive.google.com/file/d/1b69Ariv_Td0jgsbNhbgWveKytbCAjlzB/view"
+        }
+      ]
+    },
+    {
+      "name": "9000",
+      "options": [
+        {
+          "color": [
+            "17",
+            "33",
+            "02",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1pQlSptJLiCXpDq6OR6QIBBiHUqOvAPdC/view"
+        },
+        {
+          "color": [
+            "02",
+            "33",
+            "01",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1rGjzhd3ogUHlqDH0nCVUrMTmclnv9aBO/view"
+        }
+      ]
+    },
+    {
+      "name": "9000_1",
+      "options": [
+        {
+          "color": [
+            "49",
+            "07",
+            "41",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1LcLaLB-eiTW3srTtdlYRA6N18D8GudUi/view"
+        },
+        {
+          "color": [
+            "47",
+            "02",
+            "45",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1rJW1PHEMp6Sq9Zbua8GorSkYQtOBJc9k/view"
+        },
+        {
+          "color": [
+            "001",
+            "14",
+            "41",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1wyciMiiMJXhzKn9_Z3reOdCjnoRL26RM/view"
+        }
+      ]
+    },
+    {
+      "name": "9000F",
+      "options": [
+        {
+          "color": [
+            "48",
+            "33",
+            "41",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1mOyxaWLIec24_Wfo9DvUlmXfIbX8bdNm/view"
+        }
+      ]
+    },
+    {
+      "name": "9001",
+      "options": [
+        {
+          "color": [
+            "17",
+            "33",
+            "07"
+          ],
+          "image": "https://drive.google.com/file/d/1fl9itQRnhAa5-YmZBC3njOhAZllxsGTP/view"
+        }
+      ]
+    },
+    {
+      "name": "9002",
+      "options": [
+        {
+          "color": [
+            "49",
+            "07",
+            "02",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/1Tqphozkx3RVC5p5uSqSvxANqlI2MQeQC/view"
+        }
+      ]
+    },
+    {
+      "name": "9002FT",
+      "options": [
+        {
+          "color": [
+            "02",
+            "03",
+            "01",
+            "10"
+          ],
+          "image": "https://drive.google.com/file/d/12BW2Obj-Ldq79NLJY3e0hdeWHl0PEY1K/view"
+        }
+      ]
+    },
+    {
+      "name": "9004",
+      "options": [
+        {
+          "color": [
+            "62",
+            "36",
+            "08"
+          ],
+          "image": "https://drive.google.com/file/d/1WG03qqe5lOmn-fXE7lvnczYbk6k0D-3U/view"
+        },
+        {
+          "color": [
+            "61",
+            "34"
+          ],
+          "image": "https://drive.google.com/file/d/1Ij27QZbMVbA0HuNjM58GoKll-Lw3d1Vt/view"
+        },
+        {
+          "color": [
+            "48",
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/1_ALyUx6NDr3sOfyn37YXc3SPR8XTbfxn/view"
+        }
+      ]
+    },
+    {
+      "name": "9005",
+      "options": [
+        {
+          "color": [
+            "63",
+            "43",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1bRo_6iyMzlEsKasrNQEHYczyR1_NCUw0/view"
+        }
+      ]
+    },
+    {
+      "name": "9006",
+      "options": [
+        {
+          "color": [
+            "60",
+            "61"
+          ],
+          "image": "https://drive.google.com/file/d/1bd951Oh0b9OiiYP1uKLBZjgFRyxwpLtT/view"
+        },
+        {
+          "color": [
+            "47",
+            "61",
+            "008"
+          ],
+          "image": "https://drive.google.com/file/d/1mto32tLRBorrwwHA1BjHFOfVq8Q4CDVV/view"
+        },
+        {
+          "color": [
+            "43",
+            "62",
+            "61"
+          ],
+          "image": "https://drive.google.com/file/d/1Nk0PxO2BMheiCMOOrKeyv2MDOApFogna/view"
+        },
+        {
+          "color": [
+            "36",
+            "37",
+            "61"
+          ],
+          "image": "https://drive.google.com/file/d/1S2wG6SFybavJcyGD2K9zPe02MYv2p-Ux/view"
+        },
+        {
+          "color": [
+            "36",
+            "07",
+            "61"
+          ],
+          "image": "https://drive.google.com/file/d/1cxm7uRjzuB3gi4-tYEMkmePDQHRRY8E2/view"
+        },
+        {
+          "color": [
+            "20",
+            "38",
+            "001"
+          ],
+          "image": "https://drive.google.com/file/d/1nm_sFylkO9P8HXEginvt_rMOSS51lvUS/view"
+        },
+        {
+          "color": [
+            "12",
+            "33",
+            "41"
+          ],
+          "image": "https://drive.google.com/file/d/1IlOB9U6m1S3LEbdC42Nq_0YVpyG34F-P/view"
+        },
+        {
+          "color": [
+            "15",
+            "32",
+            "08"
+          ],
+          "image": "https://drive.google.com/file/d/1a-IN9VI96BF81xk1pf4j64ltDrW6o_zC/view"
+        }
+      ]
+    },
+    {
+      "name": "9006Z",
+      "options": [
+        {
+          "color": [
+            "010",
+            "61",
+            "47",
+            "009",
+            "007"
+          ],
+          "image": "https://drive.google.com/file/d/1PLPPVQ6yT74ED1IaU5IChc0hUGzUoVGa/view"
+        }
+      ]
+    },
+    {
+      "name": "9007",
+      "options": [
+        {
+          "color": [
+            "62",
+            "03",
+            "49"
+          ],
+          "image": "https://drive.google.com/file/d/13FqFHsvWxnsdzlms64M7Pa9OUPUJl4e3/view"
+        },
+        {
+          "color": [
+            "14",
+            "63",
+            "48",
+            "38"
+          ],
+          "image": "https://drive.google.com/file/d/1F5BqqyjzhOKbfUdL5kgLV1nRHxx6Uojp/view"
+        },
+        {
+          "color": [
+            "61",
+            "60",
+            "08",
+            "47"
+          ],
+          "image": "https://drive.google.com/file/d/1S8-dpfRsmciNZfZyBxS8oNaqW7GIB4s_/view"
+        },
+        {
+          "color": [
+            "11",
+            "15",
+            "19",
+            "10",
+            "36"
+          ],
+          "image": "https://drive.google.com/file/d/1eg6rZR3OGxTZXhfngll6eRlEca2b-1yR/view"
+        },
+        {
+          "color": [
+            "33",
+            "61",
+            "16",
+            "77",
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1so5YSUbJoa8FffnVlO2VXh9Ho8EZJ5Ai/view"
+        },
+        {
+          "color": [
+            "11",
+            "15",
+            "19",
+            "013",
+            "36"
+          ],
+          "image": "https://drive.google.com/file/d/12YbhORHA4tMJDEzFo5NmjFyGbrT1KGXA/view"
+        }
       ]
     }
   ],
@@ -23,41 +881,1792 @@
     {
       "name": "25K4050",
       "options": [
-       { "color": "30", "image": "https://drive.google.com/file/d/1xq7RDSwFbCxBBLBJbE3M1bD3uzC82vpQ/view" },
-       { "color": "14", "image": "https://drive.google.com/file/d/1xq7RDSwFbCxBBLBJbE3M1bD3uzC82vpQ/view" },
-       { "color": "01", "image": "https://drive.google.com/file/d/1eu6wu-els5-iP62Z7717_ums4ZZYLI2B/view" },
-       { "color": "50", "image": "https://drive.google.com/file/d/1bkOodh51G6rsD2A9osKUzUdQkMVT_2qz/view" },
-       { "color": "33", "image": "https://drive.google.com/file/d/1_mEOlcvKpkUQJT08ZlSJ_n9gvv3Augp6/view" }
+        {
+          "color": [
+            "31"
+          ],
+          "image": "https://drive.google.com/file/d/1ZtN8d2L5eJksiw_0dirrgWt2Do5G57aT/view"
+        },
+        {
+          "color": [
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1o2QEemeUh4_Cw1p83aTdlcStx0ddfgm7/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1fJk2GCkpisO3SidXeJepghNFRMV-9G4O/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1dXY0lnGQZQ0_Dr8yIeLhuLxnYalfjbZI/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/11vxXe30qvFr3khRLXnHjpCQMYU9Pg8Cb/view"
+        },
+        {
+          "color": [
+            "33"
+          ],
+          "image": "https://drive.google.com/file/d/13VlAONAfg9366Y0ndHKzx0i02P6HlUqt/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1fuHFQB_-S8iLEfZQqXTP3eG_dF7f4Peq/view"
+        },
+        {
+          "color": [
+            "46"
+          ],
+          "image": "https://drive.google.com/file/d/1gB14J_8FRUteDBxRsVGYnzGj6O_7jUjc/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1mmUOTaOrysGGExLx0ZtZgjWRFe3lrYy5/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1p7Y7GMAnsgvp_GGnE0FTSZPU2i9km7OJ/view"
+        },
+        {
+          "color": [
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/1vIhXkCKkOoPQXYcXdVU-PZpJZTQv2qA2/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1zUgr7lqamXeG4p5KOYGVV_WbAvdrwFKw/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4051",
+      "options": [
+        {
+          "color": [
+            "43"
+          ],
+          "image": "https://drive.google.com/file/d/1Ki_YPhDjJd2-BrWKW4qA20V1ZlhH79Bd/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/10SKRSo0IyWLIwIURItfrkMlV53Vtxedg/view"
+        },
+        {
+          "color": [
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/124o8fSG936MLbqyCI8EJgDJ-4gK-l-N3/view"
+        },
+        {
+          "color": [
+            "01",
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1AQymvZMCu9b6BObcW0stjNpycMVq7hJJ/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1AinQHvpLBGHme-OZ_nx20zjIFdskURQd/view"
+        },
+        {
+          "color": [
+            "66",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1QHkZ2UvXGh_igXjvVaTY34EC4VOiWhcC/view"
+        },
+        {
+          "color": [
+            "02",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1dNV-ODkBocnof3l3cpFaMNlOj9yNAjjn/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1ktB7NJTlO5vpBtrmq5eV-nRznQZRw3fl/view"
+        },
+        {
+          "color": [
+            "14",
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1l_rp-xucwT1f6ClgOjg_6FPmpH-ep11u/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1qKRPdVqFl2ofcSBlNH4x2LeUKR7EHQai/view"
+        },
+        {
+          "color": [
+            "70",
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1qQASGT-ZLVzJjO-EZJ_kBP2WVW6i8-16/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4052",
+      "options": [
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/148__41fCv29eeN3UntHLMM3DneiEaYeE/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1G5dcrSahAXYqhisuVMdlXLxcu9ls5t2B/view"
+        },
+        {
+          "color": [
+            "43"
+          ],
+          "image": "https://drive.google.com/file/d/1htRhktz9jsGrdhoBVLmnCYy1CBgfkVxP/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1l7GBfYWWryuKUiB5N_U8vyTKm7k5vNgs/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1lWMLpIzBMf08mz9AX-e31ltWq6qBKf5X/view"
+        },
+        {
+          "color": [
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/1wafC2bgVcczaBDHqbBETEv03eRqcszvt/view"
+        }
       ]
     },
     {
       "name": "25K4053",
       "options": [
-       { "color": "30", "image": "https://drive.google.com/file/d/1wJsLcT23BfprS4lKcscnkB5HygHAaECu/view" },
-       { "color": "33", "image": "https://drive.google.com/file/d/1v4XOzCrlX4zzjJ_hRXXSexaLwGqxzitb/view" },
-       { "color": "01", "image": "https://drive.google.com/file/d/1Wetq2OChxfkneNJH6Y3PGXzMyDiIA1rs/view" },
-       { "color": "14", "image": "https://drive.google.com/file/d/1IlrFyicHTyJyS4tua31N3ram_rHy3r4U/view" },
-       { "color": "50", "image": "https://drive.google.com/file/d/1FP73E5BjShpYgu7UP7a67Vpt92rXkOa1/view" }
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1xUIglicUN_k7_8R50f-FReREgiQ3dl0I/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1AKAW_c5TkgmT9YH1RdZ0oKqRHntqquY9/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1PpY97nnwuMtvlBDQH6SVDjpMWo7slXFd/view"
+        },
+        {
+          "color": [
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/1_LcWEH3vv6ByxA3oUxgTfucmCNnui-5v/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1LjRXZEf-L9LjEsmiIGB-pBHwX_PfrF-L/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1cdLQDNwYZvmhCDYCbRBCC3yjuYCU4yA5/view"
+        },
+        {
+          "color": [
+            "33"
+          ],
+          "image": "https://drive.google.com/file/d/1dEGiTtzCHzAHlKffqfQL5ineCaPYMQ6o/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4054",
+      "options": [
+        {
+          "color": [
+            "33"
+          ],
+          "image": "https://drive.google.com/file/d/107MlhHhVSz3KpQgNFrLr-1hVyDQeWwJS/view"
+        },
+        {
+          "color": [
+            "60",
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/16gTzzaKHHSAMmuHeKRKVTABdEmOPiam7/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1DX59Ucj9sISkhJRhKEAlbSvBvkuHNWrN/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1GdydtQGspYxLfsqHedesho0vF4qXET3C/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1WS_uUJ-EFPtqig1r2e0_X7uH6xS1AeJs/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1d2KTT16DlRnLKCiBtosz4u7dqofKPGTx/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1d4K5YJepg0pWuvba3t583FRDBcMNvFAz/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4055",
+      "options": [
+        {
+          "color": [
+            "45"
+          ],
+          "image": "https://drive.google.com/file/d/121WM8Pvm_5uJZ92cd0o38QhAqBxZov4W/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/15Kid1FfQ1QdVor-teYxeY4g0rREc_VAu/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1ANHsXCOySYibiK3gNIC6pBJr7bOU780M/view"
+        },
+        {
+          "color": [
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/1LAcf9kfuATGG0D2B_S5NyezSm333pQet/view"
+        },
+        {
+          "color": [
+            "46"
+          ],
+          "image": "https://drive.google.com/file/d/1mUeLS-dZTtVp4MsoEIZASzy4Tukr2BN-/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1sgV9oYprUsI059DaQnXLTP2NxMUARgmS/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4056",
+      "options": [
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/11gDQ9ZFwjrCbU5Ill1dWrW0wLBa6rwy9/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/14G-3kSKtNqyM83Iv6XgVbQxx-_VPayNS/view"
+        },
+        {
+          "color": [
+            "45"
+          ],
+          "image": "https://drive.google.com/file/d/1O4knDDe3wmq9dRwAJZa4ZRhmKvuQG9MP/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1_J_7B4-pbrXFKRz7I0KAjtZPFK7gAF0a/view"
+        },
+        {
+          "color": [
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/1_O82OxR_OQtOsinwuHpUmHU_Q1xuHER5/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4057",
+      "options": [
+        {
+          "color": [
+            "14",
+            "37"
+          ],
+          "image": "https://drive.google.com/file/d/1I_fy6suBmLwAtKEzjTnu1Td08yH3wwtI/view"
+        },
+        {
+          "color": [
+            "01",
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1KbKdB4QTb5mpy_8zFgz2tJ-vEG61DHPt/view"
+        },
+        {
+          "color": [
+            "15",
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1cmVfEOpcDfVykbuprh1614Q8o5c1fOgF/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1pPNDOaqfm5t35lt-kRxDNgrCkuUR0KoX/view"
+        }
+      ]
+    },
+    {
+      "name": "25K4059",
+      "options": [
+        {
+          "color": [
+            "60",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1NQajk7ao68cLJP_mfZxTQDe1gRFYRIPu/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1W1vZoo26fAkXJ4WnzCAzBMM6gjacyc3o/view"
+        }
+      ]
+    },
+    {
+      "name": "25K5000",
+      "options": [
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1Ih4-Jr2_zFo7wVVrYqVBkuTCOfe-b7mL/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1Vwcgzh3sOJTxQD2SjYs2UZ2W6yzPf-EK/view"
+        },
+        {
+          "color": [
+            "44"
+          ],
+          "image": "https://drive.google.com/file/d/1WITgDt6Si8x0B1fhy7yH8ZHlRSDrK6xk/view"
+        },
+        {
+          "color": [
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/1bJOr0FHlBacGCdzHMHO4ausIalsVnG9e/view"
+        },
+        {
+          "color": [
+            "33"
+          ],
+          "image": "https://drive.google.com/file/d/1c3DNWorlORoJQLQTWprsaHAKmzmdF4Yx/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1w9XbANMpxZoN22rKeTURW-kWD2OYWsZv/view"
+        },
+        {
+          "color": [
+            "43"
+          ],
+          "image": "https://drive.google.com/file/d/1thJaRV6F2CMmr52tF1XjytC9laF9Cjxt/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1BfNMXf5fVPTkR_49RjznPeGATJ-Tex1j/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1bb7v-Qm4AN3Jn_wGIsYeCzqfld80pcCw/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1nBtGMDwc8_oLxO3kSnWVV6GZXpS_jE-j/view"
+        }
+      ]
+    },
+    {
+      "name": "25K5057",
+      "options": [
+        {
+          "color": [
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/15zfM7RWoY9_zBXZBbvGduo5jGPURYq_Q/view"
+        },
+        {
+          "color": [
+            "60",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1jBghh3icQDy4BDEXiwOaJVotOhf73I4I/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/16ynKeRpdRZBuktXd0UgCRuHbFLfCftkr/view"
+        },
+        {
+          "color": [
+            "01",
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/19nPsXy4J0opVdgYqDghn1rHtjxD2C6hz/view"
+        }
+      ]
+    },
+    {
+      "name": "25K6000",
+      "options": [
+        {
+          "color": [
+            "31"
+          ],
+          "image": "https://drive.google.com/file/d/1mHqNZQ6CcbsnelIC2hpRV0zUsvyzjRX2/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1ZN8BQzq1Nqyo49JR--Sd0uVEyA8WMgol/view"
+        },
+        {
+          "color": [
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/13j4Z9KeShGJ6_4P_x5TRn9gPR-2eNdIe/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1fJAf130J-lsuHbcjQOPJJP80Bsgly3RB/view"
+        },
+        {
+          "color": [
+            "02"
+          ],
+          "image": "https://drive.google.com/file/d/1QqaZqeVqjiJajI5nek7RZsFzUMvqAdRW/view"
+        },
+        {
+          "color": [
+            "42"
+          ],
+          "image": "https://drive.google.com/file/d/1A6LjTI3_g31Kxh9XDdY6xgeTJgWopBl-/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1CcUxg9OW-GDZI-npZCcPF4ATIQaiy7az/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1DqaxXoyCPdQO0bvJB-UzZNDm8Pl0Tgsr/view"
+        },
+        {
+          "color": [
+            "47"
+          ],
+          "image": "https://drive.google.com/file/d/1fSRWnxYM8lIsvDD1QjnHiLaU7Y2uVo71/view"
+        },
+        {
+          "color": [
+            "46"
+          ],
+          "image": "https://drive.google.com/file/d/1ma70z6KrGrI9_P5KpNAGFCUnYbpuPX1Y/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1mzP8PfQH-H12ngrOQcWG1CaVD7HMA575/view"
+        },
+        {
+          "color": [
+            "45"
+          ],
+          "image": "https://drive.google.com/file/d/1oiUd0NafYoDT8e-gyS62x3gGIA77vGJU/view"
+        }
+      ]
+    },
+    {
+      "name": "25K7000",
+      "options": [
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1vz6DeHpIm9EDqPClch2aZbuSLMq5MD3u/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/11XdbpFWBGPudM9AKlS4GfY02enQDVhD_/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1gi0g67BMKb2l3UW1tXWoDeZqdUgXwiDw/view"
+        }
+      ]
+    },
+    {
+      "name": "26K0261",
+      "options": [
+        {
+          "color": [
+            "65"
+          ],
+          "image": "https://drive.google.com/file/d/1kKmu_DlfH0PJa_AMo0vOmT0gh00rl2Df/view"
+        },
+        {
+          "color": [
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/1-KAWkA7c7hyYR51mghfR0W2rwSW24a3v/view"
+        },
+        {
+          "color": [
+            "64"
+          ],
+          "image": "https://drive.google.com/file/d/1t28za91MGXWAQwhJ6rhi3l5QN8apqOmm/view"
+        },
+        {
+          "color": [
+            "63"
+          ],
+          "image": "https://drive.google.com/file/d/1sh79pD4dySvqpObTBHGW9Stk1LHpPT4Y/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/15TxoZTSDy_F_FIRNPyHP9yVUDAbb-aTA/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1pIde_yDIZmx7A4TOuvkh5dk8OpX6M8HI/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1tgAvEmgZqg0L61wzIew-byGxH5QJr9eZ/view"
+        },
+        {
+          "color": [
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1P6HMvkmbx53nkC-MGsOAXB_m3Gt6Kjkw/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1Q-Qw9U-qvpRgh5R99Pdj4pbA8O_K2zm9/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1V9zVFdefIHL5OnkrNJNjITn0sJOcWd42/view"
+        },
+        {
+          "color": [
+            "32",
+            "018"
+          ],
+          "image": "https://drive.google.com/file/d/1TMcDhkRdW--pHm0_PQxwfHKIgHedNr0l/view"
+        }
+      ]
+    },
+    {
+      "name": "26K0261_1",
+      "options": [
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1TZUPJrZp_WzTzKe8Xzjc_7QMA7t1meS3/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/17a_vVj3gME0s-LxHIHn6g8J19MYpamvi/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1xOk4y4CiMcr5nP8puXYro17QdzoEophy/view"
+        },
+        {
+          "color": [
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1echyFWazruivqFULBYTpRoHIsnT3Oahr/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1V_4BAfgSdwoNcfCkcrBmFVlG67I1I0sm/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1enhh_9tliv46Agu_4F4Cc8Ijse5IZ-pp/view"
+        }
+      ]
+    },
+    {
+      "name": "26K0262",
+      "options": [
+        {
+          "color": [
+            "32",
+            "018"
+          ],
+          "image": "https://drive.google.com/file/d/1yjsOo2BqfbcB6MW_DcFyoJYH6KQndRcD/view"
+        }
+      ]
+    },
+    {
+      "name": "26K1000",
+      "options": [
+        {
+          "color": [
+            "31"
+          ],
+          "image": "https://drive.google.com/file/d/1-wGE2wO8AecP-exfphfaSDQX0VOLeryr/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1CWH4UpCnPa307Gmvn3WIhZ52YwKJX8bj/view"
+        },
+        {
+          "color": [
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1F_0K-3ZlnOG_zTH9ZXdQE-zq2Dr2gQPU/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1GYBjSSHbA-AB3rapuLrhJ6MhHt-4RAwK/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1G81GZkmP6gzDhEt5dPpLT5rnB1sjUmbe/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1UUB3olJz3cVAVEy9oDVpdnoPut7C3OiC/view"
+        }
+      ]
+    },
+    {
+      "name": "26K1001",
+      "options": [
+        {
+          "color": [
+            "31"
+          ],
+          "image": "https://drive.google.com/file/d/14xnpmf9q6yPEbVj1cxZRIGbtkURKQWBO/view"
+        },
+        {
+          "color": [
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1bO0i-PdKCJ5OrbHc9ZULyWLUa-AB6u3T/view"
+        },
+        {
+          "color": [
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1I1CYgzpNq5Xtnn8jevuPlZpfDGlujAuN/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1nxe2AzbjfqOVo_vBivNE_wY93-tlgikM/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1U1sc0se1T4zJKPlmV6DGISlhtiMwIFzV/view"
+        },
+        {
+          "color": [
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1U-2p1B0l5ysHD6H2d6Y9ps94CnnJkx_K/view"
+        }
+      ]
+    },
+    {
+      "name": "26K5010",
+      "options": [
+        {
+          "color": [
+            "019",
+            "30"
+          ],
+          "image": "https://drive.google.com/file/d/1S0hIZo3f1PW3BRj9Vq2XbDgzDw0MPVW_/view"
+        },
+        {
+          "color": [
+            "018",
+            "32"
+          ],
+          "image": "https://drive.google.com/file/d/1O21n2l2pHOH1IRzpyVlDCGqXWcm0cl6u/view"
+        }
+      ]
+    },
+    {
+      "name": "26K5020",
+      "options": [
+        {
+          "color": [
+            "71"
+          ],
+          "image": "https://drive.google.com/file/d/1mBWqHJPEtRRGsP2fWmULV6gYFPm-TjN8/view"
+        }
+      ]
+    },
+    {
+      "name": "26K6000",
+      "options": [
+        {
+          "color": [
+            "040"
+          ],
+          "image": "https://drive.google.com/file/d/1goU84smoCyAvSKfM8OuFYgDAJMIj5q9M/view"
+        },
+        {
+          "color": [
+            "041"
+          ],
+          "image": "https://drive.google.com/file/d/1RsfqvDzRWrXDgmzIFbyCUnFA5bLVrdto/view"
+        },
+        {
+          "color": [
+            "60",
+            "55"
+          ],
+          "image": "https://drive.google.com/file/d/1WEFEe2xWhNNAbX_A31JPRa6luQEC5her/view"
+        }
+      ]
+    },
+    {
+      "name": "26K6001",
+      "options": [
+        {
+          "color": [
+            "33",
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1BkbBsqnC3Hg1vVPZ1IIG1ZVsELZSlepR/view"
+        },
+        {
+          "color": [
+            "30",
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1TsgR_sHaHEs_hOIQ8MZINUFRZlUCUoku/view"
+        },
+        {
+          "color": [
+            "30",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1FZ9ZH2CJBYyvFPH7KcE8fhEH8lHVoS0J/view"
+        },
+        {
+          "color": [
+            "32",
+            "21"
+          ],
+          "image": "https://drive.google.com/file/d/1S0ejHaBmHsNJ2ultzLT94hcVeyzCE1wT/view"
+        },
+        {
+          "color": [
+            "66",
+            "22"
+          ],
+          "image": "https://drive.google.com/file/d/19JOAqZJadqVUW9ViNo88vlta-ZbBW2lB/view"
+        },
+        {
+          "color": [
+            "67",
+            "23"
+          ],
+          "image": "https://drive.google.com/file/d/1T5F6a92luZyzT935kdEVT_r2yIvwIV4p/view"
+        },
+        {
+          "color": [
+            "60",
+            "019"
+          ],
+          "image": "https://drive.google.com/file/d/1vtCFhOmG2xTNseWLNEVN5A0TQ2Y73VuU/view"
+        }
       ]
     }
   ],
   "Okulluk": [
     {
-      "name": "25O2010",
+      "name": "2010",
       "options": [
-       { "color": ["017", "37", "63"], "image": "https://drive.google.com/file/d/1kO5njH8_opgRNtlvcLBbKOZDng1Yende/view" },
-       { "color": ["016", "31", "70"], "image": "https://drive.google.com/file/d/1kP57GvBaeQQm2v-GBpDMVlbN1lIT9lq5/view" },
-       { "color": ["016", "32", "15"], "image": "https://drive.google.com/file/d/1vaVWBzO4sjkenYKFGoTw0oAiR4GzIVZu/view" }
+        {
+          "color": [
+            "016",
+            "32",
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1DuxU31zjM-c2si8vnhNlc_kGHovwyiq5/view"
+        },
+        {
+          "color": [
+            "016",
+            "32",
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1GRFbBba8WrfSbnaEak-qeb9CYli8kdqx/view"
+        },
+        {
+          "color": [
+            "016",
+            "31",
+            "70"
+          ],
+          "image": "https://drive.google.com/file/d/1T3vtPOEfPnJVOloUxI52kIfzl4wI9-p_/view"
+        },
+        {
+          "color": [
+            "016",
+            "31",
+            "70",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/13ecwNQNizIxCkw42UMgLSgqAGpmsM6rA/view"
+        },
+        {
+          "color": [
+            "017",
+            "37",
+            "63"
+          ],
+          "image": "https://drive.google.com/file/d/1cE5GDuEHs9cS6PCfDjjjvPmeoMidZejA/view"
+        },
+        {
+          "color": [
+            "017",
+            "37",
+            "63",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1ed7GWwxm6oQC8ekzPw4Wch29_Nzh3j0P/view"
+        }
       ]
     },
     {
-      "name": "25O8011",
+      "name": "2011",
       "options": [
-       { "color": ["14"], "image": "https://drive.google.com/file/d/1M61JF-sF1qLlTsZPebuvJGE1tyyewrbL/view" },
-       { "color": ["73"], "image": "https://drive.google.com/file/d/1YduSrfLomGFNXI8phtku4U3i0nPa48us/view" },
-       { "color": ["15"], "image": "https://drive.google.com/file/d/1nH5EOu0j-K9G3wlfyjgD4Fg5HOOBoJtj/view" },
-       { "color": ["63"], "image": "https://drive.google.com/file/d/1tFAFFFJH_gOlgTFZSG1eSGFN7Lv-I3xm/view" },
-       { "color": ["70"], "image": "https://drive.google.com/file/d/1rtsL1VcYs_QtxqYHamHD9OsCWrF4btft/view" }
+        {
+          "color": [
+            "01",
+            "65",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1ItCyXHk2qSLmwGQY-sLboewwiNAHkpDz/view"
+        },
+        {
+          "color": [
+            "13",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/1dBOfzQiUWbWPv8SB7HEoceJp7Zk_7doE/view"
+        },
+        {
+          "color": [
+            "13",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1DvYWDmP6ct41H_N9AyMJNxTcPbPPsWue/view"
+        },
+        {
+          "color": [
+            "15",
+            "64",
+            "014"
+          ],
+          "image": "https://drive.google.com/file/d/18dPVoXZ0FOzD9d-e78gc_fEXC0q2pQ96/view"
+        },
+        {
+          "color": [
+            "15",
+            "64",
+            "014",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1A1CWbtNaPMvgX5ALtSdB2DDlziXzRUeB/view"
+        },
+        {
+          "color": [
+            "01",
+            "65",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/14sdxiKz7XDd5uC8wKmoEXqXQBQTpplTi/view"
+        },
+        {
+          "color": [
+            "60",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1FZOZBoB7oIWeTB6CIFQIZGad_4zP7_aI/view"
+        },
+        {
+          "color": [
+            "60",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1JiRzBrqbLyoShMKX4l5eZiMsTimBGfqV/view"
+        },
+        {
+          "color": [
+            "016",
+            "30",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1za4eumFHYssCGeBCu_YoV9JoMuf1rFjI/view"
+        },
+        {
+          "color": [
+            "016",
+            "30",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1_MFG6Nk1zflA-Teb39M1lmNC1lqVuGBR/view"
+        },
+        {
+          "color": [
+            "016",
+            "39",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/10ZYm32GnXnKYDjLktMM5rNiyQ--24E27/view"
+        },
+        {
+          "color": [
+            "016",
+            "39",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1bSfqmRcb4Dv8t_PSM4Gm0RK9bGWmtpTH/view"
+        }
+      ]
+    },
+    {
+      "name": "2026",
+      "options": [
+        {
+          "color": [
+            "30",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1cyj6kob4RhNRGHQ2Yw_ULyFtAATeuYD-/view"
+        },
+        {
+          "color": [
+            "30",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1Yu3KGbaWHK6nWyZuGDpkvqL4Jwze1L_s/view"
+        },
+        {
+          "color": [
+            "70",
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/1biGmVPiViC_JouM8Ye7DtFBmtf_CRXwI/view"
+        },
+        {
+          "color": [
+            "70",
+            "60",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1TMwPoq1TrAuUdIb_L8IUqw_bF_I--Wsa/view"
+        },
+        {
+          "color": [
+            "70",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1Geg-yGToQLpr3zxDdF9rEafM307xmoSB/view"
+        },
+        {
+          "color": [
+            "70",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1w08feEms0laJw4BRGSBuTu9jrdnmS6HA/view"
+        },
+        {
+          "color": [
+            "32",
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1tmk2u0ws3nP9U6FemJYqP-4ZqiOrEj_w/view"
+        },
+        {
+          "color": [
+            "32",
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1ujLC8pCzsfiEQXyd4YswryaNyxahLPGT/view"
+        },
+        {
+          "color": [
+            "73",
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1fYlaxkfA51i3OYWmGSvwVMxXhEXA2mjy/view"
+        },
+        {
+          "color": [
+            "73",
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1x5giGtpA9FAudwlcF04g-VteU_YOESLO/view"
+        },
+        {
+          "color": [
+            "72",
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1nI60ZlmB6_tLUSwo-Ch5TD5Zvry2_w-U/view"
+        },
+        {
+          "color": [
+            "72",
+            "14",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1Kr8vl-uEokhPZsZqO7Eo1COsr5Z1QTqk/view"
+        },
+        {
+          "color": [
+            "37",
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1U-BggO1nfM25rHVkAhgjCjUwjb6o0a92/view"
+        },
+        {
+          "color": [
+            "37",
+            "14",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1wFT42nTiPxXXu2Y9K3aLCv3v905i_VCe/view"
+        },
+        {
+          "color": [
+            "33",
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/16p9pkTlFUTEx-t-CG31oRsu5ruN3ioKb/view"
+        },
+        {
+          "color": [
+            "33",
+            "12",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/14diNbuvKQcbuzd8Jw5_jNfbj9Qe0eSP8/view"
+        },
+        {
+          "color": [
+            "71",
+            "12"
+          ],
+          "image": "https://drive.google.com/file/d/1lqsLDAuLCcWcegNo3iHeIfrYr5uuJcC9/view"
+        },
+        {
+          "color": [
+            "71",
+            "12",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1gfITjHJGvlxOzpqXJxC38-DMFPIi-3GT/view"
+        }
+      ]
+    },
+    {
+      "name": "2027",
+      "options": [
+        {
+          "color": [
+            "60",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1HeLjVpFCSRijKyAG7cO3JVHh46N4s6sk/view"
+        },
+        {
+          "color": [
+            "60",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1rrPUzgsneqWBULyVdhL4BjYL9-Mihx3S/view"
+        }
+      ]
+    },
+    {
+      "name": "2028",
+      "options": [
+        {
+          "color": [
+            "65"
+          ],
+          "image": "https://drive.google.com/file/d/1sBkLCFojUad8DjN02fPcxDe5kIqY_KaF/view"
+        },
+        {
+          "color": [
+            "65",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1tReYN5h_Ie9YuTuB3oj-7wm6y7MQw3Au/view"
+        },
+        {
+          "color": [
+            "30",
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1Jdhr_BwM8t4yFMTaiMtQqdCsWLPjtpeU/view"
+        },
+        {
+          "color": [
+            "30",
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1IIMqMFYCVyzix7_wREsPAmBHr8DryYsR/view"
+        },
+        {
+          "color": [
+            "32",
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/18bVkchzZPCxor2v5eQjZqpu4KU86mDye/view"
+        },
+        {
+          "color": [
+            "32",
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1Yh_m157epgSkFV-yoyKeTPQbKSzZ3emK/view"
+        },
+        {
+          "color": [
+            "01",
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/1mjWYKKlS9sq0shQyszKaeZncJKEP1Lkf/view"
+        },
+        {
+          "color": [
+            "01",
+            "60",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1ZuFCs_ill5Aw5q7pXqUH80YE5Y0dpFSC/view"
+        }
+      ]
+    },
+    {
+      "name": "3010",
+      "options": [
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1Mp6MDkUBp2_jVDNqmbOe7W2Gkf2rsJWA/view"
+        },
+        {
+          "color": [
+            "50",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1nDP2dvHMvN6H1I3CLjDo-1KTVQWmnxBn/view"
+        },
+        {
+          "color": [
+            "52"
+          ],
+          "image": "https://drive.google.com/file/d/1S_wiclIm8eCzjq7xaHIo5rrw_xW_xb4X/view"
+        },
+        {
+          "color": [
+            "52",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1xyct0nGXNMDEBLQ7fVwJRWptnj1p9k-e/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1b31sqkesxKXlz1pYMNPW3sbS3H5BAvWx/view"
+        },
+        {
+          "color": [
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1ETW_kz5lXQO2sNV7CZg8zkFvU6gLKquN/view"
+        },
+        {
+          "color": [
+            "13"
+          ],
+          "image": "https://drive.google.com/file/d/1eZkho_RePmcPsvm6zb_3XRp2pOyKMvkB/view"
+        },
+        {
+          "color": [
+            "13",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/116TzbBPEYa1OnE1gj3VFWCP9RtjufCKl/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1SZrF9Oa99_l3FYk69kW1BmUAqsbuObA2/view"
+        },
+        {
+          "color": [
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1PpIo3nQx2OOGJvSnvhXZAmPPZ51Dlsnj/view"
+        }
+      ]
+    },
+    {
+      "name": "3020",
+      "options": [
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1owgnzk7oLaC6QkyXiuJPBANEyou9a8w-/view"
+        },
+        {
+          "color": [
+            "50",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1Yk6xkgHvcMmx2Ea7RBVsOfDirUAC8_Y6/view"
+        },
+        {
+          "color": [
+            "66"
+          ],
+          "image": "https://drive.google.com/file/d/11_UNV8g331FiX9Mylw3h4OTiVEcFmQuu/view"
+        },
+        {
+          "color": [
+            "66",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1opWSf6KC7SSy8YJCSBWalOsynHXJlu4T/view"
+        },
+        {
+          "color": [
+            "51"
+          ],
+          "image": "https://drive.google.com/file/d/1yfkGKB30c7wxyGqpHhP1umTQWHfIUqnF/view"
+        },
+        {
+          "color": [
+            "51",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1Dx8xDeNu4i7UpTP9f24sZqanZxGrRrJm/view"
+        },
+        {
+          "color": [
+            "53"
+          ],
+          "image": "https://drive.google.com/file/d/1Y-1zF8gGXqbwdbBNUnXbygV5s4ouCZgo/view"
+        },
+        {
+          "color": [
+            "53",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1_Et7UhvNC6rnIQ4271sO0PZOO6cwd7DT/view"
+        },
+        {
+          "color": [
+            "54"
+          ],
+          "image": "https://drive.google.com/file/d/16ijO1HNHIJ4KB8OgHfkKwtxj4zYsOzgp/view"
+        },
+        {
+          "color": [
+            "54",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1uLvJtf2dV6gx_AcMEacdasaiy3EJrUYB/view"
+        },
+        {
+          "color": [
+            "13"
+          ],
+          "image": "https://drive.google.com/file/d/1AWSrjz2_M9oCouiYHCAF6kwtS4X1p1Uz/view"
+        },
+        {
+          "color": [
+            "13",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1IejvW_WLXWjH40MPqFZmsMAKCcDFI1CK/view"
+        },
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1lZE5gcHGYm9-kaWBduumjqx9vhKw-rPv/view"
+        },
+        {
+          "color": [
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1yWopMuA2kqdcAFzUtpDbCvLAITpVfKyQ/view"
+        },
+        {
+          "color": [
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1t-0Bd6E7REOzhlGggnxhbEbR2lUNvRp4/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/18ibk-q1FY3JuUb0MWIWR1BV3owwxiQql/view"
+        }
+      ]
+    },
+    {
+      "name": "3030",
+      "options": [
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/11qXCa3tnXsUNatAFSlheNzvB5dfXKor9/view"
+        },
+        {
+          "color": [
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1tqlUPySAyFw7qO_DJg0woapfb0_b6O0m/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1u4yr1nYh6003rOXjLvNECn3BGbm2olJD/view"
+        },
+        {
+          "color": [
+            "50",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/16MxXxCSnuozGiAtI4ab-AYAobnEMlIN8/view"
+        }
+      ]
+    },
+    {
+      "name": "8010",
+      "options": [
+        {
+          "color": [
+            "01"
+          ],
+          "image": "https://drive.google.com/file/d/1qID2pItuwd0undtCbBUwp16Qwh4o3Hb5/view"
+        },
+        {
+          "color": [
+            "01",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/17O5sj_Gm584ZVFm7UA62nknAsmD85s5m/view"
+        },
+        {
+          "color": [
+            "60"
+          ],
+          "image": "https://drive.google.com/file/d/1y1iqjvESxXRB4qW9jyUKJb3AhAwpK5wo/view"
+        },
+        {
+          "color": [
+            "60",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1y3BKX3Mc7Y-RXNsWz3gDlLQlPsyWrEQp/view"
+        },
+        {
+          "color": [
+            "50"
+          ],
+          "image": "https://drive.google.com/file/d/1cTsP7lX_nqnwBBJAz7SuCyTnxLIDuO5F/view"
+        },
+        {
+          "color": [
+            "50",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/10QqMOT41XHOGwBwPVrHAj90YBTVe2x50/view"
+        },
+        {
+          "color": [
+            "72"
+          ],
+          "image": "https://drive.google.com/file/d/1qZEg2QNkWU0ZQvpMgM3h3gyqQdBnHaZ9/view"
+        },
+        {
+          "color": [
+            "72",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1ciH7M5cOFmurYa-xpSBnUPBI9XHmkBQn/view"
+        }
+      ]
+    },
+    {
+      "name": "8011",
+      "options": [
+        {
+          "color": [
+            "70"
+          ],
+          "image": "https://drive.google.com/file/d/1EdJWX5QmC2xsW-Bc31ZnS2NCyMspJOeF/view"
+        },
+        {
+          "color": [
+            "70",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1PQhd7djimcF7yppCCqFXV6d7Xl1Zl001/view"
+        },
+        {
+          "color": [
+            "15"
+          ],
+          "image": "https://drive.google.com/file/d/1vmG6WNmNMN3T08r6ms02Mo-auYoSeipF/view"
+        },
+        {
+          "color": [
+            "15",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1HPIkYUgNiNxkpvFtVI4bzxoflBj4PfRo/view"
+        },
+        {
+          "color": [
+            "73"
+          ],
+          "image": "https://drive.google.com/file/d/1ke47DYS_NKnUhEtWMMqcKepbTaXlaWJl/view"
+        },
+        {
+          "color": [
+            "73",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1YNkpIfssx226Aajjpnxiid1ZHEvHm0HL/view"
+        },
+        {
+          "color": [
+            "14"
+          ],
+          "image": "https://drive.google.com/file/d/1l4pj7DWtgzq_RG-GgVPSXS1VSe8TJsuG/view"
+        },
+        {
+          "color": [
+            "14",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1rbb3x0ag9OkRY-__2-L_BPqozCXw_emO/view"
+        },
+        {
+          "color": [
+            "63"
+          ],
+          "image": "https://drive.google.com/file/d/1vPWY63DAEdS8w-1uOB7BOFkearQoZzX4/view"
+        },
+        {
+          "color": [
+            "63",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1fXkzBOJ68HLVDtXAuB8qtaJCdSwW-dQL/view"
+        }
+      ]
+    },
+    {
+      "name": "9010",
+      "options": [
+        {
+          "color": [
+            "016",
+            "01",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/1IrdKb55qjTvol8nqjvGy6XEVubfk9bAS/view"
+        },
+        {
+          "color": [
+            "016",
+            "01",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1wR_G5BfrWu9xPUFwoK5qY-NfPToms7n4/view"
+        },
+        {
+          "color": [
+            "016",
+            "60",
+            "014"
+          ],
+          "image": "https://drive.google.com/file/d/1xcWFKMqBhKEkbaIoWxjg2cO4npSYlfFa/view"
+        },
+        {
+          "color": [
+            "016",
+            "60",
+            "014",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1aH1DQilHVkDgxf8yAk-dS7NmLmRc1Yis/view"
+        },
+        {
+          "color": [
+            "016",
+            "15",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/1LzP_jhU01GUqIPGrz20Yjty9RXkZwO87/view"
+        },
+        {
+          "color": [
+            "016",
+            "15",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1rwIlkMfCgx1n-DzE-kD0PMRO40IS9__-/view"
+        },
+        {
+          "color": [
+            "017",
+            "63",
+            "37"
+          ],
+          "image": "https://drive.google.com/file/d/1KenBLCg-ElTaaJO3jBpYypYETQIxtool/view"
+        },
+        {
+          "color": [
+            "017",
+            "63",
+            "37",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1apFdAKoOq9ID4tZvidJSTYzKo6S_QFkB/view"
+        }
+      ]
+    },
+    {
+      "name": "9011",
+      "options": [
+        {
+          "color": [
+            "65",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/1GVSiYgZC2e8MgGibLq3b_dooUx4E9dJC/view"
+        },
+        {
+          "color": [
+            "65",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1tbAV9gVcoROoSzfN9ftj25yG96_vcp7s/view"
+        },
+        {
+          "color": [
+            "64",
+            "15",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/10Wrd_RsOFu8A0AvvDNccGyY0NomaqovC/view"
+        },
+        {
+          "color": [
+            "64",
+            "15",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1XiaKKoTyfdAWmO8LcXxGNhDNhuesBjdq/view"
+        },
+        {
+          "color": [
+            "016",
+            "70",
+            "014"
+          ],
+          "image": "https://drive.google.com/file/d/1Rhogki2zzireLBAYB5I6jszVbhc21Nkv/view"
+        },
+        {
+          "color": [
+            "016",
+            "70",
+            "014",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1xlkElEAYedvmlqL1Hz7HiN8mgseTvNVp/view"
+        },
+        {
+          "color": [
+            "016",
+            "64",
+            "015"
+          ],
+          "image": "https://drive.google.com/file/d/1jttEvDgl6zP7vKgYcp05NfN6LBBowBRu/view"
+        },
+        {
+          "color": [
+            "016",
+            "64",
+            "015",
+            "I"
+          ],
+          "image": "https://drive.google.com/file/d/1GbVPial5sOiM_Ea59luR869hCcnk3glS/view"
+        }
       ]
     }
   ]

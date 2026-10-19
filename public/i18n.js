@@ -121,6 +121,9 @@
     for (const element of document.querySelectorAll("[data-i18n-alt]")) {
       element.alt = text(element.dataset.i18nAlt);
     }
+    for (const element of document.querySelectorAll("[data-i18n-title]")) {
+      element.title = text(element.dataset.i18nTitle);
+    }
 
     if (document.querySelector(".hero")) {
       document.title = language === "tr"
